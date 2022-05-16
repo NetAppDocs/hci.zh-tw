@@ -17,7 +17,7 @@
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="在升級版的過程中、您需要執行有關該軟件的健全狀況檢查。NetApp HCI NetApp Element">
-  <meta name="keywords" content=" netapp, storage prechecks, element upgrade, healthtools, sfupgradecheck"><!-- Icons -->
+  <meta name="keywords" content=" netapp, storage prechecks, element upgrade, sfupgradecheck"><!-- Icons -->
   <link rel="icon" href="/zh-tw/hci/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -530,6 +530,8 @@
     
 
   
+
+
 
 
 
@@ -1081,11 +1083,11 @@
           
           <a target="_blank" 
             
-              href="/zh-tw/hci/pdfs/sidebar/升級NetApp_HCI_您的1_9或1_9P1版.pdf" 
+              href="/zh-tw/hci/pdfs/sidebar/升級NetApp_HCI_您的版次升級1_10版.pdf" 
             
           >
             <img src="/zh-tw/hci/images/pdf.png" width="16" height="16"/>
-            升級NetApp HCI 您的1.9或1.9P1版
+            升級NetApp HCI 您的版次升級1.10版
           </a>
           
 
@@ -1106,8 +1108,6 @@
             系統升級程序
           </a>
           
-
-
 
 
     <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
@@ -1441,6 +1441,8 @@
         保護網域
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/hci_prereqs_witness_nodes.html">
         兩節點儲存叢集的見證節點資源需求
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/hci_prereqs_deployment_configuration_restriction.html">
+        部署組態限制
       </a></li></ul></li><li class="subfolders "><a href="#">
         <div class="na-navbar-padding"> 立即開始NetApp HCI 使用</div>
       </a>
@@ -1635,7 +1637,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_collectlogs.html">
         收集記錄以進行疑難排解
       </a></li></ul></li><li class="subfolders "><a href="#">
-        <div class="na-navbar-padding"> 升級NetApp HCI 您的1.9或1.9P1版</div>
+        <div class="na-navbar-padding"> 升級NetApp HCI 您的版次升級1.10版</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/concept_hci_upgrade_overview.html">
         升級順序總覽
@@ -1644,8 +1646,6 @@
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_update_management_services.html">
         更新管理服務
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_upgrade_element_latest_healthtools.html">
-        升級至最新的HealthTools
       </a></li><li class="  active "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_upgrade_element_prechecks.html">
         升級儲存設備之前、請先執行Element儲存設備健全狀況檢查
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_upgrade_element_software.html">
@@ -1807,7 +1807,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-16 14:14:56 +0000">05/16/2022</time>
+    <time datetime="2022-05-16 16:26:56 +0000">05/16/2022</time>
     
   
 
@@ -1882,7 +1882,7 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>您可以使用NetApp混合雲控制（HCC）UI、HCCAPI或HealthTools套件執行健全狀況檢查：</p>
+<p>您可以使用NetApp混合雲控制UI或NetApp混合雲控制API執行健全狀況檢查：</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1891,9 +1891,6 @@
 </li>
 <li>
 <p><a href="#Use API to run Element storage health checks prior to upgrading storage">[Use API to run Element storage health checks prior to upgrading storage]</a></p>
-</li>
-<li>
-<p><a href="#Use HealthTools to run Element storage health checks prior to upgrading storage">[Use HealthTools to run Element storage health checks prior to upgrading storage]</a></p>
 </li>
 </ul>
 </div>
@@ -2190,226 +2187,6 @@
 </div>
 </li>
 </ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="在升級儲存設備之前請使用healthtools執行element儲存設備健全狀況檢查">在升級儲存設備之前、請使用HealthTools執行Element儲存設備健全狀況檢查</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>您可以使用「shupgradecheck」命令來驗證儲存叢集是否已準備好升級。此命令可驗證擱置節點、磁碟空間和叢集故障等資訊。</p>
-</div>
-<div class="paragraph">
-<p>如果您的管理節點位於沒有外部連線的黑暗站台、則升級整備度檢查需要您在期間下載的「metadata.json」檔案 <a href="task_upgrade_element_latest_healthtools.html">"HealthTools升級"</a> 以成功執行。</p>
-</div>
-<div class="paragraph">
-<p>本程序說明如何因應產生下列其中一項結果的升級檢查：</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>成功執行「shupgradecheck」命令。您的叢集已準備好升級。</p>
-</li>
-<li>
-<p>在「shupgradecheck」工具中檢查失敗、並顯示錯誤訊息。您的叢集尚未準備好升級、需要執行其他步驟。</p>
-</li>
-<li>
-<p>您的升級檢查失敗、並顯示錯誤訊息指出HealthTools已過期。</p>
-</li>
-<li>
-<p>您的升級檢查失敗、因為管理節點位於黑暗站台。</p>
-</li>
-</ul>
-</div>
-<div class="olist arabic">
-<div class="title">步驟</div>
-<ol class="arabic">
-<li>
-<p>執行「shupgradecheck"命令：</p>
-<div class="listingblock">
-<div class="content">
-<pre>sfupgradecheck -u &lt;cluster-user-name&gt; MVIP</pre>
-</div>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/hci/images/note.svg" alt="附註">
-</td>
-<td class="content">
-對於包含特殊字元的密碼、請在每個特殊字元之前加上反斜槓（`\）。例如、「mypass!@1」應輸入為「mypass\!@」。
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>範例輸入命令、其中包含範例輸出、不會出現錯誤、您可以準備升級：</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>sfupgradecheck -u admin 10.117.78.244</pre>
-</div>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>check_pending_nodes:
-Test Description: Verify no pending nodes in cluster
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltOQAQ/pendingnodes
-check_cluster_faults:
-Test Description: Report any cluster faults
-check_root_disk_space:
-Test Description: Verify node root directory has at least 12 GBs of available disk space
-Passed node IDs: 1, 2, 3
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltTQAQ/
-SolidFire-Disk-space-error
-check_mnode_connectivity:
-Test Description: Verify storage nodes can communicate with management node
-Passed node IDs: 1, 2, 3
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltYQAQ/mNodeconnectivity
-check_files:
-Test Description: Verify options file exists
-Passed node IDs: 1, 2, 3
-check_cores:
-Test Description: Verify no core or dump files exists
-Passed node IDs: 1, 2, 3
-check_upload_speed:
-Test Description: Measure the upload speed between the storage node and the
-management node
-Node ID: 1 Upload speed: 90063.90 KBs/sec
-Node ID: 3 Upload speed: 106511.44 KBs/sec
-Node ID: 2 Upload speed: 85038.75 KBs/sec</pre>
-</div>
-</div>
-</li>
-<li>
-<p>如果發生錯誤、則需要採取其他行動。如需詳細資料、請參閱下列子節。</p>
-</li>
-</ol>
-</div>
-<div class="sect2">
-<h3 id="您的叢集尚未準備好升級">您的叢集尚未準備好升級</h3>
-<div class="paragraph">
-<p>如果您看到與其中一項健全狀況檢查相關的錯誤訊息、請遵循下列步驟：</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>檢閱「shupgradecheck」錯誤訊息。</p>
-<div class="paragraph">
-<p>回應範例：</p>
-</div>
-</li>
-</ol>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>The following tests failed:
-check_root_disk_space:
-Test Description: Verify node root directory has at least 12 GBs of available disk space
-Severity: ERROR
-Failed node IDs: 2
-Remedy: Remove unneeded files from root drive
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltTQAQ/SolidFire-
-Disk-space-error
-check_pending_nodes:
-Test Description: Verify no pending nodes in cluster
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltOQAQ/pendingnodes
-check_cluster_faults:
-Test Description: Report any cluster faults
-check_root_disk_space:
-Test Description: Verify node root directory has at least 12 GBs of available disk space
-Passed node IDs: 1, 3
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltTQAQ/SolidFire-
-Disk-space-error
-check_mnode_connectivity:
-Test Description: Verify storage nodes can communicate with management node
-Passed node IDs: 1, 2, 3
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltYQAQ/mNodeconnectivity
-check_files:
-Test Description: Verify options file exists
-Passed node IDs: 1, 2, 3
-check_cores:
-Test Description: Verify no core or dump files exists
-Passed node IDs: 1, 2, 3
-check_upload_speed:
-Test Description: Measure the upload speed between the storage node and the management node
-Node ID: 1 Upload speed: 86518.82 KBs/sec
-Node ID: 3 Upload speed: 84112.79 KBs/sec
-Node ID: 2 Upload speed: 93498.94 KBs/sec</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>在此範例中、節點1的磁碟空間不足。如需詳細資訊、請參閱 <a href="https://kb.netapp.com" target="_blank" rel="noopener">"知識庫"</a> （KB）錯誤訊息中列出的文章。</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="healthtools已過期">HealthTools已過期</h3>
-<div class="paragraph">
-<p>如果您看到錯誤訊息指出HealthTools並非最新版本、請依照下列指示操作：</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>檢閱錯誤訊息、並注意升級檢查失敗。</p>
-<div class="paragraph">
-<p>回應範例：</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>sfupgradecheck failed: HealthTools is out of date:
-installed version: 2018.02.01.200
-latest version: 2020.03.01.09.
-The latest version of the HealthTools can be downloaded from: https://mysupport.netapp.com/NOW/cgi-bin/software/
-Or rerun with the -n option</pre>
-</div>
-</div>
-</li>
-<li>
-<p>請遵循回應中所述的指示。</p>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect2">
-<h3 id="您的管理節點位於黑暗站台">您的管理節點位於黑暗站台</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>檢閱訊息並注意升級檢查失敗：</p>
-<div class="paragraph">
-<p>回應範例：</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>sfupgradecheck failed: Unable to verify latest available version of healthtools.</pre>
-</div>
-</div>
-</li>
-<li>
-<p>下載 <a href="https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740" target="_blank" rel="noopener">"Json 檔案"</a> 從非管理節點的電腦上的NetApp支援網站、將其重新命名為「metadata.json」。</p>
-</li>
-<li>
-<p>執行下列命令：</p>
-<div class="listingblock">
-<div class="content">
-<pre>sfupgradecheck -l --metadata=&lt;path-to-metadata-json&gt;</pre>
-</div>
-</div>
-</li>
-<li>
-<p>如需詳細資料、請參閱其他 <a href="task_upgrade_element_latest_healthtools.html">"HealthTools升級"</a> 黑暗站台的相關資訊。</p>
-</li>
-<li>
-<p>執行下列命令、確認HealthTools套件為最新版本：</p>
-<div class="listingblock">
-<div class="content">
-<pre>sfupgradecheck -u &lt;cluster-user-name&gt; -p &lt;cluster-password&gt; MVIP</pre>
-</div>
-</div>
-</li>
-</ol>
-</div>
 </div>
 </div>
 </div>

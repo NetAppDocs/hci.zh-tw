@@ -541,6 +541,8 @@
 
 
 
+
+
           
         </li>
       </ul>
@@ -1090,11 +1092,11 @@
           
           <a target="_blank" 
             
-              href="/zh-tw/hci/pdfs/sidebar/升級NetApp_HCI_您的1_9或1_9P1版.pdf" 
+              href="/zh-tw/hci/pdfs/sidebar/升級NetApp_HCI_您的版次升級1_10版.pdf" 
             
           >
             <img src="/zh-tw/hci/images/pdf.png" width="16" height="16"/>
-            升級NetApp HCI 您的1.9或1.9P1版
+            升級NetApp HCI 您的版次升級1.10版
           </a>
           
 
@@ -1115,8 +1117,6 @@
             系統升級程序
           </a>
           
-
-
 
 
 
@@ -1441,6 +1441,8 @@
         保護網域
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/hci_prereqs_witness_nodes.html">
         兩節點儲存叢集的見證節點資源需求
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/hci_prereqs_deployment_configuration_restriction.html">
+        部署組態限制
       </a></li></ul></li><li class="subfolders "><a href="#">
         <div class="na-navbar-padding"> 立即開始NetApp HCI 使用</div>
       </a>
@@ -1635,7 +1637,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_collectlogs.html">
         收集記錄以進行疑難排解
       </a></li></ul></li><li class="subfolders "><a href="#">
-        <div class="na-navbar-padding"> 升級NetApp HCI 您的1.9或1.9P1版</div>
+        <div class="na-navbar-padding"> 升級NetApp HCI 您的版次升級1.10版</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/concept_hci_upgrade_overview.html">
         升級順序總覽
@@ -1644,8 +1646,6 @@
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_update_management_services.html">
         更新管理服務
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_upgrade_element_latest_healthtools.html">
-        升級至最新的HealthTools
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_upgrade_element_prechecks.html">
         升級儲存設備之前、請先執行Element儲存設備健全狀況檢查
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_upgrade_element_software.html">
@@ -1807,7 +1807,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-03 10:32:11 +0000">05/03/2022</time>
+    <time datetime="2022-05-16 16:26:56 +0000">05/16/2022</time>
     
   
 
@@ -1817,7 +1817,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>部署NetApp HCI 完功能後、您可以對預設的網路組態進行有限的變更。不過、為了順暢運作和正確偵測網路、需要某些設定。變更這些設定將會造成非預期的行為、並可能使您無法擴充運算與儲存資源。</p>
+<p>部署NetApp HCI 完功能後、您可以對預設的網路組態進行有限的變更。不過、您必須符合某些要求、才能順暢運作並正確偵測網路。不符合這些需求將會造成非預期的行為、並可能使您無法擴充運算與儲存資源。</p>
 </div>
 <div class="paragraph">
 <p>部署系統之後、您可以依照網路需求、對VMware vSphere中的預設網路組態進行下列變更：</p>
@@ -1838,16 +1838,54 @@
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>擴充H300E、H500E、H700E、H410C、H610C、 而H615C運算節點、NetApp HCI 則需要節點上現有的運算叢集滿足下列需求：</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>至少四個VMK介面</p>
+</li>
+<li>
+<p>單一管理VMK介面</p>
+</li>
+<li>
+<p>一個VMotion VMK介面</p>
+</li>
+<li>
+<p>在同一子網路上有兩個vmks、其中iSCSI會繫結至軟體iSCSI啟動器</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/hci/images/note.svg" alt="附註">
+</td>
+<td class="content">
+<div class="paragraph">
+<p>從功能完整的1.1開始NetApp HCI 、當您擴充叢集時NetApp HCI 、不希望使用預設的節點組態。</p>
+</div>
+<div class="paragraph">
+<p>在現有運算叢集中的一或多個節點變更VMware vSphere中的預設設定之後、新節點的設定將會與叢集中大部分節點的設定一致。</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="h300eh500eh700e和h410c運算節點">H300E、H500E、H700E和H410C運算節點</h2>
+<h2 id="netapp部署引擎預設組態">NetApp部署引擎預設組態</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>支援下列H300E、H500E、H700E和H410C節點的網路組態。NetApp HCI</p>
+<p>NetApp部署引擎會根據系統和纜線組態、為運算主機設定預設組態。</p>
 </div>
+<div class="sect2">
+<h3 id="h300eh500eh700e及h410c運算節點">H300E、H500E、H700E及H410C運算節點</h3>
 <div class="paragraph">
-<p>以下是VMware vSphere分散式交換（VDS）的六介面組態。此組態僅在搭配VMware vSphere分散式交換器使用時受到支援、且需要VMware vSphere Enterprise Plus授權。</p>
+<p>以下是H300E、H500E、H700E及H410C節點的六介面組態、搭配VMware vSphere分散式交換（VDS）。此組態僅在搭配VMware vSphere分散式交換器使用時受到支援、且需要VMware vSphere Enterprise Plus授權。</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1964,15 +2002,10 @@
 </tbody>
 </table>
 </div>
-</div>
-<div class="sect1">
-<h2 id="h610c運算節點">H610C運算節點</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="h610c運算節點">H610C運算節點</h3>
 <div class="paragraph">
-<p>適用於H610C節點的下列網路組態。NetApp HCI</p>
-</div>
-<div class="paragraph">
-<p>此組態僅在搭配VMware vSphere分散式交換器（VDS）使用時才受支援、且需要VMware vSphere Enterprise Plus授權。</p>
+<p>只有搭配VMware vSphere分散式交換器（VDS）使用時、才支援H610C節點的此組態、而且需要VMware vSphere Enterprise Plus授權。</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -2023,15 +2056,10 @@ H610C上未使用連接埠A和B。
 </tbody>
 </table>
 </div>
-</div>
-<div class="sect1">
-<h2 id="h615c運算節點">H615C運算節點</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="h615c運算節點">H615C運算節點</h3>
 <div class="paragraph">
-<p>適用於H615C節點的下列網路組態。NetApp HCI</p>
-</div>
-<div class="paragraph">
-<p>此組態僅在搭配VMware vSphere分散式交換器（VDS）使用時才受支援、且需要VMware vSphere Enterprise Plus授權。</p>
+<p>此H615C節點組態僅在搭配VMware vSphere分散式交換器（VDS）使用時才受支援、而且需要VMware vSphere Enterprise Plus授權。</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -2069,6 +2097,7 @@ H610C上未使用連接埠A和B。
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 </div>
 <div class="sect1">

@@ -541,6 +541,8 @@
 
 
 
+
+
           
         </li>
       </ul>
@@ -1081,11 +1083,11 @@
           
           <a target="_blank" 
             
-              href="/zh-tw/hci/pdfs/sidebar/升級NetApp_HCI_您的1_9或1_9P1版.pdf" 
+              href="/zh-tw/hci/pdfs/sidebar/升級NetApp_HCI_您的版次升級1_10版.pdf" 
             
           >
             <img src="/zh-tw/hci/images/pdf.png" width="16" height="16"/>
-            升級NetApp HCI 您的1.9或1.9P1版
+            升級NetApp HCI 您的版次升級1.10版
           </a>
           
     <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
@@ -1115,8 +1117,6 @@
             系統升級程序
           </a>
           
-
-
 
 
 
@@ -1441,6 +1441,8 @@
         保護網域
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/hci_prereqs_witness_nodes.html">
         兩節點儲存叢集的見證節點資源需求
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/hci_prereqs_deployment_configuration_restriction.html">
+        部署組態限制
       </a></li></ul></li><li class="subfolders "><a href="#">
         <div class="na-navbar-padding"> 立即開始NetApp HCI 使用</div>
       </a>
@@ -1635,7 +1637,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_collectlogs.html">
         收集記錄以進行疑難排解
       </a></li></ul></li><li class="subfolders "><a href="#">
-        <div class="na-navbar-padding"> 升級NetApp HCI 您的1.9或1.9P1版</div>
+        <div class="na-navbar-padding"> 升級NetApp HCI 您的版次升級1.10版</div>
       </a>
       <ul><li class="  active "><a class="na-navbar-padding" href="/zh-tw/hci/docs/concept_hci_upgrade_overview.html">
         升級順序總覽
@@ -1644,8 +1646,6 @@
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_update_management_services.html">
         更新管理服務
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_upgrade_element_latest_healthtools.html">
-        升級至最新的HealthTools
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_upgrade_element_prechecks.html">
         升級儲存設備之前、請先執行Element儲存設備健全狀況檢查
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_upgrade_element_software.html">
@@ -1807,7 +1807,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-03 10:32:11 +0000">05/03/2022</time>
+    <time datetime="2022-05-16 16:26:56 +0000">05/16/2022</time>
     
   
 
@@ -1820,7 +1820,19 @@
 <p>您可以NetApp HCI 在部署完成後持續更新您的更新版、方法是依序升級NetApp HCI 所有的各種軟體元件。</p>
 </div>
 <div class="paragraph">
-<p>這些元件包括管理服務、HealthTools、NetApp混合雲控制、Element軟體、管理節點、運算韌體、運算驅動程式、 以及vCenter Server的Element外掛程式</p>
+<p>這些元件包括管理服務、NetApp混合雲控制、Element軟體、管理節點、運算韌體、運算驅動程式、 以及vCenter Server的Element外掛程式</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/hci/images/note.svg" alt="附註">
+</td>
+<td class="content">
+從元素12.5開始、NetApp HealthTools不再支援元素軟體升級。如果您執行的是元件11.0或11.1、則必須先執行 <a href="https://docs.netapp.com/us-en/element-software-123/upgrade/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools" target="_blank" rel="noopener">"使用HealthTools升級至Element 123"</a> 然後使用NetApp混合雲控制升級至Element 12.5。
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>。 <a href="#sys_upgrade_seq">系統升級順序</a> 內容說明完成NetApp HCI 更新功能所需的工作。理想情況下、您可以執行這些程序、做為較大規模升級順序的一部分、而非隔離。如果需要元件型升級或更新、請參閱程序先決條件、以確保解決更多複雜性問題。</p>
@@ -1854,6 +1866,9 @@
 </li>
 <li>
 <p>您已確保所有節點上的系統時間都已同步、且儲存叢集和節點的NTP設定正確。每個節點都必須在每個節點的Web UI（「https://[IP位址」：442`）中設定DNS名稱伺服器、且不會發生與時間偏移相關的未解決叢集故障。</p>
+</li>
+<li>
+<p>您已為安排足夠的時間 <a href="task_hcc_upgrade_element_software.html#element-upgrade-time">"Element軟體"</a> 和 <a href="task_hcc_upgrade_storage_firmware.html#storage-firmware-upgrade">"儲存韌體"</a> 升級：升級至Element軟體12.5時、升級程序時間會因Element軟體版本和韌體更新而有所不同。</p>
 </li>
 </ul>
 </div>
@@ -1890,21 +1905,6 @@
 </td>
 <td class="content">
 您必須先更新至最新的管理服務套裝組合、才能升級Element軟體。
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li>
-<p><a href="task_upgrade_element_latest_healthtools.html">"（選用）升級至最新的HealthTools"</a>。</p>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/hci/images/note.svg" alt="附註">
-</td>
-<td class="content">
-只有在您執行的管理節點和元件軟體為11.1或更早版本時、才需要升級HealthTools。使用NetApp混合式雲端控制進行元素升級時、不需要HealthTools。
 </td>
 </tr>
 </table>

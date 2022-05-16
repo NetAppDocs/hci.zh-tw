@@ -106,7 +106,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/concept_hci_upgrade_overview.html</loc>
       
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -184,6 +184,13 @@
       <loc>https://docs.netapp.com/zh-tw/hci/docs/hci_prereqs_LACP_configuration.html</loc>
       
       <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/hci/docs/hci_prereqs_deployment_configuration_restriction.html</loc>
+      
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -316,14 +323,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/rancher_prereqs_overview.html</loc>
       
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/reference_earlier_versions.html</loc>
       
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -337,7 +344,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/reference_notices_hci.html</loc>
       
-      <lastmod>2022-05-16T14:14:56+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -386,7 +393,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/rn_relatedrn.html</loc>
       
-      <lastmod>2022-05-16T14:14:56+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -421,14 +428,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/rn_whatsnew.html</loc>
       
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci//search.html</loc>
       
-      <lastmod>2022-05-16T14:15:16+00:00</lastmod>
+      <lastmod>2022-05-16T16:27:16+00:00</lastmod>
       
     </url>
   
@@ -589,28 +596,28 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/task_hcc_upgrade_element_prechecks.html</loc>
       
-      <lastmod>2022-05-16T14:14:56+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/task_hcc_upgrade_element_software.html</loc>
       
-      <lastmod>2022-05-16T14:14:56+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/task_hcc_upgrade_management_node.html</loc>
       
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/task_hcc_upgrade_storage_firmware.html</loc>
       
-      <lastmod>2022-05-16T14:14:56+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -820,7 +827,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/task_mnode_install.html</loc>
       
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -862,7 +869,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/task_mnode_recover.html</loc>
       
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -1044,7 +1051,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/task_nde_select_inventory.html</loc>
       
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -1065,7 +1072,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/hci/docs/task_nde_supported_net_changes.html</loc>
       
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
+      <lastmod>2022-05-16T16:26:56+00:00</lastmod>
       
     </url>
   
@@ -1199,13 +1206,6 @@
       <loc>https://docs.netapp.com/zh-tw/hci/docs/task_upgrade_compute_prechecks.html</loc>
       
       <lastmod>2022-05-16T14:14:56+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/zh-tw/hci/docs/task_upgrade_element_latest_healthtools.html</loc>
-      
-      <lastmod>2022-05-03T10:32:11+00:00</lastmod>
       
     </url>
   

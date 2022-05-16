@@ -541,6 +541,8 @@
 
 
 
+
+
           
         </li>
       </ul>
@@ -1090,11 +1092,11 @@
           
           <a target="_blank" 
             
-              href="/zh-tw/hci/pdfs/sidebar/升級NetApp_HCI_您的1_9或1_9P1版.pdf" 
+              href="/zh-tw/hci/pdfs/sidebar/升級NetApp_HCI_您的版次升級1_10版.pdf" 
             
           >
             <img src="/zh-tw/hci/images/pdf.png" width="16" height="16"/>
-            升級NetApp HCI 您的1.9或1.9P1版
+            升級NetApp HCI 您的版次升級1.10版
           </a>
           
 
@@ -1115,8 +1117,6 @@
             系統升級程序
           </a>
           
-
-
 
 
 
@@ -1441,6 +1441,8 @@
         保護網域
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/hci_prereqs_witness_nodes.html">
         兩節點儲存叢集的見證節點資源需求
+      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/hci_prereqs_deployment_configuration_restriction.html">
+        部署組態限制
       </a></li></ul></li><li class="subfolders "><a href="#">
         <div class="na-navbar-padding"> 立即開始NetApp HCI 使用</div>
       </a>
@@ -1635,7 +1637,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_collectlogs.html">
         收集記錄以進行疑難排解
       </a></li></ul></li><li class="subfolders "><a href="#">
-        <div class="na-navbar-padding"> 升級NetApp HCI 您的1.9或1.9P1版</div>
+        <div class="na-navbar-padding"> 升級NetApp HCI 您的版次升級1.10版</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/concept_hci_upgrade_overview.html">
         升級順序總覽
@@ -1644,8 +1646,6 @@
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_update_management_services.html">
         更新管理服務
-      </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_upgrade_element_latest_healthtools.html">
-        升級至最新的HealthTools
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_upgrade_element_prechecks.html">
         升級儲存設備之前、請先執行Element儲存設備健全狀況檢查
       </a></li><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/docs/task_hcc_upgrade_element_software.html">
@@ -1807,7 +1807,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-03 10:32:11 +0000">05/03/2022</time>
+    <time datetime="2022-05-16 16:26:56 +0000">05/16/2022</time>
     
   
 
@@ -1818,6 +1818,18 @@
 <div class="sectionbody">
 <div class="paragraph lead">
 <p>在「* Inventory *」頁面上、NetApp部署引擎會自動偵測可用的運算和儲存節點、讓您選擇NetApp HCI 所有的支援資源並將其新增至部署。如果某個節點不符合部署需求、則無法選取該節點、而且問題會指出為錯誤。您可以將游標放在節點列中的錯誤上、以查看說明。在「Inventory」（資源清冊）頁面上選擇節點資源清冊時、系統會自動選取裝載NetApp部署引擎的儲存節點、您無法取消選取該節點。</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/hci/images/note.svg" alt="附註">
+</td>
+<td class="content">
+受限組態包括vSphere 7.0搭配H610C或H615C運算節點、以及兩或三個儲存節點。如果您要繼續進行受限組態、則必須選取不同的vSphere版本（例如vSphere 6.7）、或在組態中至少有四個儲存節點、以防止部署見證節點。
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>必須啟用巨型框架、才能正確偵測資源清冊。如果庫存中沒有節點或只有一部分節點出現、請確認NetApp HCI 用於支援節點的交換器連接埠（所有SFP+/SFP28介面）已設定巨型框架。</p>
