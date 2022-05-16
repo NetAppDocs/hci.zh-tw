@@ -254,10 +254,12 @@ image::vcp_shortcuts_page.png[vSphere用戶端捷徑頁面]
 
 *步驟*
 
-. 開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。例如：
+. 在網頁瀏覽器中開啟管理節點的IP位址。例如：
 +
-https://_<ManagementNodeIP>_[]
-
+[listing]
+----
+https://<ManagementNodeIP>
+----
 . 提供NetApp HCI 不實的儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。
 +
 此時會出現NetApp混合雲控制介面。

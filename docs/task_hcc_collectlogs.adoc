@@ -29,7 +29,7 @@ keywords: netapp, hci, logs, collection, troubleshooting, monitor
 您可以從NetApp混合雲控制儀表板存取記錄收集區域。
 
 .步驟
-. 開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。例如：
+. 在網頁瀏覽器中開啟管理節點的IP位址。例如：
 +
 [listing]
 ----

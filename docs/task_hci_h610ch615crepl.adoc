@@ -109,7 +109,12 @@ CAUTION: 如果機箱背面的通風孔被纜線或標籤阻塞、可能會因�
 
 
 .步驟
-. 開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。例如：「https://<ManagementNodeIP>`
+. 在網頁瀏覽器中開啟管理節點的IP位址。例如：
++
+[listing]
+----
+https://<ManagementNodeIP>
+----
 . 提供NetApp HCI 不實的儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。
 . 在「展開安裝」窗格中、選取*展開*。瀏覽器會開啟NetApp部署引擎。
 . 提供NetApp HCI 不實的儲存叢集管理員認證資料、以登入NetApp部署引擎。

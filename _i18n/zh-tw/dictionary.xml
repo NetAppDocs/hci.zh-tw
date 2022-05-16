@@ -190,7 +190,6 @@
   <block id="b6659ed479c393c7e3af9a972afd25df" category="list-text">請確定您擁有已安裝儲存節點的管理IPv6位址。您可以在NetApp Element vCenter Server適用的「VMware vCenter伺服器NetApp Element 」的*《VMware vCenter管理*》&gt;*「叢集*」&gt;「*節點*」索引標籤中找到IP位址。</block>
   <block id="bd912fca82bc6b39cad712f6ddf69053" category="list-text">確保每個新節點使用與現有儲存設備或運算叢集相同的網路拓撲和佈線。</block>
   <block id="9fbc65e3085421d946ed1df665334512" category="admonition">擴充儲存資源時、儲存容量應平均分配至所有機箱、以獲得最佳可靠性。</block>
-  <block id="22a850d72f690cbbd2600492a8add31d" category="list-text">開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。例如：</block>
   <block id="4d41fb1211aa5ce58e5235fb983f1a15" category="list-text">提供NetApp HCI 不實的儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。</block>
   <block id="9b6c54a62f57f89342aae003cf762345" category="list-text">按一下介面右上角的*展開*。</block>
   <block id="c279fa7b9df4852c4e23caa58f534561" category="paragraph">瀏覽器會開啟NetApp部署引擎。</block>
@@ -313,7 +312,6 @@
   <block id="fcdb7833c38a0e654bbabf60efed0034" category="list-text"><block ref="a79218900f77de904e0cf4c3bd095bed" category="inline-xref-macro-rx"></block></block>
   <block id="8dd1e649c7d67d09651573366bf71c6a" category="list-text"><block ref="b8d6197b9bef06ed2b702fdbca989df8" category="inline-xref-macro-rx"></block></block>
   <block id="a869d99c04861ce28cc308ce663f7b3c" category="section-title">使用NetApp混合雲控制設定FQDN Web UI存取</block>
-  <block id="76dc87fa8de1da44ac9cde3fec3cb965" category="list-text">開啟網頁瀏覽器並瀏覽至管理節點的IP位址：</block>
   <block id="d64a6336a39c9f27c33956f187d79c87" category="list-text">提供儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。</block>
   <block id="0bde0c3d1eee962104c26a4017e0cd26" category="list-text">選取頁面右上角的功能表圖示。</block>
   <block id="c4eb224b20c8201b8b2872700d6ecb90" category="list-text">選擇*設定*。</block>
@@ -1481,7 +1479,6 @@
   <block id="9e113d0eee5a0e4ecb45e32bdc598f0b" category="list-text">請確定vCenter系統管理員帳戶認證已準備好。</block>
   <block id="2797d21d72c04e7d29225422f3460348" category="inline-link-macro">管理啟動器和Volume存取群組</block>
   <block id="87c2634e161ff72c27ce0766d8d3804e" category="list-text"><block ref="440645bedcccb46f5176627f912c9136" category="inline-link-macro-rx"></block> 適用於新運算節點。</block>
-  <block id="38f780db972cee588cfdddc13df9c1dd" category="list-text">開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。例如：「https://&lt;ManagementNodeIP&gt;`</block>
   <block id="2671f57229d8ee038d01d4336694d7e0" category="list-text">在「展開安裝」窗格中、選取*展開*。</block>
   <block id="f325a8632fd080a5f3548693673f42c7" category="list-text">在歡迎頁面上、選取*是*。</block>
   <block id="131a2da3d2e15dfbc9e1264add2b347d" category="list-text">在「終端使用者授權」頁面上、執行下列動作：</block>
@@ -2314,7 +2311,6 @@
   <block id="af5d6250839ed294a7160e4bec91a467" category="list-text">使用NetApp部署引擎使用者介面（UI）來設定NetApp HCI 功能。</block>
   <block id="4db13ecf18990f2ce5d8e4bc5cfd0c24" category="admonition">所有其他NetApp HCI 的節點都會自動探索。</block>
   <block id="6bfd79c0fce4f05b8b10a7cdfd024e31" category="section-title">擴充現有NetApp HCI 的安裝程序</block>
-  <block id="5e74aa3b306cd24a8ff545742656046e" category="list-text">開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。</block>
   <block id="e68dd77ececf646c64129165fec43027" category="list-text">依照精靈中的步驟、將儲存和/或運算節點新增至NetApp HCI 您的安裝項目。</block>
   <block id="1141055d277af6daa8951036962776b2" category="admonition">若要新增H410C運算節點、現有的安裝必須執行NetApp HCI 版本號為NetApp 1.4或更新版本。若要新增H615C運算節點、現有的安裝必須執行NetApp HCI 版本號為1.7或更新版本。</block>
   <block id="64469e6c1f3faa349fcab16b3be11577" category="admonition">同NetApp HCI 一個網路上新安裝的鏡射節點將會自動探索。</block>
@@ -2435,11 +2431,6 @@
   <block id="8838c26820c2bdc7ab11f616de8739d6" category="summary">TCP和udp連接埠、供NetApp HCI 使用。</block>
   <block id="7375651611f00991b648b4a9ae04736e" category="doc">網路連接埠需求</block>
   <block id="ba05be2241c302ce19b7534dcd611775" category="paragraph">您可能需要允許下列連接埠通過資料中心的邊緣防火牆、以便從遠端管理系統、允許資料中心外部的用戶端連線至資源、並確保內部服務能夠正常運作。視您使用系統的方式而定、可能不需要這些連接埠、URL或IP位址。除非另有說明、否則所有連接埠都是TCP。</block>
-  <block id="f5395c9793af8a11b406ca7c1ac70da9" category="inline-link">深入瞭解</block>
-  <block id="73f6f247f92d43dc1a02705cd9cb72df" category="admonition">NetApp正在重建線上儲存庫、以裝載支援NetApp混合雲控制自動化升級工作流程的軟體與韌體套裝組合下載。<block ref="d8be8d6cc7cc728c856f13214fa255cd" category="inline-link-rx"></block></block>
-  <block id="1b1965ab9261b2d5c557a2c1b29aa90a" category="paragraph">NetApp混合雲控制網路UI和API可從NetApp線上軟體儲存庫下載軟體套件、此儲存庫使用JFrog Artifactory Cloud做為配送中樞、並使用CDN技術來進行檔案託管。因此、部分URL或IP位址可能會根據內容傳輸網路解析為其他URL或IP位址。如有可能、您應與網路工程師合作、使用下列一般步驟、將這些URL或IP位址新增至防火牆規則：</block>
-  <block id="c23be595ff2a6ce3fc50807942a4b8be" category="list-text">使用wGet或Curl公用程式存取URL（例如repo.netapp.com）。</block>
-  <block id="a6ef25224f54dbfe30361976f2ce77d9" category="list-text">無法存取URL（與repo.netapp.com不同）。</block>
   <block id="cca942e088eb1473b2eb9de24822300b" category="list-text">編輯防火牆規則以允許新的URL。</block>
   <block id="fc0bbd3b7c620ea524d15f50953b65de" category="list-text">重複上述步驟、直到存取嘗試成功為止。</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">下表使用下列縮寫：</block>
@@ -2486,10 +2477,6 @@
   <block id="4b04c29bd10ad8752cc2092775a38d11" category="cell">NetApp混合雲控制HTTPS通訊</block>
   <block id="86eccd8202a873aee7f9acfbe920bb59" category="cell">《onitoring.solidfire.com》</block>
   <block id="6ac181854a8b48c5ac6018a305f6ae7c" category="cell">儲存叢集報告Active IQ 功能</block>
-  <block id="5144ef28ff0fa7b5ab2a36331abbe530" category="paragraph">線上軟體儲存庫：</block>
-  <block id="5230f6b2c891063490d3865eb12fbb11" category="list-text">https://repo.netapp.com/bintray/api/package`</block>
-  <block id="387d5419d340e95ff756a4806e220b45" category="list-text">https://repo.netapp.com/downloads`</block>
-  <block id="983c91027e090f85708d6c62fd362220" category="list-text">https://netappdownloads.jfrog.io:443`</block>
   <block id="d747a3883d729833b05cf76084503b96" category="cell">管理節點服務升級</block>
   <block id="fc134d3a0fa8179e557b660253b5fcd6" category="cell">5988-5989</block>
   <block id="5907c88df2965e500c98e948dfae20c0" category="cell">9442.</block>
@@ -2662,7 +2649,6 @@
   <block id="63e49edf7549e02c949a20f809d2dd04" category="list-text">您擁有已安裝儲存節點的管理IPv4位址。您可以在NetApp Element vCenter Server適用的「VMware vCenter Plug-in」的「*叢集管理&gt;叢集&gt;節點*」索引標籤中找到IP位址NetApp Element 。</block>
   <block id="70de678de9c25f5e798b720dbceb710b" category="list-text">您已確保新節點使用與現有儲存叢集相同的網路拓撲和纜線。</block>
   <block id="ecde3580e42485d3ef8d0227e9ab840a" category="admonition">確保所有機箱的儲存容量平均分配、以獲得最佳的可靠性。</block>
-  <block id="7fbed092fb78004f6fd5381fb20279fc" category="list-text">開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。例如：「https://&lt;ManagementNodeIP&gt;/manager/login`</block>
   <block id="1704d55dca4dda129b0c084d7b0dac9f" category="list-text">在歡迎頁面上、選取*否*。</block>
   <block id="c1a72b8e6d0e23818ec5b93d9bebfb17" category="list-text">在「Available Inventory」（可用資源清冊）頁面上、選取您要新增至現有NetApp HCI 的版本安裝的儲存節點。</block>
   <block id="5009e74e0608363ab90dc34281596328" category="list-text">在「網路設定」頁面上、從初始部署中偵測到部分網路資訊。每個新的儲存節點都會依序號列出、您應該為其指派新的網路資訊。請執行下列步驟：</block>
@@ -2765,12 +2751,9 @@
   <block id="28ecf024dd3eb42bbaec82a47ef72ef8" category="admonition">選取的叢集必須是元素10.0或更新版本才能使用QoS原則、否則無法使用QoS原則功能。</block>
   <block id="fc6261a1be6f27091e994d8c8b075b29" category="summary">在進行升級時、您可以升級vCenter Server的Element外掛程式。NetApp HCI</block>
   <block id="9e31323b5cbbe61c6c8c43ad2755958b" category="doc">升級vCenter Server的Element外掛程式</block>
-  <block id="03efd38b0802e06b31537f557cd0421f" category="paragraph">對於已註冊NetApp Element 的VMware vCenter Server（VCP）外掛程式的現有vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。</block>
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">您可以使用登錄公用程式、在vCenter Server Virtual Appliance（vCSA）或Windows上更新外掛程式登錄。您必須在需要使用外掛程式的每個vCenter Server上變更vCenter外掛程式的登錄。</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">此升級程序涵蓋下列升級案例：</block>
-  <block id="4c671b547a1a811f45797247ec5747c3" category="list-text">您正在升級至VCP 4.8、4.7、4.6、4.5或4.4。</block>
   <block id="a6a18366932bfeffc2341cc7aa5fe09d" category="list-text">您正在升級至7.0、6.7或6.5 HTML5 vSphere Web Client。</block>
-  <block id="10d52a77bc99042d3e815ba24e48132b" category="admonition">外掛程式與適用於VCP 4.7及更新版本的VMware vCenter Server 6.5不相容。</block>
   <block id="f171584692be059c88cbbda35827f299" category="list-text">您正在升級至6.7 Flash vSphere Web Client。</block>
   <block id="26f2f1d140c70238a07a5f09e846fd82" category="inline-link">您的外掛程式版本</block>
   <block id="1e1e7dd8551842ca8c6e4ac3c35cb249" category="admonition">外掛程式與版本6.7 U2 build 130074221的HTML5 vSphere Web Client不相容、以及在更新2a（建置13643870）之前發佈的其他6.7 U2組建。如需支援vSphere版本的詳細資訊、請參閱的版本資訊<block ref="52a3661120ba33cd100cafc9c9d568e0" category="inline-link-rx"></block>。</block>
@@ -2803,7 +2786,6 @@
   <block id="342171073fda0fd2cec612dc41323bdb" category="image-alt">說明成功升級或安裝後的外掛程式擴充點</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server的Element外掛程式</block>
   <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">如果看不到vCenter外掛程式圖示、請參閱 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 外掛程式疑難排解的相關文件。</block>
-  <block id="3d06b6c0430a7ea489938883e0eb617e" category="paragraph">升級至使用VMware vCenter Server 6.7U1的VCP 4.8之後、如果NetApp Element 未列出儲存叢集、或是在「VMware vCenter組態」的「*叢集*」和「* QoSSIOC設定*」區段中出現伺服器錯誤、請參閱 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 疑難排解這些錯誤的相關文件。</block>
   <block id="b9e50e6a339819ad9d12906b29e978ca" category="list-text">確認NetApp Element 外掛程式*的「組態*」擴充點*「關於*」索引標籤中的版本變更。</block>
   <block id="a2b39afbde860c9c0fc759f3772e2dd2" category="paragraph">您應該會看到下列版本詳細資料或較新版本的詳細資料：</block>
   <block id="4715e0cc20eb79c52c1f181ce0f6afb0" category="admonition">vCenter外掛程式包含線上說明內容。若要確保您的「說明」包含最新內容、請在升級外掛程式之後清除瀏覽器快取。</block>
@@ -3423,7 +3405,6 @@
   <block id="8f6d7a4937d5ef994024ec37d0af96db" category="list-text">開啟管理節點VM的電源。</block>
   <block id="291b81212712dc828fee9037f0662499" category="list-text">您已將管理服務升級至至少2.1.326版。NetApp混合雲控制升級不適用於舊版服務組合。</block>
   <block id="f4b19cd96a813fb177542ed57f6d27aa" category="admonition">如需每個服務套裝組合版本的可用服務清單、請參閱<block ref="b7b8dc48337abf993d8909e2c4d32cb1" category="inline-link-rx"></block>。</block>
-  <block id="55d2ac8cdb689c1c5a8537d8871bd39e" category="list-text">開啟網頁瀏覽器、瀏覽至管理節點的IP位址：「https://&lt;ManagementNodeIP&gt;`」</block>
   <block id="9c3b6a2840d81e74fa978e35f9fda09e" category="list-text">在「升級」頁面上、選取「*管理服務*」索引標籤。</block>
   <block id="2a67be48fd33aed34d5d9b95445a0c20" category="paragraph">「管理服務」索引標籤會顯示管理服務軟體的目前和可用版本。</block>
   <block id="25026455f4896275dc71ea344eae7273" category="inline-link-macro">Proxy組態</block>
@@ -4206,7 +4187,6 @@
   <block id="f6b0da1a55a97f968d608a568dbdb093" category="list-text"><block ref="f6b0da1a55a97f968d608a568dbdb093" category="inline-link-macro-rx"></block></block>
   <block id="a11d9a84702eacbceacfe73c6ed81b02" category="inline-link-macro">擴充NetApp HCI 您的不必要儲存或運算資源</block>
   <block id="01de98522477a417e0769c1c2e4840ea" category="list-text"><block ref="01de98522477a417e0769c1c2e4840ea" category="inline-link-macro-rx"></block></block>
-  <block id="f9af8c4b5a5dd3b6f46e319c0db24366" category="paragraph"><block ref="f29d6ac74a5e8f866b57793d704c5a65" category="inline-link-rx"></block></block>
   <block id="563b9e811f20a61bad36baf4c76bf550" category="paragraph">此時會出現NetApp混合雲控制介面。</block>
   <block id="3664bb4df59eca4395d94a7c6384dfc0" category="inline-link-macro">《安裝與設定說明》NetApp HCI</block>
   <block id="07b021dc180c131c18c2e77e5fa1150f" category="list-text"><block ref="07b021dc180c131c18c2e77e5fa1150f" category="inline-link-macro-rx"></block></block>
@@ -4302,14 +4282,11 @@
   <block id="066e8c37353c7ec59955c8fd1f13b916" category="cell">存取NetApp Element 這個軟件UI。</block>
   <block id="334408f0e511aee8b4f25d23c40c9ff2" category="summary">在進行還原系統升級時NetApp HCI 、您需要先執行運算節點健全狀況檢查、然後再執行firwamre升級。</block>
   <block id="1627e52c42f9bb2ee66537d3c67b82b5" category="paragraph">您必須在升級運算韌體之前執行健全狀況檢查、以確保叢集中的所有運算節點都已準備好升級。運算節點健全狀況檢查只能針對一個或多個受管理NetApp HCI 的節點之運算叢集執行。</block>
-  <block id="250d290e0189c5398af860967755925d" category="list-text">您已更新至最新的管理服務套裝組合（2.11或更新版本）。</block>
-  <block id="16ef39292d881ef688285bee52bd6fa4" category="paragraph">您可以使用NetApp混合雲控制（HCC）UI或HCCAPI執行健全狀況檢查：</block>
   <block id="850f0091282b848431e58ee599ce2ab8" category="list-text"><block ref="ee87df619a1436083a67ef0448ea6380" category="inline-xref-macro-rx"></block> （偏好的方法）</block>
   <block id="12b76591ab6e6ef299232c09b9015502" category="list-text"><block ref="2b235af1877a670f4d6b71b23f1bdb21" category="inline-xref-macro-rx"></block></block>
   <block id="31ce99d0314d628aeace022f0cba613e" category="paragraph">您也可以深入瞭解由服務執行的運算節點健全狀況檢查：</block>
   <block id="3475ebcb6b9fc096ddec132452d6a634" category="list-text"><block ref="7fb3385292afc47b96c312dd9ef0e7b5" category="inline-xref-macro-rx"></block></block>
   <block id="fd94b110b8a1a6cc261ec5fe42195e7c" category="section-title">在升級韌體之前、請使用NetApp混合雲控制來執行運算節點健全狀況檢查</block>
-  <block id="041efd20e822dd686841db95e66d4ee0" category="paragraph">使用NetApp混合雲控制（HCC）、您可以驗證運算節點是否已準備好進行韌體升級。</block>
   <block id="4946e18fada664601bd87ab0e6b0c461" category="admonition">如果您有多個雙節點儲存叢集組態、而且每個組態都位於自己的vCenter內、則可能無法準確報告見證節點健全狀況檢查。因此、當您準備好升級ESXi主機時、只能關閉正在升級的ESXi主機上的見證節點。您必須NetApp HCI 以另一種方式關閉見證節點、以確保在安裝過程中始終有一個見證節點正在執行。</block>
   <block id="807a82eaa952baafdd118220e7bd9abc" category="list-text">在「*升級*」頁面上、選取*運算韌體*索引標籤。</block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">圖示</block>
@@ -4344,7 +4321,6 @@
   <block id="7cda90ec29e69ce32eb8a59df666024c" category="list-text">解決叢集問題之後、請再次執行* POST / computeesk/｛控制器ID｝/狀況檢查*（請參閱步驟2）。</block>
   <block id="4421a56813acb302bbd36bb157eb1e66" category="paragraph">如果健全狀況檢查順利完成、則回應代碼200表示結果成功。</block>
   <block id="a2dc96680bf6b6fc75fa97944f03bc51" category="section-title">由服務進行運算節點健全狀況檢查</block>
-  <block id="f70cee9dd2f176e0d31d60f85d729ee7" category="paragraph">無論是由HCC或API方法執行的運算健全狀況檢查、都會針對每個節點進行下列檢查。視您的環境而定、可能會略過其中一些檢查。您應該在解決任何偵測到的問題之後、重新執行健全狀況檢查。</block>
   <block id="9d82e629749ca3f4fd26b49ce0f4b18a" category="cell">檢查說明</block>
   <block id="8f516cfea9e2ddf7c18eddf1ffd3cf49" category="cell">節點/叢集</block>
   <block id="50cd15450376100fde72a5e9f6493b6c" category="cell">解決所需的行動</block>
@@ -5461,7 +5437,6 @@
   <block id="5c43103944569fd8012409d26d35ae27" category="paragraph">若要開始使用、請瀏覽至<block ref="800625a9fb0814935e48340d0d4931ee" category="inline-link-rx"></block> 並下載「na_compute節點_f縮短 韌體升級」角色與文件。</block>
   <block id="a5b37844a6e9e768f0ce85640b2581b5" category="summary">在升級版的過程中、您需要執行有關該軟件的健全狀況檢查。NetApp HCI NetApp Element</block>
   <block id="f5734d4e8acdeb186a1c22c351c4a0bf" category="paragraph">您必須在升級元素儲存設備之前執行健全狀況檢查、以確保叢集中的所有儲存節點都已準備好進行下一個元素儲存設備升級。</block>
-  <block id="a9665a647615566ad8a19d93fbf94aa9" category="list-text">您已更新至最新的管理服務套裝組合（2.10.27或更新版本）。</block>
   <block id="a42a5f062307c65656fb022b1bc38224" category="paragraph">您可以使用NetApp混合雲控制（HCC）UI、HCCAPI或HealthTools套件執行健全狀況檢查：</block>
   <block id="0096c254c62197f713da16cbb8cf17bf" category="list-text"><block ref="43e2712ac16e77262f42113e91f41bfc" category="inline-xref-macro-rx"></block> （偏好的方法）</block>
   <block id="c0ce03ffdb1b2eaf2997d4b003a6c398" category="list-text"><block ref="33b5a46d5ad547c7160d2877495cd388" category="inline-xref-macro-rx"></block></block>
@@ -6082,22 +6057,16 @@
   <block id="781e0d80722a71259b8097f7edd3b30a" category="list-text">同步完成後、請從叢集中移除故障磁碟機和故障節點。</block>
   <block id="16011d6c152eb09a3d7947b851647b75" category="list-text">使用NetApp混合雲控制來設定您新增的新儲存節點。請參閱 <block ref="ec74d034b2322c67954f06e2ac42b7ef" category="inline-link-macro-rx"></block>。</block>
   <block id="1a1bc57a8bba4ae3b3aa6def4721dad7" category="list-text"><block ref="1a1bc57a8bba4ae3b3aa6def4721dad7" category="inline-link-rx"></block></block>
-  <block id="b5ecd82e8979ed40797d70974bacb136" category="summary">您可以使用REST API UI在管理節點上停用、啟用或判斷SSH支援連線功能的狀態。</block>
   <block id="d1cfb55513d453a2cf4188067d2cf218" category="paragraph">您可以使用REST API在管理節點（mNode）上停用、重新啟用或判斷SSH功能的狀態。提供SSH功能 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 在執行管理服務2.18或更新版本的管理節點上、預設為停用。</block>
   <block id="4a8504402e610045f6f515076b209af8" category="list-text">* Element軟體*：您的叢集執行NetApp Element 的是不支援功能的軟體11.3或更新版本。</block>
-  <block id="e320643e3f7c80faee482a0df224ffdc" category="list-text">*管理服務更新*：您已更新您的<block ref="fa63a529ec625e6607508bcea6b40451" category="inline-link-rx"></block> 至版本2.17。</block>
   <block id="4dcaf58a1a6fd3555d9626cfadc42510" category="inline-link-macro">驗證</block>
   <block id="6c037204162665482371752d5cbc4b05" category="paragraph">您可以在之後執行下列任何一項工作 <block ref="1e3a79de8ad58046eb273d2d7b15a0d8" category="inline-link-macro-rx"></block>：</block>
-  <block id="746fb73201580f1ce79de5d018bc83e3" category="list-text"><block ref="7ab86ed14fb41c15b39d9fc3f88bb5fb" category="inline-xref-macro-rx"></block></block>
-  <block id="14eea61135a60aa00226fb53ed68b0d6" category="list-text"><block ref="915bb5f173ab674859bad881a235217a" category="inline-xref-macro-rx"></block></block>
-  <block id="027b3ee820565177e41833e702f75a6c" category="section-title">停用或啟用管理節點上的SSH功能</block>
   <block id="0170650c612167fa500a0929a1506872" category="paragraph">您可以在管理節點上停用或重新啟用SSH功能。提供SSH功能 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 在執行管理服務2.18或更新版本的管理節點上、預設為停用。停用SSH不會終止或中斷現有SSH用戶端工作階段與管理節點的連線。如果停用SSH並選擇稍後重新啟用、您可以使用相同的API來執行此作業。</block>
   <block id="085a0793a542f0eebf46d23f033ee424" category="paragraph">若為管理服務2.18或更新版本：</block>
   <block id="9d5d97be2b35b2991e27e028a5e6269e" category="paragraph">若為管理服務2.17或更早版本：</block>
   <block id="6b70c036a345ea917a8a1112ea5225b9" category="list-text">輸入管理節點IP位址、然後輸入「/mnode/'：</block>
   <block id="ff6cbc041657a578c9d520790c1efc72" category="list-text">從REST API UI中、選取*放置/設定、以供參考/ ssh *。</block>
   <block id="594b8969c95fa90b4dac77dbef24c6a0" category="list-text">將*已啟用*參數設為「假」以停用SSH、或將「真」設為重新啟用先前停用的SSH功能。</block>
-  <block id="e419c387e790d54ef946c619b6e3b391" category="section-title">判斷管理節點上SSH功能的狀態</block>
   <block id="54fe4061a922c8e20f0e36680484efba" category="paragraph">您可以使用管理節點服務API、判斷管理節點上是否已啟用SSH功能。在執行管理服務2.18或更新版本的管理節點上、SSH預設為停用。</block>
   <block id="34f75415ccae7652ea5f2cb6678e0d8b" category="list-text">從REST API UI中、選取* Get /setsettings（取得/設定）、以供參考/ ssh *。</block>
   <block id="d958fb044d8feae55f93b59463c556d1" category="summary">當您使用NetApp HCI 時、可能需要額外的授權。</block>
@@ -6214,4 +6183,60 @@
   <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">NetApp社群</block>
   <block id="213686afc3803be7caa09348765467fe" category="sidebar">取得協助的地方</block>
   <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">本文檔資料NetApp HCI</block>
+  <block id="f6a63a9052785a40e6a7b718acb627b9" category="list-text">*管理服務*：您已更新至最新的管理服務套裝組合（2.11或更新版本）。</block>
+  <block id="2ce38f720dba5ff083bfe1933d11eacc" category="list-text">*管理節點*：您執行的是管理節點11.3或更新版本。</block>
+  <block id="a141fe1c6179ed3e09aa6043ad364ac6" category="list-text">* Element軟體*：您的儲存叢集執行NetApp Element 的是功能不全的軟體11.3或更新版本。</block>
+  <block id="53b9f06d2f4963cb4351ee247eee6fc1" category="list-text">*終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API執行運算節點健全狀況檢查：</block>
+  <block id="c3dfd82361c52d5d3d1551c20c83f1a6" category="list-text">在Web瀏覽器中開啟管理節點的IP位址：</block>
+  <block id="be441559765f3e52d513b155b4b59981" category="list-text">隨即顯示EULA。向下捲動、選取*我接受目前及所有未來更新*、然後選取*儲存*。</block>
+  <block id="06194f109ff7ed4270c1e5f89cbe9e74" category="admonition">當您接受EULA時、系統會記錄所有未來更新、並啟用自動下載功能。您將會收到NetApp軟體更新與升級的更新、您可以自行決定是否安裝、也可以方便地安裝。您可以停用與NetApp線上軟體儲存庫的網路連線、以停用自動下載功能。</block>
+  <block id="9e2b6145fca6ee9f745cae210b075880" category="paragraph">您可以使用NetApp混合雲控制UI或NetApp混合雲控制API執行健全狀況檢查：</block>
+  <block id="1928dedb59bedd7b01427511af34693a" category="paragraph">使用NetApp混合雲控制、您可以確認運算節點已準備好進行韌體升級。</block>
+  <block id="c36b19231a4d44de8c3649310ba038d9" category="paragraph">無論是由NetApp混合雲控制或API方法執行的運算健全狀況檢查、都會針對每個節點進行下列檢查。視您的環境而定、可能會略過其中一些檢查。您應該在解決任何偵測到的問題之後、重新執行健全狀況檢查。</block>
+  <block id="f9ebc0753ac68177e6d0f29d964386bb" category="list-text">在網頁瀏覽器中開啟管理節點的IP位址。例如：</block>
+  <block id="b7d9a056c7aac680c6cb5b95799e2642" category="list-text">在網頁瀏覽器中開啟管理節點的IP位址。</block>
+  <block id="00bbf849ee83f2b3ea6c67bb7bd6c6f8" category="inline-link-macro">管理服務注意事項2.20.69（VCP 4.9.14）</block>
+  <block id="9631693d741b4476dc21a28cec874b0a" category="list-text"><block ref="9631693d741b4476dc21a28cec874b0a" category="inline-link-macro-rx"></block></block>
+  <block id="573d529ded9f2b66a55c1d25a9498c72" category="paragraph">從管理服務的2.20開始、您必須先接受並儲存終端使用者授權合約（EULA）、才能使用NetApp混合雲控制UI或API來升級管理服務：</block>
+  <block id="c7c27143d481078e23cd4144c0df2f10" category="inline-link">vCenter Plug-in 4.9版本說明</block>
+  <block id="6452d1b3e56fe38fdc537aeb6fe8d1c8" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block>_新_</block>
+  <block id="07cc0d856c010a1ee3ff9ee8f5157778" category="list-text">*終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級儲存韌體：</block>
+  <block id="0b2f19b801c71ab42a03e5347b8302ee" category="list-text">*終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級運算節點韌體：</block>
+  <block id="62403656f60d86891c7c9ad1ffa2f44f" category="summary">您可以使用NetApp混合雲控制UI或REST API UI、在管理節點上停用及啟用SSH功能、或使用REST API UI來判斷SSH支援連線功能的狀態。</block>
+  <block id="de7e6ba1aa5db3f3ecd18e0db7533988" category="paragraph">從管理服務的2.20開始、您可以使用NetApp混合雲控制UI、在管理節點上啟用和停用SSH功能。</block>
+  <block id="3c94e6ce915e7526e3d52ade19785a73" category="list-text">* NetApp混合式雲端控制權限*：您擁有系統管理員權限。</block>
+  <block id="ac7ca17dbb21ace6afb8d4dca6cabea3" category="list-text">*管理服務更新*：</block>
+  <block id="b5fac2f2425ddc92784c5c7e5d8d557e" category="list-text">若要使用NetApp混合雲控制UI、您已更新您的<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 至版本2.20.</block>
+  <block id="43fe8cb39bfeedc36b52f882e1fa6566" category="list-text">若要使用REST API UI、您已更新您的<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 至版本2.17。</block>
+  <block id="22b10ea78e232391f766c1d30f89f143" category="list-text"><block ref="ceecdddcb31feb92e45b5238bea4a2dd" category="inline-xref-macro-rx"></block></block>
+  <block id="d67941a2c5c95f11d7bc3ffe04663673" category="list-text"><block ref="2a0c666d485e7ff160ef18f3e883e750" category="inline-xref-macro-rx"></block></block>
+  <block id="952dd7ee9f76db5eee00864b27184f09" category="list-text"><block ref="c015de97077c7fae9700ca0f0b057b0c" category="inline-xref-macro-rx"></block></block>
+  <block id="1ac9fe92a4a5c8b73ea917dd0fcc1457" category="section-title">使用NetApp混合雲控制UI在管理節點上停用或啟用SSH功能</block>
+  <block id="7d480381cb8ec5a78271712dba86ed65" category="paragraph">您可以在管理節點上停用或重新啟用SSH功能。提供SSH功能 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 在執行管理服務2.18或更新版本的管理節點上、預設為停用。停用SSH不會終止或中斷現有SSH用戶端工作階段與管理節點的連線。如果您停用SSH並選擇稍後重新啟用、則可以使用NetApp混合雲控制UI來執行此作業。</block>
+  <block id="660ecb933461ee45e6f742dd41d60408" category="inline-link">Element UI叢集設定頁面</block>
+  <block id="a6fac1a062589a6dbd660accd83dc4bb" category="admonition">若要啟用或停用使用SSH存取儲存叢集的支援、您必須使用<block ref="66c673b3de5ad3d6bdd339681caa3221" category="inline-link-rx"></block>。</block>
+  <block id="f5b8f13ee9298406bb5846e6c80e1259" category="list-text">在* Support Access for Management Nod*（*管理節點支援存取*）畫面中、切換交換器以啟用管理節點SSH。</block>
+  <block id="c2ec3d3d7a3c559651551d3d9f14d2b9" category="list-text">完成疑難排解之後、請在* Support Access for Management Nod*（*管理節點支援存取*）畫面中、切換交換器以停用管理節點SSH。</block>
+  <block id="bd1ea3213926ecdb3e25a30ccf5157d9" category="section-title">使用API在管理節點上停用或啟用SSH功能</block>
+  <block id="526719701f51876f46433bfa55249a45" category="section-title">使用API判斷管理節點上SSH功能的狀態</block>
+  <block id="a3affadb8671444f8e45462ea7a0de50" category="list-text">*終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級Element軟體：</block>
+  <block id="2620c9636e86b36feea9216102a5bec7" category="list-text">*終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級Rancher部署：</block>
+  <block id="f4926605dca5caffd5d52e790b9eb676" category="list-text">*管理服務*：您已更新至最新的管理服務套裝組合（2.10.27或更新版本）。</block>
+  <block id="cd87cb364b82cfd7ff555087f3e88e59" category="list-text">* Element軟體*：您的叢集版本執行NetApp Element 的是功能不全的軟體11.3或更新版本。</block>
+  <block id="84d8587fb67731ba50262a0ffeacb7ac" category="list-text">*終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來執行元素儲存健全狀況檢查：</block>
+  <block id="95f27799ddeb01b37a606c94f6349232" category="paragraph">NetApp混合雲控制網路UI和API可從NetApp線上軟體儲存庫下載軟體套件。因此、部分URL或IP位址可能會根據內容傳輸網路解析為其他URL或IP位址。如有可能、您應與網路工程師合作、使用下列一般步驟、將這些URL或IP位址新增至防火牆規則：</block>
+  <block id="468e2827e5dc0169c965a021b0f015d8" category="list-text">使用wGet或Curl公用程式存取URL（例如support-sg-nawest.netapp.com）。</block>
+  <block id="887a9d2ae67bb61c76d5d0032a4b7b0f" category="list-text">如下列範例所示、檢查連線能力：</block>
+  <block id="9b6b0ba6c58622cfc8a6178412a0e4bf" category="image-alt">檢查連接埠連線能力</block>
+  <block id="17dc6266a36d140e3656a007ab0a9fce" category="list-text">無法存取URL（與support-sg-nawest.netapp.com不同）。</block>
+  <block id="27639a1d6103dcea8efd114fa6c08ad8" category="paragraph">新版本通知：</block>
+  <block id="ab3ee28175c91fc275541983d197ab00" category="list-text">https://support.netapp.com/aods/`</block>
+  <block id="202ff041fdb9a5ee3579e8cb7984ef6b" category="paragraph">軟體下載：</block>
+  <block id="9fc75d41716cfd46199787dcf77473a1" category="list-text">https://support-sg-emea.netapp.com`</block>
+  <block id="a1b1a9120bbc7238c7b6088d7223d194" category="list-text">https://support-sg-naeast.netapp.com`</block>
+  <block id="219033cd316af31663b173765be6dd78" category="list-text">https://support-sg-nawest.netapp.com`</block>
+  <block id="651784e7a6ddc6534201a6e8d1fbf248" category="paragraph">對於已註冊NetApp Element 的VMware vCenter Server更新版現有vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。</block>
+  <block id="fe7edd9e3b4efc71766ba03d23b51c44" category="list-text">您正在升級至Element Plug-in for VMware vCenter Server 4.9、4.8、4.7、4.6、4.5或4.4。</block>
+  <block id="8eeabd6de4a231c731b82c27ee25bbdb" category="admonition">外掛程式與VMware vCenter Server 6.5 for Element Plug-in for VMware vCenter Server 4.6、4.7和4.8不相容。</block>
+  <block id="f31daff1bed8bc4fec4119d69f3093d9" category="paragraph">使用VMware vCenter Server 6.7U1升級至VCP 4.8或更新版本之後、如果未列出儲存叢集、或NetApp Element 是在「VMware vCenter組態」的「*叢集*」和「* QoSSIOC設定*」區段中出現伺服器錯誤、請參閱 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 疑難排解這些錯誤的相關文件。</block>
 </blocks>

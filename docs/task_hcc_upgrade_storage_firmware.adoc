@@ -35,6 +35,25 @@ IMPORTANT: 若要更新IDC/BIOS韌體、請聯絡NetApp支援部門。如需詳�
 
 NOTE: 如需硬體的韌體和驅動程式韌體完整對照表、請參閱此 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["知識庫文章"^] （需要登入）。
 
+* *終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級儲存韌體：
++
+.. 在Web瀏覽器中開啟管理節點的IP位址：
++
+[listing]
+----
+https://<ManagementNodeIP>
+----
+.. 提供儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。
+.. 選取介面右上角附近的*升級*。
+.. 隨即顯示EULA。向下捲動、選取*我接受目前及所有未來更新*、然後選取*儲存*。
++
+
+NOTE: 當您接受EULA時、系統會記錄所有未來更新、並啟用自動下載功能。您將會收到NetApp軟體更新與升級的更新、您可以自行決定是否安裝、也可以方便地安裝。您可以停用與NetApp線上軟體儲存庫的網路連線、以停用自動下載功能。
+
+
+
+
+
 請選擇下列其中一個儲存韌體升級選項：
 
 * <<Use NetApp Hybrid Cloud Control UI to upgrade storage firmware>>
@@ -56,7 +75,7 @@ CAUTION: 如需使用NetApp混合式雲端控制及其因應措施升級儲存�
 TIP: 每個儲存節點大約需要30分鐘的升級程序。如果您要將元素儲存叢集升級至版本2.76以上的儲存韌體、則只有在新韌體寫入節點時、個別儲存節點才會在升級期間重新開機。
 
 .步驟
-. 開啟網頁瀏覽器並瀏覽至管理節點的IP位址：
+. 在Web瀏覽器中開啟管理節點的IP位址：
 +
 [listing]
 ----

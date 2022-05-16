@@ -17,16 +17,17 @@ keywords: netapp, hci, ports, tcp, udp
 [role="lead"]
 您可能需要允許下列連接埠通過資料中心的邊緣防火牆、以便從遠端管理系統、允許資料中心外部的用戶端連線至資源、並確保內部服務能夠正常運作。視您使用系統的方式而定、可能不需要這些連接埠、URL或IP位址。除非另有說明、否則所有連接埠都是TCP。
 
-
-IMPORTANT: NetApp正在重建線上儲存庫、以裝載支援NetApp混合雲控制自動化升級工作流程的軟體與韌體套裝組合下載。 https://kb.netapp.com/Support_Bulletins/Customer_Bulletins/SU474["深入瞭解"]
-
 [NOTE]
 ====
-NetApp混合雲控制網路UI和API可從NetApp線上軟體儲存庫下載軟體套件、此儲存庫使用JFrog Artifactory Cloud做為配送中樞、並使用CDN技術來進行檔案託管。因此、部分URL或IP位址可能會根據內容傳輸網路解析為其他URL或IP位址。如有可能、您應與網路工程師合作、使用下列一般步驟、將這些URL或IP位址新增至防火牆規則：
+NetApp混合雲控制網路UI和API可從NetApp線上軟體儲存庫下載軟體套件。因此、部分URL或IP位址可能會根據內容傳輸網路解析為其他URL或IP位址。如有可能、您應與網路工程師合作、使用下列一般步驟、將這些URL或IP位址新增至防火牆規則：
 
 .步驟
-. 使用wGet或Curl公用程式存取URL（例如repo.netapp.com）。
-. 無法存取URL（與repo.netapp.com不同）。
+. 使用wGet或Curl公用程式存取URL（例如support-sg-nawest.netapp.com）。
+. 如下列範例所示、檢查連線能力：
++
+image::network_ports.PNG[檢查連接埠連線能力]
+
+. 無法存取URL（與support-sg-nawest.netapp.com不同）。
 . 編輯防火牆規則以允許新的URL。
 . 重複上述步驟、直到存取嘗試成功為止。
 
@@ -101,11 +102,16 @@ NetApp混合雲控制網路UI和API可從NetApp線上軟體儲存庫下載軟體
 
 
 | 管理節點  a| 
-線上軟體儲存庫：
+新版本通知：
 
-* https://repo.netapp.com/bintray/api/package`
-* https://repo.netapp.com/downloads`
-* https://netappdownloads.jfrog.io:443`
+* https://support.netapp.com/aods/`
+
+
+軟體下載：
+
+* https://support-sg-emea.netapp.com`
+* https://support-sg-naeast.netapp.com`
+* https://support-sg-nawest.netapp.com`
 
 | 443.. | 管理節點服務升級 
 

@@ -33,7 +33,7 @@ keywords: netapp, hci, on premise, expand, storage, cluster
 TIP: 擴充儲存資源時、儲存容量應平均分配至所有機箱、以獲得最佳可靠性。
 
 .步驟
-. 開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。例如：
+. 在網頁瀏覽器中開啟管理節點的IP位址。例如：
 +
 [listing]
 ----

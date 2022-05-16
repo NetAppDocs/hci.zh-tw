@@ -26,7 +26,7 @@ keywords: netapp, hci, on premise, expand, compute, cluster
 
 
 .步驟
-. 開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。例如：
+. 在網頁瀏覽器中開啟管理節點的IP位址。例如：
 +
 [listing]
 ----

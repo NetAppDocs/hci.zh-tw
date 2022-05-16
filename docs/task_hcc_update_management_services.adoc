@@ -20,6 +20,23 @@ keywords: netapp, hci, on premise, cluster, management services
 
 NOTE: 如需最新的管理服務版本注意事項、說明各服務套裝組合的主要服務、新功能、錯誤修正及因應措施、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["管理服務版本說明"^]
 
+從管理服務的2.20開始、您必須先接受並儲存終端使用者授權合約（EULA）、才能使用NetApp混合雲控制UI或API來升級管理服務：
+
+. 在Web瀏覽器中開啟管理節點的IP位址：
++
+[listing]
+----
+https://<ManagementNodeIP>
+----
+. 提供儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。
+. 選取介面右上角附近的*升級*。
+. 隨即顯示EULA。向下捲動、選取*我接受目前及所有未來更新*、然後選取*儲存*。
++
+
+NOTE: 當您接受EULA時、系統會記錄所有未來更新、並啟用自動下載功能。您將會收到NetApp軟體更新與升級的更新、您可以自行決定是否安裝、也可以方便地安裝。您可以停用與NetApp線上軟體儲存庫的網路連線、以停用自動下載功能。
+
+
+
 您可以使用NetApp混合雲控制UI或管理節點REST API來更新管理服務：
 
 * <<Update management services using Hybrid Cloud Control>> （建議方法）
@@ -52,7 +69,12 @@ NOTE: 如需最新的管理服務版本注意事項、說明各服務套裝組�
 NOTE: 如需每個服務套裝組合版本的可用服務清單、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["管理服務版本說明"^]。
 
 .步驟
-. 開啟網頁瀏覽器、瀏覽至管理節點的IP位址：「https://<ManagementNodeIP>`」
+. 在Web瀏覽器中開啟管理節點的IP位址：
++
+[listing]
+----
+https://<ManagementNodeIP>
+----
 . 提供儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。
 . 選取介面右上角附近的*升級*。
 . 在「升級」頁面上、選取「*管理服務*」索引標籤。

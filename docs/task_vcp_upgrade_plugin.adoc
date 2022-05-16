@@ -2,24 +2,24 @@
 sidebar: sidebar 
 permalink: docs/task_vcp_upgrade_plugin.html 
 summary: 在進行升級時、您可以升級vCenter Server的Element外掛程式。NetApp HCI 
-keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8 
+keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9 
 ---
 = 升級vCenter Server的Element外掛程式
 :allow-uri-read: 
 
 
 [role="lead"]
-對於已註冊NetApp Element 的VMware vCenter Server（VCP）外掛程式的現有vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。
+對於已註冊NetApp Element 的VMware vCenter Server更新版現有vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。
 
 您可以使用登錄公用程式、在vCenter Server Virtual Appliance（vCSA）或Windows上更新外掛程式登錄。您必須在需要使用外掛程式的每個vCenter Server上變更vCenter外掛程式的登錄。
 
 此升級程序涵蓋下列升級案例：
 
-* 您正在升級至VCP 4.8、4.7、4.6、4.5或4.4。
+* 您正在升級至Element Plug-in for VMware vCenter Server 4.9、4.8、4.7、4.6、4.5或4.4。
 * 您正在升級至7.0、6.7或6.5 HTML5 vSphere Web Client。
 +
 
-IMPORTANT: 外掛程式與適用於VCP 4.7及更新版本的VMware vCenter Server 6.5不相容。
+IMPORTANT: 外掛程式與VMware vCenter Server 6.5 for Element Plug-in for VMware vCenter Server 4.6、4.7和4.8不相容。
 
 * 您正在升級至6.7 Flash vSphere Web Client。
 +
@@ -83,7 +83,7 @@ image::vcp_shortcuts_page_accessing_plugin.png[說明成功升級或安裝後的
 ====
 如果看不到vCenter外掛程式圖示、請參閱 link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#plug-in-registration-successful-but-icons-do-not-appear-in-web-client["vCenter Server的Element外掛程式"^] 外掛程式疑難排解的相關文件。
 
-升級至使用VMware vCenter Server 6.7U1的VCP 4.8之後、如果NetApp Element 未列出儲存叢集、或是在「VMware vCenter組態」的「*叢集*」和「* QoSSIOC設定*」區段中出現伺服器錯誤、請參閱 link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1["vCenter Server的Element外掛程式"^] 疑難排解這些錯誤的相關文件。
+使用VMware vCenter Server 6.7U1升級至VCP 4.8或更新版本之後、如果未列出儲存叢集、或NetApp Element 是在「VMware vCenter組態」的「*叢集*」和「* QoSSIOC設定*」區段中出現伺服器錯誤、請參閱 link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1["vCenter Server的Element外掛程式"^] 疑難排解這些錯誤的相關文件。
 
 ====
 . 確認NetApp Element 外掛程式*的「組態*」擴充點*「關於*」索引標籤中的版本變更。
@@ -94,8 +94,8 @@ image::vcp_shortcuts_page_accessing_plugin.png[說明成功升級或安裝後的
 
 [listing]
 ----
-NetApp Element Plug-in Version: 4.8
-NetApp Element Plug-in Build Number: 34
+NetApp Element Plug-in Version: 4.9
+NetApp Element Plug-in Build Number: 14
 ----
 
 NOTE: vCenter外掛程式包含線上說明內容。若要確保您的「說明」包含最新內容、請在升級外掛程式之後清除瀏覽器快取。

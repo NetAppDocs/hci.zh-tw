@@ -53,10 +53,12 @@ NOTE: 您的NetApp Support Edge協議不包含Rancher支援。如需選項、請
 
 若要開始部署、請存取NetApp混合雲控制。
 
-. 開啟網頁瀏覽器、然後瀏覽至管理節點的IP位址。例如：
+. 在網頁瀏覽器中開啟管理節點的IP位址。例如：
 +
-https://<ManagementNodeIP>`
-
+[listing]
+----
+https://<ManagementNodeIP>
+----
 . 提供NetApp HCI 不實的儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。
 +
 此時會出現NetApp混合雲控制介面。
