@@ -1807,7 +1807,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-03 10:32:11 +0000">05/03/2022</time>
+    <time datetime="2022-05-16 14:14:56 +0000">05/16/2022</time>
     
   
 
@@ -1823,18 +1823,54 @@
 <div class="title">您需要的是 #8217 ；需要的是什麼</div>
 <ul>
 <li>
-<p>您已更新至最新的管理服務套裝組合（2.11或更新版本）。</p>
+<p><strong>管理服務</strong>：您已更新至最新的管理服務套裝組合（2.11或更新版本）。</p>
 </li>
 <li>
-<p>您執行的是管理節點11.3或更新版本。</p>
+<p><strong>管理節點</strong>：您執行的是管理節點11.3或更新版本。</p>
 </li>
 <li>
-<p>您的儲存叢集執行NetApp Element 的是不含更新版本的軟件。</p>
+<p>* Element軟體*：您的儲存叢集執行NetApp Element 的是功能不全的軟體11.3或更新版本。</p>
+</li>
+<li>
+<p><strong>終端使用者授權合約（EULA）</strong>：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API執行運算節點健全狀況檢查：</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>在Web瀏覽器中開啟管理節點的IP位址：</p>
+<div class="listingblock">
+<div class="content">
+<pre>https://&lt;ManagementNodeIP&gt;</pre>
+</div>
+</div>
+</li>
+<li>
+<p>提供儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。</p>
+</li>
+<li>
+<p>選取介面右上角附近的*升級*。</p>
+</li>
+<li>
+<p>隨即顯示EULA。向下捲動、選取*我接受目前及所有未來更新*、然後選取*儲存*。</p>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/hci/images/note.svg" alt="附註">
+</td>
+<td class="content">
+當您接受EULA時、系統會記錄所有未來更新、並啟用自動下載功能。您將會收到NetApp軟體更新與升級的更新、您可以自行決定是否安裝、也可以方便地安裝。您可以停用與NetApp線上軟體儲存庫的網路連線、以停用自動下載功能。
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>您可以使用NetApp混合雲控制（HCC）UI或HCCAPI執行健全狀況檢查：</p>
+<p>您可以使用NetApp混合雲控制UI或NetApp混合雲控制API執行健全狀況檢查：</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1862,7 +1898,7 @@
 <h2 id="在升級韌體之前請使用netapp混合雲控制來執行運算節點健全狀況檢查">在升級韌體之前、請使用NetApp混合雲控制來執行運算節點健全狀況檢查</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>使用NetApp混合雲控制（HCC）、您可以驗證運算節點是否已準備好進行韌體升級。</p>
+<p>使用NetApp混合雲控制、您可以確認運算節點已準備好進行韌體升級。</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -1880,7 +1916,7 @@
 <div class="title">步驟</div>
 <ol class="arabic">
 <li>
-<p>開啟網頁瀏覽器並瀏覽至管理節點的IP位址：</p>
+<p>在Web瀏覽器中開啟管理節點的IP位址：</p>
 <div class="listingblock">
 <div class="content">
 <pre>https://&lt;ManagementNodeIP&gt;/hcc</pre>
@@ -2156,7 +2192,7 @@
 <h2 id="由服務進行運算節點健全狀況檢查">由服務進行運算節點健全狀況檢查</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>無論是由HCC或API方法執行的運算健全狀況檢查、都會針對每個節點進行下列檢查。視您的環境而定、可能會略過其中一些檢查。您應該在解決任何偵測到的問題之後、重新執行健全狀況檢查。</p>
+<p>無論是由NetApp混合雲控制或API方法執行的運算健全狀況檢查、都會針對每個節點進行下列檢查。視您的環境而定、可能會略過其中一些檢查。您應該在解決任何偵測到的問題之後、重新執行健全狀況檢查。</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -2328,16 +2364,16 @@
               <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2022 NetApp, Inc.</a>
             </li>
             <li class="n-footer__copyright-link">
-              <a href="https://www.netapp.com/company/legal/terms-of-use/">legal-terms</a>
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">條款與條件</a>
             </li>
             <li class="n-footer__copyright-link">
-              <a href="https://www.netapp.com/company/legal/privacy-policy/">legal-privacy</a>
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Privacy Policy</a>
             </li>
             <li class="n-footer__copyright-link">
-              <a href="https://www.netapp.com/company/legal/cookie-policy/">legal-cookies</a>
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Cookie Policy</a>
             </li>
             <li class="n-footer__copyright-link">
-              <a class="ot-sdk-show-settings">cookie-settings</a>
+              <a class="ot-sdk-show-settings">Cookie 設定</a>
             </li>
           </ul>
         </div>
