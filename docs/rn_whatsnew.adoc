@@ -35,6 +35,18 @@ NetApp會定期更新NetApp HCI 功能、為您帶來新功能、增強功能和
 
 
 
+== 儲存節點韌體更新
+
+包含儲存節點的韌體更新。NetApp HCI link:rn_relatedrn.html#storage-firmware["深入瞭解"]。
+
+
+
+== 運算節點韌體更新
+
+包含運算節點的韌體更新。NetApp HCI link:rn_relatedrn.html#compute-firmware["深入瞭解"]。
+
+
+
 === vCenter Server 4.9可用度的插件NetApp Element
 
 vCenter Server 4.9版的《VMware vCenter Server 4.9版》可在管理節點12.5和版本的《VMware vCenter Server 4.9版》以外取得。NetApp Element NetApp HCI若要升級外掛程式、請依照中的指示進行 link:concept_hci_upgrade_overview.html["升級NetApp HCI"] 文件。
