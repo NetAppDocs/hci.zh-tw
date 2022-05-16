@@ -35,13 +35,13 @@ NetApp會定期更新NetApp HCI 功能、為您帶來新功能、增強功能和
 
 
 
-== 儲存節點韌體更新
+=== 儲存節點韌體更新
 
 包含儲存節點的韌體更新。NetApp HCI link:rn_relatedrn.html#storage-firmware["深入瞭解"]。
 
 
 
-== 運算節點韌體更新
+=== 運算節點韌體更新
 
 包含運算節點的韌體更新。NetApp HCI link:rn_relatedrn.html#compute-firmware["深入瞭解"]。
 
