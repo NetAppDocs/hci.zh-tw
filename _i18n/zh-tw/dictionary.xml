@@ -6077,7 +6077,6 @@
   <block id="2914d2e1549f2ef461f9b040823e6218" category="list-text">您已將管理服務更新為2.20.69或更新版本。</block>
   <block id="311e83625ce0c896e7a3f811f3ac48c2" category="list-text">您的儲存叢集正在執行Element 123或更新版本。</block>
   <block id="fa74c37a30199ebd12f7aa7320d0cc0f" category="inline-link">範本1.9與1.9P1 NetApp HCI</block>
-  <block id="b1943b2045cf1614e825d3581d335512" category="list-text"><block ref="b1943b2045cf1614e825d3581d335512" category="inline-link-rx"></block></block>
   <block id="6c529facc953c911e43fb9725bdef1f8" category="list-text">* H610S節點*的更新基板管理控制器（BMC）：您已升級H610S節點的BMC版本。請參閱 <block ref="f04f9a521fc4fd678cdbd3d698415a24" category="inline-link-macro-rx"></block>。</block>
   <block id="477832301b5ab810e59d16b6d6cf05dc" category="paragraph">這些元件包括管理服務、NetApp混合雲控制、Element軟體、管理節點、運算韌體、運算驅動程式、 以及vCenter Server的Element外掛程式</block>
   <block id="abad8a22ec62bb4befaee820afb760ef" category="inline-link-macro">使用HealthTools升級至Element 123</block>
@@ -6118,4 +6117,5 @@
   <block id="2af95608d9fd504ee8d4e0f92619eb96" category="list-text">您已依照的指示設定其他網路介面卡（如有需要） <block ref="be46399bf51a96ee544de66528d12203" category="inline-link-macro-rx"></block>。</block>
   <block id="73f0b06b075dc2c13caded9ae137e4cf" category="admonition">如果您先前已停用管理節點上的SSH功能、則需要 <block ref="5b81c87a44b075e9194cc26f66c2b99f" category="inline-link-macro-rx"></block> 在恢復的管理節點上。提供SSH功能 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 預設會在管理節點上啟用。</block>
   <block id="1c0d3ba5e7a44f6ae998504b246b1227" category="admonition">從元素12.5開始、NetApp HealthTools不再支援元素軟體升級。如果您執行的是元件11.0或11.1、則必須先執行 <block ref="44a31a9a881af2f85b504df3b697bf3f" category="inline-link-macro-rx"></block> 然後使用NetApp混合雲控制升級至Element 12.5。</block>
+  <block id="349ff6a47f89283c2d4f778d3823c091" category="list-text"><block ref="349ff6a47f89283c2d4f778d3823c091" category="inline-link-rx"></block></block>
 </blocks>
