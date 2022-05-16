@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_element_prechecks.html 
 summary: 在升級版的過程中、您需要執行有關該軟件的健全狀況檢查。NetApp HCI NetApp Element 
-keywords: netapp, storage prechecks, element upgrade, healthtools, sfupgradecheck 
+keywords: netapp, storage prechecks, element upgrade, sfupgradecheck 
 ---
 = 升級儲存設備之前、請先執行Element儲存設備健全狀況檢查
 :allow-uri-read: 
@@ -38,11 +38,10 @@ NOTE: 當您接受EULA時、系統會記錄所有未來更新、並啟用自動�
 
 
 
-您可以使用NetApp混合雲控制（HCC）UI、HCCAPI或HealthTools套件執行健全狀況檢查：
+您可以使用NetApp混合雲控制UI或NetApp混合雲控制API執行健全狀況檢查：
 
 * <<Use NetApp Hybrid Cloud Control to run Element storage health checks prior to upgrading storage>> （偏好的方法）
 * <<Use API to run Element storage health checks prior to upgrading storage>>
-* <<Use HealthTools to run Element storage health checks prior to upgrading storage>>
 
 
 您也可以深入瞭解服務執行的儲存健全狀況檢查：
@@ -208,175 +207,6 @@ https://<ManagementNodeIP>/storage/1/
 .. 解決叢集問題之後、請再次執行*取得RESI/health-checks/｛healChecksId｝/ log*。
 
 
-
-
-
-
-== 在升級儲存設備之前、請使用HealthTools執行Element儲存設備健全狀況檢查
-
-您可以使用「shupgradecheck」命令來驗證儲存叢集是否已準備好升級。此命令可驗證擱置節點、磁碟空間和叢集故障等資訊。
-
-如果您的管理節點位於沒有外部連線的黑暗站台、則升級整備度檢查需要您在期間下載的「metadata.json」檔案 link:task_upgrade_element_latest_healthtools.html["HealthTools升級"] 以成功執行。
-
-本程序說明如何因應產生下列其中一項結果的升級檢查：
-
-* 成功執行「shupgradecheck」命令。您的叢集已準備好升級。
-* 在「shupgradecheck」工具中檢查失敗、並顯示錯誤訊息。您的叢集尚未準備好升級、需要執行其他步驟。
-* 您的升級檢查失敗、並顯示錯誤訊息指出HealthTools已過期。
-* 您的升級檢查失敗、因為管理節點位於黑暗站台。
-
-
-.步驟
-. 執行「shupgradecheck"命令：
-+
-[listing]
-----
-sfupgradecheck -u <cluster-user-name> MVIP
-----
-+
-
-NOTE: 對於包含特殊字元的密碼、請在每個特殊字元之前加上反斜槓（`\）。例如、「mypass!@1」應輸入為「mypass\!@」。
-
-+
-範例輸入命令、其中包含範例輸出、不會出現錯誤、您可以準備升級：
-
-+
-[listing]
-----
-sfupgradecheck -u admin 10.117.78.244
-----
-+
-[listing]
-----
-check_pending_nodes:
-Test Description: Verify no pending nodes in cluster
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltOQAQ/pendingnodes
-check_cluster_faults:
-Test Description: Report any cluster faults
-check_root_disk_space:
-Test Description: Verify node root directory has at least 12 GBs of available disk space
-Passed node IDs: 1, 2, 3
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltTQAQ/
-SolidFire-Disk-space-error
-check_mnode_connectivity:
-Test Description: Verify storage nodes can communicate with management node
-Passed node IDs: 1, 2, 3
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltYQAQ/mNodeconnectivity
-check_files:
-Test Description: Verify options file exists
-Passed node IDs: 1, 2, 3
-check_cores:
-Test Description: Verify no core or dump files exists
-Passed node IDs: 1, 2, 3
-check_upload_speed:
-Test Description: Measure the upload speed between the storage node and the
-management node
-Node ID: 1 Upload speed: 90063.90 KBs/sec
-Node ID: 3 Upload speed: 106511.44 KBs/sec
-Node ID: 2 Upload speed: 85038.75 KBs/sec
-----
-. 如果發生錯誤、則需要採取其他行動。如需詳細資料、請參閱下列子節。
-
-
-
-
-=== 您的叢集尚未準備好升級
-
-如果您看到與其中一項健全狀況檢查相關的錯誤訊息、請遵循下列步驟：
-
-. 檢閱「shupgradecheck」錯誤訊息。
-+
-回應範例：
-
-
-
-[listing]
-----
-The following tests failed:
-check_root_disk_space:
-Test Description: Verify node root directory has at least 12 GBs of available disk space
-Severity: ERROR
-Failed node IDs: 2
-Remedy: Remove unneeded files from root drive
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltTQAQ/SolidFire-
-Disk-space-error
-check_pending_nodes:
-Test Description: Verify no pending nodes in cluster
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltOQAQ/pendingnodes
-check_cluster_faults:
-Test Description: Report any cluster faults
-check_root_disk_space:
-Test Description: Verify node root directory has at least 12 GBs of available disk space
-Passed node IDs: 1, 3
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltTQAQ/SolidFire-
-Disk-space-error
-check_mnode_connectivity:
-Test Description: Verify storage nodes can communicate with management node
-Passed node IDs: 1, 2, 3
-More information: https://kb.netapp.com/support/s/article/ka11A0000008ltYQAQ/mNodeconnectivity
-check_files:
-Test Description: Verify options file exists
-Passed node IDs: 1, 2, 3
-check_cores:
-Test Description: Verify no core or dump files exists
-Passed node IDs: 1, 2, 3
-check_upload_speed:
-Test Description: Measure the upload speed between the storage node and the management node
-Node ID: 1 Upload speed: 86518.82 KBs/sec
-Node ID: 3 Upload speed: 84112.79 KBs/sec
-Node ID: 2 Upload speed: 93498.94 KBs/sec
-----
-在此範例中、節點1的磁碟空間不足。如需詳細資訊、請參閱 https://kb.netapp.com["知識庫"^] （KB）錯誤訊息中列出的文章。
-
-
-
-=== HealthTools已過期
-
-如果您看到錯誤訊息指出HealthTools並非最新版本、請依照下列指示操作：
-
-. 檢閱錯誤訊息、並注意升級檢查失敗。
-+
-回應範例：
-
-+
-[listing]
-----
-sfupgradecheck failed: HealthTools is out of date:
-installed version: 2018.02.01.200
-latest version: 2020.03.01.09.
-The latest version of the HealthTools can be downloaded from: https://mysupport.netapp.com/NOW/cgi-bin/software/
-Or rerun with the -n option
-----
-. 請遵循回應中所述的指示。
-
-
-
-
-=== 您的管理節點位於黑暗站台
-
-. 檢閱訊息並注意升級檢查失敗：
-+
-回應範例：
-
-+
-[listing]
-----
-sfupgradecheck failed: Unable to verify latest available version of healthtools.
-----
-. 下載 link:https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["Json 檔案"^] 從非管理節點的電腦上的NetApp支援網站、將其重新命名為「metadata.json」。
-. 執行下列命令：
-+
-[listing]
-----
-sfupgradecheck -l --metadata=<path-to-metadata-json>
-----
-. 如需詳細資料、請參閱其他 link:task_upgrade_element_latest_healthtools.html["HealthTools升級"] 黑暗站台的相關資訊。
-. 執行下列命令、確認HealthTools套件為最新版本：
-+
-[listing]
-----
-sfupgradecheck -u <cluster-user-name> -p <cluster-password> MVIP
-----
 
 
 

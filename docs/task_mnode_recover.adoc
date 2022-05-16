@@ -114,7 +114,7 @@ NOTE: 如果您需要額外的NIC來隔離儲存流量、請參閱設定其他NI
 
 
 
-NOTE: 從元件12.3.1開始、會自動執行子步驟（A）至（e）。若為管理節點12.3.1、請繼續執行 <<substep_f_recover_config_time_sync,子步驟（f）>> 以完成時間同步組態。
+NOTE: 從元件12.3.1開始、會自動執行子步驟（A）至（e）。若為管理節點12.3.1或更新版本、請繼續執行 <<substep_f_recover_config_time_sync,子步驟（f）>> 以完成時間同步組態。
 
 . 使用SSH或Hypervisor提供的主控台登入管理節點。
 . 停止ntpd：

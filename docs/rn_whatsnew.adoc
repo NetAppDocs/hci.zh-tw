@@ -15,23 +15,93 @@ keywords: netapp, hci, element, new, whatsnew
 
 
 [role="lead"]
-NetApp會定期更新NetApp HCI 功能、為您帶來新功能、增強功能和錯誤修復。適用於儲存叢集的元素12.3.2。NetApp HCI
+NetApp會定期更新NetApp HCI 功能、為您帶來新功能、增強功能和錯誤修復。包含元件12.5的儲存叢集。NetApp HCI
 
-* 。 <<NetApp HCI 1.9P1>> 一節說明NetApp HCI 功能更新及更新功能、以更新版本1.9P1。
-* 。 <<Element 12.3.2>> 一節說明NetApp Element 功能更新資訊。
-
-
-
-
-== 資料編號1.9P1 NetApp HCI
-
-包含安全性與穩定性的改良功能。NetApp HCI
+* 。 <<NetApp HCI 1.10>> 一節說明NetApp HCI 了更新版本1.10的新功能。
+* 。 <<Element software 12.5>> 一節說明元素12.5的新功能與更新。
 
 
 
-== 元素12.3.2
 
-Element軟體12.3.2版本包含的緩和措施可關閉元素軟體曝險於Apache log4j弱點。已啟用虛擬Volume（VVols）功能的NetApp SolidFire 支援區儲存叢集、會暴露於此弱點之中。
+== 更新NetApp HCI
+
+支援的範圍涵蓋安全性與穩定性、並可提升部署後的擴充靈活度。NetApp HCI
+
+
+
+=== 部署後擴充靈活度
+
+藉由移除運算節點上預設部署VMK和vmnic組態設定的需求、即可提升擴充支援功能的靈活度。NetApp HCI NetApp HCI從VMware 1.10開始NetApp HCI 、NetApp HCI 當您擴充運算資源時、只有運算節點上的一般VMK組態是由VMware執行的。 link:task_nde_supported_net_changes.html["深入瞭解"]。
+
+
+
+=== vCenter Server 4.9可用度的插件NetApp Element
+
+vCenter Server 4.9版的《VMware vCenter Server 4.9版》可在管理節點12.5和版本的《VMware vCenter Server 4.9版》以外取得。NetApp Element NetApp HCI若要升級外掛程式、請依照中的指示進行 link:concept_hci_upgrade_overview.html["升級NetApp HCI"] 文件。
+
+
+
+=== NetApp混合雲控制增強功能
+
+NetApp混合雲控制功能已針對1.10版進行強化。 link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["深入瞭解"^]。
+
+
+
+=== 已解決的問題和已知問題
+
+NetApp錯誤線上工具包含NetApp HCI 已解決且已知的問題、包括有關功能、元件軟體及其他產品的問題。您可以使用關鍵字或版本瀏覽這些問題、網址為 https://mysupport.netapp.com/site/products/all/details/netapp-hci/bugsonline-tab["NetApp線上錯誤"^]。
+
+
+
+== Element軟體12.5%
+
+Element 12.5引進改良的儲存節點存取功能、增強的自訂保護網域管理功能、全新改良的叢集故障與事件、增強的叢集UI功能、增強的安全性、以及使用Ansible的自動化升級。
+
+
+
+=== 改善儲存節點存取
+
+Element 12.5使用簽署的SSH憑證、改善個別節點的遠端存取。為了提供對儲存節點的安全遠端存取、在儲存節點的RTFI期間、現在會建立一個名為「sfreadonly」的有限權限本機使用者帳戶。「sfreadonly」帳戶可存取儲存節點後端、以進行基本維護或疑難排解。您現在可以為叢集管理員使用者設定「最大管理」存取類型、以便NetApp支援視需要存取叢集。
+
+
+
+=== 增強的自訂保護網域管理功能
+
+Element 12.5具備新的使用者介面、可讓您快速輕鬆地檢視現有的自訂保護網域、並設定新的自訂保護網域。
+
+
+
+=== 新增及改善的叢集故障、事件和警示
+
+Element 12.5採用新的叢集故障代碼「BmcselfTestFailed」和「CpuThermalEventThreshold」、可增強系統疑難排解的能力。元素12.5也包含現有叢集事件和警示的健全性改善、例如「節點離線」、「Volume離線」、「driveHealthFault」、「網路事件」、 和「cSumEvent」。
+
+
+
+=== 從Create Cluster UI啟用靜止軟體加密
+
+在建立叢集UI中新增核取方塊後、元素12.5可讓您在SolidFire 建立叢集期間、針對整個叢集的All Flash儲存叢集啟用全叢集軟體加密功能。
+
+
+
+=== 儲存節點韌體更新
+
+Element 12.5包含儲存節點的韌體更新。 link:https://docs.netapp.com/us-en/element-software/concepts/concept_rn_relatedrn_element.html#storage-firmware["深入瞭解"^]。
+
+
+
+=== 增強安全性
+
+元素12.5包含的緩和措施可關閉元素軟體曝險於Apache log4j弱點。啟用虛擬Volume（VVols）功能的NetApp SolidFire 支援區儲存叢集、會暴露於Apache log4j弱點。如需NetApp Element 有關解決方案的資訊、請參閱 link:++https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/Element_Software_-_Apache_Log4j_Vulnerability_-_Workaround++["知識庫文章"^]。
+
+如果您執行的是Element 11.x、12.0或12.2、或是儲存叢集已在元素123或12.3.1、且已啟用VVols功能、則強烈建議升級至12.5。
+
+元素12.5也包含120多項可修復的CVE安全性弱點。
+
+
+
+== 使用Ansible自動升級
+
+透過Element 12.5、您可以使用Ansible來執行整個儲存叢集的循環升級、以自動化元件軟體升級工作流程。若要開始使用、請瀏覽至 https://github.com/NetApp-Automation["NetApp Ansible儲存庫"^] 在GitHub下載「na_solidfire_SDS升級」角色與文件。
 
 [discrete]
 == 如需詳細資訊、請參閱

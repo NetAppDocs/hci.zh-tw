@@ -83,6 +83,8 @@ sidebar:
       url: "/docs/hci_prereqs_protection_domains.html"
     - title: 兩節點儲存叢集的見證節點資源需求
       url: "/docs/hci_prereqs_witness_nodes.html"
+    - title: 部署組態限制
+      url: "/docs/hci_prereqs_deployment_configuration_restriction.html"
   - title: 立即開始NetApp HCI 使用
     entries:
     - title: 安裝與部署概述NetApp HCI
@@ -261,7 +263,7 @@ sidebar:
       url: "/docs/task_hcc_activeiq.html"
     - title: 收集記錄以進行疑難排解
       url: "/docs/task_hcc_collectlogs.html"
-  - title: 升級NetApp HCI 您的1.9或1.9P1版
+  - title: 升級NetApp HCI 您的版次升級1.10版
     entries:
     - title: 升級順序總覽
       url: "/docs/concept_hci_upgrade_overview.html"
@@ -269,8 +271,6 @@ sidebar:
       entries:
       - title: 更新管理服務
         url: "/docs/task_hcc_update_management_services.html"
-      - title: 升級至最新的HealthTools
-        url: "/docs/task_upgrade_element_latest_healthtools.html"
       - title: 升級儲存設備之前、請先執行Element儲存設備健全狀況檢查
         url: "/docs/task_hcc_upgrade_element_prechecks.html"
       - title: 升級Element軟體

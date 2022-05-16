@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: docs/hci_prereqs_deployment_configuration_restriction.html 
+summary: 深入瞭解部署組態限制。 
+keywords: netapp, hci, deployment, restriction, configuration, nde, compute, node, storage 
+---
+= 部署組態限制
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+:keywords: netapp, hci, element, Witness Node
+
+
+[role="lead"]
+根據VMware vSphere版本、運算節點類型和儲存節點數量、NetApp部署引擎中的某些組態會受到限制。受限組態適用於配備H610C或H615C運算節點及兩或三個儲存節點的VMware vSphere 7.0。如果您要繼續進行受限組態、則必須選取不同的vSphere版本（例如vSphere 6.7）、或在組態中至少有四個儲存節點、以防止部署見證節點。
+
+如果您 link:task_nde_select_inventory.html["從「* Inventory *」頁面選取受限組態"] 在部署期間、會出現錯誤訊息、並顯示替代的有效組態選項。
+
+[discrete]
+== 如需詳細資訊、請參閱
+
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["「資源」頁面NetApp HCI"^]
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]
+
