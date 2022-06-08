@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: docs/rn_compute_firmware_2.154.1.html 
+summary: 取得可下載並套用NetApp HCI 至各個節點之韌體套件版本資訊的連結。 
+keywords: netapp, hci, compute firmware 
+---
+= 運算韌體套裝組合2.154.1版本說明
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+:keywords: hci, release notes, vcp, element, management services, firmware
+
+
+[role="lead"]
+可下載的運算節點韌體套件包含最新的BIOS和BMC功能增強功能、錯誤修正、以及所有支援NetApp HCI 的各個不支援的運算節點的硬體支援。
+
+
+NOTE: NetApp混合雲控制需要最新的管理服務組合。您必須先升級至最新的管理服務套裝組合、才能將運算節點上的韌體升級至2.154.1版。如果您要將運算節點上的韌體升級至2.154.1版、則需要管理服務2.2才能繼續。
+
+
+
+== 新增功能
+
+2.154.1版包含一般錯誤修正。
+
+
+
+=== 更新韌體元件
+
+此韌體套件包含下列硬體元件韌體版本、更新版本以粗體顯示：
+
+|===
+| 元件 | H300E、H500E、H700E | H410C | H610C | H615C 
+
+
+| BIOS | NAT3.4 | NATP3.10. | 3B07 | B12.CO 
+
+
+| BMC | 6.98.00 | 6.71.20 | 4.04.07 | 4.72.07 
+
+
+| NIC / Mellanox | * 14.29.1016* | * 14.29.1016* | * 14.29.1016* | * 14.29.1016* 
+|===
+
+
+=== Mellanox NIC韌體驅動程式相容性
+
+更新的Mellanox韌體14.29.1016版需要VMware ESXi驅動程式的最低版本、如下所示：
+
+* * ESXi 7.0*：4.21.71.1版
+* * ESXi 6.7*：4.17.71.1版
+* * ESXi 6.5*：4.16.71.1版
+
+
+
+NOTE: 在升級至2.154.1版之前、請務必檢查目前的ESXi驅動程式版本。如果驅動程式已過期、請先升級驅動程式。然後將運算節點的運算韌體升級至2.154.1版。請造訪 link:task_hcc_upgrade_compute_node_drivers.html["更新運算節點驅動程式"^] 如需更新運算節點驅動程式的說明、請參閱內含ESXi驅動程式的說明。
+
+當您手動安裝或升級主機作業系統時、NetApp無法控制這些作業系統的驅動程式和韌體。
+
+
+
+== 下載Compute韌體產品組合2.154.1
+
+若要下載運算韌體產品組合：
+
+. 前往 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["本網頁提供以下功能NetApp HCI"^]。
+. 從下拉式清單中選擇*運算韌體套裝組合*。
+. 按一下「 * 執行 * 」。
+
+
+請造訪 link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui["更新運算節點韌體"^] 以取得更新運算節點韌體的指示。
+
+
+
+== 已解決且已知的問題
+
+請參閱 https://mysupport.netapp.com/site/bugs-online/product["錯誤線上工具"^] 以瞭解已解決的問題及任何新問題的詳細資訊。
+
+
+
+=== 存取BO接觸 工具
+
+. 瀏覽至  https://mysupport.netapp.com/site/bugs-online/product["Bol工具"^] 並從下拉式清單中選取* Element Software*：
++
+image::bol_dashboard.png[儲存韌體套裝軟體版本注意事項]
+
+. 在關鍵字搜尋欄位中、輸入「Compute韌體產品組合」、然後按一下* New Search*：
++
+image::compute_firmware_bundle_choice.png[儲存韌體套裝軟體版本注意事項]
+
+. 畫面會顯示已解決或開啟的錯誤清單。您可以進一步精簡結果、如下所示：
++
+image::bol_list_bugs_found.png[儲存韌體套裝軟體版本注意事項]
+
+
+
+[discrete]
+== 如需詳細資訊、請參閱
+
+* https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["韌體與驅動程式版本、以NetApp HCI 更新版本為目標NetApp Element"^]
+

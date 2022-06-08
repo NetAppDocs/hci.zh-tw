@@ -43,9 +43,11 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877210["《軟件12.2.1發行說明》NetApp Element"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2873789["Software 12.2版本資訊NetApp Element"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877208["《軟件12.0.1版發行說明》NetApp Element"^]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2865022["Software 12.0版本說明NetApp Element"]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2865022["Software 12.0版本說明NetApp Element"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2880259["《軟件11.8.2發行說明》NetApp Element"^] _新_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2877206["《軟件11.8.1發行說明》NetApp Element"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2864256["《軟件11.8發行說明》NetApp Element"^]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2861225["《軟件11.7發行說明》NetApp Element"]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2861225["《軟件11.7發行說明》NetApp Element"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2863854["《軟件11.5.1發行說明》NetApp Element"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2859857["《軟件11.3P1發行說明》NetApp Element"^]
 
@@ -74,7 +76,8 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 
 == 運算韌體
 
-* link:rn_compute_firmware_2.146.html["運算韌體套裝組合2.146版本說明"] _新_
+* link:rn_compute_firmware_2.154.1.html["運算韌體套裝組合2.154.1版本說明"] _新_
+* link:rn_compute_firmware_2.146.html["運算韌體套裝組合2.146版本說明"]
 * link:rn_compute_firmware_2.76.html["運算韌體套裝組合2.76版本說明"]
 * link:rn_compute_firmware_2.27.html["運算韌體套裝組合2.27版本說明"]
 * link:rn_firmware_12.2.109.html["運算韌體產品組合12.2.109版本說明"]
@@ -84,7 +87,8 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 
 == 儲存韌體
 
-* link:rn_storage_firmware_2.146.html["儲存韌體產品組合2.146版本說明"] _新_
+* link:rn_storage_firmware_2.150.html["儲存韌體產品組合2.150版本說明"] _新_
+* link:rn_storage_firmware_2.146.html["儲存韌體產品組合2.146版本說明"]
 * link:rn_storage_firmware_2.99.2.html["儲存韌體產品組合2.99.2版本說明"]
 * link:rn_storage_firmware_2.76.html["儲存韌體產品組合2.76版本說明"]
 * link:rn_storage_firmware_2.27.html["儲存韌體產品組合2.27版本說明"]

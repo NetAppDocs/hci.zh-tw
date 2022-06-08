@@ -1065,11 +1065,9 @@
   <block id="3aa4b17575032362b7124d4aeb9c09f1" category="inline-link">《軟件12.0.1版發行說明》NetApp Element</block>
   <block id="49cbef4a1c4e82dba59d5c67759bce8e" category="list-text"><block ref="49cbef4a1c4e82dba59d5c67759bce8e" category="inline-link-rx"></block></block>
   <block id="1cace3c036a290ab8ee91dddebd361d0" category="inline-link">Software 12.0版本說明NetApp Element</block>
-  <block id="4530ac947ab244332016237ecd5be386" category="list-text"><block ref="4530ac947ab244332016237ecd5be386" category="inline-link-rx"></block></block>
   <block id="c238b8c4c43e1a2c0a7fa4b0128df200" category="inline-link">《軟件11.8發行說明》NetApp Element</block>
   <block id="cd4b0abd6f1976f7d6b641eb6432cebc" category="list-text"><block ref="cd4b0abd6f1976f7d6b641eb6432cebc" category="inline-link-rx"></block></block>
   <block id="de0f0c49b842adda3c5183c2ee2304e8" category="inline-link">《軟件11.7發行說明》NetApp Element</block>
-  <block id="c16491ff91ceba0f9e002a099673aaaa" category="list-text"><block ref="c16491ff91ceba0f9e002a099673aaaa" category="inline-link-rx"></block></block>
   <block id="a287e6799739729404ccb132fbbb1739" category="inline-link">《軟件11.5.1發行說明》NetApp Element</block>
   <block id="84f9569ec486aa9adfb1b73d2a0e3c9f" category="list-text"><block ref="84f9569ec486aa9adfb1b73d2a0e3c9f" category="inline-link-rx"></block></block>
   <block id="87043baf81d739284bd0146e19728ce7" category="inline-link">《軟件11.3P1發行說明》NetApp Element</block>
@@ -2001,18 +1999,6 @@
   <block id="f71a4c12dcb50499d5053c0b98873237" category="list-text"><block ref="f71a4c12dcb50499d5053c0b98873237" category="inline-link-macro-rx"></block></block>
   <block id="9fb45d65282cc3f96e819596e5e394dd" category="inline-link-macro">管理服務注意事項2.18.91（VCP 4.7.10）</block>
   <block id="f69014f6080d5a2f562899c09650901c" category="list-text"><block ref="f69014f6080d5a2f562899c09650901c" category="inline-link-macro-rx"></block></block>
-  <block id="4dc58eed88195e2dee9ef97cb0900fcc" category="inline-link-macro">管理服務注意事項2.17.56（VCP 4.6.32）</block>
-  <block id="1989e0779940cbcf0c65f9cf43d47818" category="list-text"><block ref="1989e0779940cbcf0c65f9cf43d47818" category="inline-link-macro-rx"></block></block>
-  <block id="2916cda094e8e99dde87d679e5faf4af" category="inline-link-macro">管理服務注意事項2.17.52（VCP 4.6.29）</block>
-  <block id="617dfeaa943c584c80f6893ede302f73" category="list-text"><block ref="617dfeaa943c584c80f6893ede302f73" category="inline-link-macro-rx"></block></block>
-  <block id="3e7b640ad20b44c0dc8fac94c0950302" category="inline-link-macro">管理服務2.16注意事項（VCP 4.6.29）</block>
-  <block id="5209993fc11774e9d9b0846e8aa63841" category="list-text"><block ref="5209993fc11774e9d9b0846e8aa63841" category="inline-link-macro-rx"></block></block>
-  <block id="d4771ef289c9be15770d7434653c2259" category="inline-link-macro">管理服務2.14注意事項（VCP 4.5.42）</block>
-  <block id="366d8e5be621e86d29d0b195a08e2f61" category="list-text"><block ref="366d8e5be621e86d29d0b195a08e2f61" category="inline-link-macro-rx"></block></block>
-  <block id="8905ab1c0ad30471bfb792d567577041" category="inline-link-macro">管理服務注意事項2.13（VCP 4.5.42）</block>
-  <block id="fd999dd89e89cb1746ef798211092cf3" category="list-text"><block ref="fd999dd89e89cb1746ef798211092cf3" category="inline-link-macro-rx"></block></block>
-  <block id="d3fd8f720b6d6e4fea8273c72a7bbcc7" category="inline-link-macro">管理服務2.11注意事項（VCP 4.4.72）</block>
-  <block id="f050f7b6ab1083e601d67bc20dda05f3" category="list-text"><block ref="f050f7b6ab1083e601d67bc20dda05f3" category="inline-link-macro-rx"></block></block>
   <block id="fb0dc3afb0cd76839a33bce88aca90ab" category="summary">瞭解如何設定Rancher VM的反關聯規則、以協助主機恢復能力。</block>
   <block id="7cbd1eff19cdbaa29c89553dc167314d" category="doc">改善Rancher VM恢復能力</block>
   <block id="1816422ae322aac270c22277d2d73314" category="paragraph">在NetApp HCI 將Rancher部署至VMware vSphere環境之後、您的vSphere環境將包含三個新節點作為虛擬機器、以裝載Rancher環境。Rancher Web UI可從每個節點取得。為了提供完整恢復能力、三個虛擬機器中的每一個都應在發生電源循環和容錯移轉等事件之後、以及對應的虛擬磁碟駐留在不同的實體主機上。</block>
@@ -2752,7 +2738,6 @@
   <block id="c4676996d8b51da422f5ab619c54ae01" category="list-text">確認NetApp Element vSphere Web Client的「*捷徑*」索引標籤和側邊面板中顯示「功能不實的組態與管理」擴充點。</block>
   <block id="342171073fda0fd2cec612dc41323bdb" category="image-alt">說明成功升級或安裝後的外掛程式擴充點</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server的Element外掛程式</block>
-  <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">如果看不到vCenter外掛程式圖示、請參閱 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 外掛程式疑難排解的相關文件。</block>
   <block id="b9e50e6a339819ad9d12906b29e978ca" category="list-text">確認NetApp Element 外掛程式*的「組態*」擴充點*「關於*」索引標籤中的版本變更。</block>
   <block id="a2b39afbde860c9c0fc759f3772e2dd2" category="paragraph">您應該會看到下列版本詳細資料或較新版本的詳細資料：</block>
   <block id="4715e0cc20eb79c52c1f181ce0f6afb0" category="admonition">vCenter外掛程式包含線上說明內容。若要確保您的「說明」包含最新內容、請在升級外掛程式之後清除瀏覽器快取。</block>
@@ -5949,7 +5934,6 @@
   <block id="651784e7a6ddc6534201a6e8d1fbf248" category="paragraph">對於已註冊NetApp Element 的VMware vCenter Server更新版現有vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。</block>
   <block id="fe7edd9e3b4efc71766ba03d23b51c44" category="list-text">您正在升級至Element Plug-in for VMware vCenter Server 4.9、4.8、4.7、4.6、4.5或4.4。</block>
   <block id="8eeabd6de4a231c731b82c27ee25bbdb" category="admonition">外掛程式與VMware vCenter Server 6.5 for Element Plug-in for VMware vCenter Server 4.6、4.7和4.8不相容。</block>
-  <block id="f31daff1bed8bc4fec4119d69f3093d9" category="paragraph">使用VMware vCenter Server 6.7U1升級至VCP 4.8或更新版本之後、如果未列出儲存叢集、或NetApp Element 是在「VMware vCenter組態」的「*叢集*」和「* QoSSIOC設定*」區段中出現伺服器錯誤、請參閱 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 疑難排解這些錯誤的相關文件。</block>
   <block id="54aa7f2dcdc54ac5abd932a5b6c8b3d7" category="list-text">*升級程序時間*：您已排定足夠的時間來執行升級。升級至Element軟體12.5時、升級程序時間會因您目前的Element軟體版本和韌體更新而有所不同。</block>
   <block id="778b8320a31f425d9021c72ba59dd8bd" category="cell">儲存節點</block>
   <block id="c4303966c5d95835840cedbb4010f17d" category="cell">目前Element軟體版本</block>
@@ -6028,8 +6012,6 @@
   <block id="f8e8ebc61e5eb8b12488dfac5a827259" category="list-text"><block ref="6a881248d046a90f573e41d5ebe1362e" category="inline-link-rx"></block> _新_</block>
   <block id="9de5606ae9b23ff6651244b85bd5dae8" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block></block>
   <block id="e2b4747c263485de7011e8018c523cdd" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block> _新_</block>
-  <block id="cb6823679c925abe1a3f3ca07396e866" category="list-text"><block ref="97107deca957b5e4a6b53d3c09cc1c16" category="inline-link-macro-rx"></block> _新_</block>
-  <block id="04796d249df9edf8061eee03c29d96f4" category="list-text"><block ref="67a13cf9dcb3321b59f28def3726ce13" category="inline-link-macro-rx"></block> _新_</block>
   <block id="fe2bcf6f89f4e1eec12e45df5946ee12" category="admonition">從元件12.3.1開始、會自動執行子步驟（A）至（e）。若為管理節點12.3.1或更新版本、請繼續執行 <block ref="e7aead760c231b389589c93842d555c1" category="inline-xref-macro-rx"></block> 以完成時間同步組態。</block>
   <block id="90c2dc9b8e4f7b029c80f8c7488a4b58" category="paragraph">您可以從12.3.x版將管理節點升級至管理節點12.5</block>
   <block id="2ee9526aa61dc0808ea0ccf6ccfa2412" category="paragraph">不再需要升級管理節點作業系統、即可升級儲存叢集上的Element軟體。您只需將管理服務升級至最新版本、即可使用NetApp混合雲控制系統執行元件升級。如果您基於其他理由（例如安全性補救）而想要升級管理節點作業系統、請依照您案例的管理節點升級程序進行。</block>
@@ -6119,4 +6101,54 @@
   <block id="df8bcceb7ddee511e9494f0afd8c95a7" category="list-text">在重新開機期間、按* F11 *選取開機選項並載入運算韌體套裝組合。您可能需要按幾次F11鍵、才能顯示開機功能表。</block>
   <block id="b56a80b47ffbf4eda21aa52a14a1c0d9" category="paragraph">這些步驟會因節點是獨立式或是叢集的一部分而有所不同。此程序大約需要25分鐘、包括關閉節點電源、上傳運算韌體套件、更新裝置、以及在升級後重新開啟節點電源。</block>
   <block id="94accfc9ce60fbdbc6b912533ff89998" category="list-text">在重新開機期間、按* F11 *選取開機選項並載入運算韌體套裝組合。</block>
+  <block id="4489a95481ba0e8e951ca2cdc4403b89" category="list-text"><block ref="4489a95481ba0e8e951ca2cdc4403b89" category="inline-link-rx"></block></block>
+  <block id="b7fe022e3d13a1a7248fb1583851f437" category="inline-link">《軟件11.8.2發行說明》NetApp Element</block>
+  <block id="96a6137975cbcfe6dbff95b85cf1b6bf" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block> _新_</block>
+  <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">《軟件11.8.1發行說明》NetApp Element</block>
+  <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
+  <block id="7941eda6d75aeac7fd5d3f88cb08cb39" category="list-text"><block ref="7941eda6d75aeac7fd5d3f88cb08cb39" category="inline-link-rx"></block></block>
+  <block id="e7c54ed43221b67b988af5312c783bb4" category="inline-link-macro">運算韌體套裝組合2.154.1版本說明</block>
+  <block id="1ede45b15f29951945dbf9a93aff5d13" category="list-text"><block ref="da7af753dc484a3dd141f979cd511421" category="inline-link-macro-rx"></block> _新_</block>
+  <block id="97107deca957b5e4a6b53d3c09cc1c16" category="list-text"><block ref="97107deca957b5e4a6b53d3c09cc1c16" category="inline-link-macro-rx"></block></block>
+  <block id="f73f11dc118d0773193fe38ff975e133" category="inline-link-macro">儲存韌體產品組合2.150版本說明</block>
+  <block id="9b85276bde33152eca1f76222abdb811" category="list-text"><block ref="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="inline-link-macro-rx"></block> _新_</block>
+  <block id="67a13cf9dcb3321b59f28def3726ce13" category="list-text"><block ref="67a13cf9dcb3321b59f28def3726ce13" category="inline-link-macro-rx"></block></block>
+  <block id="7ab1151c4498ab191b7470333595b532" category="admonition">如果看不到vCenter外掛程式圖示、請參閱 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 外掛程式疑難排解的相關文件。使用VMware vCenter Server 6.7U1升級至VCP 4.8或更新版本之後、如果未列出儲存叢集、或NetApp Element 是在「VMware vCenter組態」的「*叢集*」和「* QoSSIOC設定*」區段中出現伺服器錯誤、請參閱 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 疑難排解這些錯誤的相關文件。</block>
+  <block id="2ce86d9c954f97c282bf8eed5bf20807" category="paragraph">儲存韌體套裝軟體2.150版包含重大錯誤修正。您可以依照中的指示升級儲存韌體 <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
+  <block id="3e94ced9564aa4fd2c0b54fde5c1108f" category="paragraph">此韌體套件包含下列硬體元件的韌體版本：</block>
+  <block id="9671fe0cd1cee15ffc6e623894e0c90c" category="cell">3B11.</block>
+  <block id="d7d76e22f94a7f97f91de8b48bb8e450" category="cell">3.94.07</block>
+  <block id="bca66716b9ca2d13a4c28be69b276777" category="cell">3.3</block>
+  <block id="0150391f6be250d4938acbe27c8a6334" category="cell">EDA5602Q</block>
+  <block id="d2a3d6fbce3a3051dfc130e0011c1e3f" category="cell">EDA5900Q</block>
+  <block id="fd6f31936af2e04f06eeb0526b85d107" category="cell">PM9A3、SED</block>
+  <block id="f9eaf28d7f6afbf4436dc40e7bcd160d" category="cell">GDC5502Q</block>
+  <block id="4919b2e69242d2c21c7f28f1ba86db29" category="cell">PE8010、SED</block>
+  <block id="37ac0290be70b74cc8f652c94b244484" category="cell">11092A10</block>
+  <block id="8e70a489b4770b5e0761a6fc215c6fec" category="cell">PE8010、N-SED</block>
+  <block id="223b1fa9e807b6e3241516bda5bf6d35" category="cell">110B2A10</block>
+  <block id="1ad071257f715e496a87659f9a2669a6" category="cell">NAT3.4</block>
+  <block id="ddfac71abd839b54517b13500ce7ecbf" category="cell">6.98.00</block>
+  <block id="8a80462f5d95f3e749a944e16740bc37" category="cell">HXT7A04Q</block>
+  <block id="a3f866670127939ba6ddb0e8c20fa97e" category="admonition">儲存韌體套裝組合2.146之後、沒有任何有效負載更新。</block>
+  <block id="c04379119f71302691848047a912bf77" category="paragraph">可下載的運算節點韌體套件包含最新的BIOS和BMC功能增強功能、錯誤修正、以及所有支援NetApp HCI 的各個不支援的運算節點的硬體支援。</block>
+  <block id="378aaff6867e23f7925def4480926513" category="admonition">NetApp混合雲控制需要最新的管理服務組合。您必須先升級至最新的管理服務套裝組合、才能將運算節點上的韌體升級至2.154.1版。如果您要將運算節點上的韌體升級至2.154.1版、則需要管理服務2.2才能繼續。</block>
+  <block id="5746efe5d0d96d6572f432c534c7beca" category="paragraph">2.154.1版包含一般錯誤修正。</block>
+  <block id="bdbab1d48a4851cccf015292b45adbf8" category="cell">NATP3.10.</block>
+  <block id="4ec7d13445d466c69ee100663627dc2c" category="cell">3B07</block>
+  <block id="ebe24792adc96d87b6e6b9654b5d7528" category="cell">B12.CO</block>
+  <block id="06256e5582720eda745869273808e24a" category="cell">4.04.07</block>
+  <block id="b37301451c2b79b500bfd38628f1abeb" category="cell">4.72.07</block>
+  <block id="f7c4262c3c6a1e993d139e2fe33eef0e" category="cell">* 14.29.1016*</block>
+  <block id="8305ff7d6a08337f4cea8d86d8b1f7f4" category="paragraph">更新的Mellanox韌體14.29.1016版需要VMware ESXi驅動程式的最低版本、如下所示：</block>
+  <block id="ae543af4a45ea963a2ebf8c216e994ee" category="list-text">* ESXi 7.0*：4.21.71.1版</block>
+  <block id="49a3c987bd11c2c62328caa9569895b0" category="list-text">* ESXi 6.7*：4.17.71.1版</block>
+  <block id="e3c8775ae388ad911a24c3ded5ffd470" category="list-text">* ESXi 6.5*：4.16.71.1版</block>
+  <block id="417a2d61c56d02cbdeab31e1cdfcde74" category="admonition">在升級至2.154.1版之前、請務必檢查目前的ESXi驅動程式版本。如果驅動程式已過期、請先升級驅動程式。然後將運算節點的運算韌體升級至2.154.1版。請造訪 <block ref="325436a4e666ed53574c87eb30870a4b" category="inline-link-macro-rx"></block> 如需更新運算節點驅動程式的說明、請參閱內含ESXi驅動程式的說明。</block>
+  <block id="9a6c5a1f43def2114175181a7990cd49" category="paragraph">當您手動安裝或升級主機作業系統時、NetApp無法控制這些作業系統的驅動程式和韌體。</block>
+  <block id="e678afceed55b1dcc8ebe2ece545090a" category="section-title">下載Compute韌體產品組合2.154.1</block>
+  <block id="831b7fafcb48c5cdc3232392066936d8" category="inline-link-macro">儲存韌體產品組合2.150注意事項</block>
+  <block id="ce22f95c04c4b1b4db9fa2b54e703681" category="list-text"><block ref="ce22f95c04c4b1b4db9fa2b54e703681" category="inline-link-macro-rx"></block></block>
+  <block id="45bcc1809d993bf4834cacf8a3723536" category="inline-link-macro">運算韌體產品組合2.154.1注意事項</block>
+  <block id="85c8fe6ae514fde647235db86ba4c0a4" category="list-text"><block ref="85c8fe6ae514fde647235db86ba4c0a4" category="inline-link-macro-rx"></block></block>
 </blocks>
