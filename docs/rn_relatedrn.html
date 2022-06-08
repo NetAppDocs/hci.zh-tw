@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">繁體中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">繁體中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-tw/hci/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/hci/docs/rn_relatedrn.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/hci/docs/rn_relatedrn.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/hci/docs/rn_relatedrn.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/hci/docs/rn_relatedrn.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/hci/docs/rn_relatedrn.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-tw/hci/docs/rn_relatedrn.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/hci/docs/rn_relatedrn.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/hci/docs/rn_relatedrn.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/hci/docs/rn_relatedrn.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/hci/docs/rn_relatedrn.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -1361,7 +1353,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/index.html">
         資訊文件NetApp HCI
       </a></li><li class=" "><a class="na-navbar-padding" href="https://docs.netapp.com/us-en/hci-solutions/index.html">
@@ -1807,7 +1799,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-16 16:26:56 +0000">05/16/2022</time>
+    <time datetime="2022-06-08 19:03:19 +0000">06/08/2022</time>
     
   
 
@@ -1887,13 +1879,19 @@
 <p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2877208" target="_blank" rel="noopener">"《軟件12.0.1版發行說明》NetApp Element"</a></p>
 </li>
 <li>
-<p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2865022">"Software 12.0版本說明NetApp Element"</a></p>
+<p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2865022" target="_blank" rel="noopener">"Software 12.0版本說明NetApp Element"</a></p>
+</li>
+<li>
+<p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2880259" target="_blank" rel="noopener">"《軟件11.8.2發行說明》NetApp Element"</a> <em>新</em></p>
+</li>
+<li>
+<p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2877206" target="_blank" rel="noopener">"《軟件11.8.1發行說明》NetApp Element"</a></p>
 </li>
 <li>
 <p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2864256" target="_blank" rel="noopener">"《軟件11.8發行說明》NetApp Element"</a></p>
 </li>
 <li>
-<p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2861225">"《軟件11.7發行說明》NetApp Element"</a></p>
+<p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2861225" target="_blank" rel="noopener">"《軟件11.7發行說明》NetApp Element"</a></p>
 </li>
 <li>
 <p><a href="https://library.netapp.com/ecm/ecm_download_file/ECMLP2863854" target="_blank" rel="noopener">"《軟件11.5.1發行說明》NetApp Element"</a></p>
@@ -1953,7 +1951,10 @@
 <div class="ulist">
 <ul>
 <li>
-<p><a href="rn_compute_firmware_2.146.html">"運算韌體套裝組合2.146版本說明"</a> <em>新</em></p>
+<p><a href="rn_compute_firmware_2.154.1.html">"運算韌體套裝組合2.154.1版本說明"</a> <em>新</em></p>
+</li>
+<li>
+<p><a href="rn_compute_firmware_2.146.html">"運算韌體套裝組合2.146版本說明"</a></p>
 </li>
 <li>
 <p><a href="rn_compute_firmware_2.76.html">"運算韌體套裝組合2.76版本說明"</a></p>
@@ -1974,7 +1975,10 @@
 <div class="ulist">
 <ul>
 <li>
-<p><a href="rn_storage_firmware_2.146.html">"儲存韌體產品組合2.146版本說明"</a> <em>新</em></p>
+<p><a href="rn_storage_firmware_2.150.html">"儲存韌體產品組合2.150版本說明"</a> <em>新</em></p>
+</li>
+<li>
+<p><a href="rn_storage_firmware_2.146.html">"儲存韌體產品組合2.146版本說明"</a></p>
 </li>
 <li>
 <p><a href="rn_storage_firmware_2.99.2.html">"儲存韌體產品組合2.99.2版本說明"</a></p>
@@ -2138,4 +2142,5 @@
     </script>
     <script src='/zh-tw/hci/js/www-ntap.js'></script>
     <script src='/zh-tw/hci/js/tabbed-blocks.js'></script>
+    <script src='/zh-tw/hci/js/sidebar.js'></script>
   </body></html>

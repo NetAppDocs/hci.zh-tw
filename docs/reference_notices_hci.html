@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">繁體中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">繁體中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-tw/hci/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/hci/docs/reference_notices_hci.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/hci/docs/reference_notices_hci.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/hci/docs/reference_notices_hci.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/hci/docs/reference_notices_hci.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/hci/docs/reference_notices_hci.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-tw/hci/docs/reference_notices_hci.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/hci/docs/reference_notices_hci.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/hci/docs/reference_notices_hci.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/hci/docs/reference_notices_hci.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/hci/docs/reference_notices_hci.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -1361,7 +1353,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-tw/hci/index.html">
         資訊文件NetApp HCI
       </a></li><li class=" "><a class="na-navbar-padding" href="https://docs.netapp.com/us-en/hci-solutions/index.html">
@@ -1807,7 +1799,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-16 16:26:56 +0000">05/16/2022</time>
+    <time datetime="2022-06-08 19:03:19 +0000">06/08/2022</time>
     
   
 
@@ -1883,6 +1875,12 @@
 <p><a href="../media/ansible-products-notice.pdf" target="_blank" rel="noopener">"運算升級的Ansible角色注意事項"</a></p>
 </li>
 <li>
+<p><a href="../media/storage_firmware_bundle_2.150_notices.pdf" target="_blank" rel="noopener">"儲存韌體產品組合2.150注意事項"</a></p>
+</li>
+<li>
+<p><a href="../media/compute_firmware_bundle_2.154.1_notices.pdf" target="_blank" rel="noopener">"運算韌體產品組合2.154.1注意事項"</a></p>
+</li>
+<li>
 <p><a href="../media/storage_firmware_bundle_2.146_notices.pdf" target="_blank" rel="noopener">"儲存韌體產品組合2.146注意事項"</a></p>
 </li>
 <li>
@@ -1917,24 +1915,6 @@
 </li>
 <li>
 <p><a href="../media/2.18_notice.pdf" target="_blank" rel="noopener">"管理服務注意事項2.18.91（VCP 4.7.10）"</a></p>
-</li>
-<li>
-<p><a href="../media/2.17.56_notice.pdf" target="_blank" rel="noopener">"管理服務注意事項2.17.56（VCP 4.6.32）"</a></p>
-</li>
-<li>
-<p><a href="../media/2.17_notice.pdf" target="_blank" rel="noopener">"管理服務注意事項2.17.52（VCP 4.6.29）"</a></p>
-</li>
-<li>
-<p><a href="../media/2.16_notice.pdf" target="_blank" rel="noopener">"管理服務2.16注意事項（VCP 4.6.29）"</a></p>
-</li>
-<li>
-<p><a href="../media/mgmt_svcs_2.14_notice.pdf" target="_blank" rel="noopener">"管理服務2.14注意事項（VCP 4.5.42）"</a></p>
-</li>
-<li>
-<p><a href="../media/2.13_notice.pdf" target="_blank" rel="noopener">"管理服務注意事項2.13（VCP 4.5.42）"</a></p>
-</li>
-<li>
-<p><a href="../media/mgmt_svcs2.11_notice.pdf" target="_blank" rel="noopener">"管理服務2.11注意事項（VCP 4.4.72）"</a></p>
 </li>
 </ul>
 </div>
@@ -2086,4 +2066,5 @@
     </script>
     <script src='/zh-tw/hci/js/www-ntap.js'></script>
     <script src='/zh-tw/hci/js/tabbed-blocks.js'></script>
+    <script src='/zh-tw/hci/js/sidebar.js'></script>
   </body></html>
