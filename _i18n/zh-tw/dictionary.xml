@@ -1991,8 +1991,6 @@
   <block id="fc252c43c5ce275603b4d02a0185de6e" category="list-text"><block ref="fc252c43c5ce275603b4d02a0185de6e" category="inline-link-macro-rx"></block></block>
   <block id="30624e21224d847e1b829641269ffe3c" category="inline-link-macro">儲存韌體產品組合2.27注意事項</block>
   <block id="628635daa878466322430a063a3be8a2" category="list-text"><block ref="628635daa878466322430a063a3be8a2" category="inline-link-macro-rx"></block></block>
-  <block id="4ecde2684e69acd5d2c24072d2d87431" category="inline-link-macro">運算韌體ISO注意事項</block>
-  <block id="d20a53f0f6934177e690e38a85903142" category="list-text"><block ref="d20a53f0f6934177e690e38a85903142" category="inline-link-macro-rx"></block></block>
   <block id="a04e943dbcdb750d041999712b0c3468" category="inline-link-macro">H610S BMC注意事項</block>
   <block id="c0897cc71834939a3e05ac01145a60a3" category="list-text"><block ref="c0897cc71834939a3e05ac01145a60a3" category="inline-link-macro-rx"></block></block>
   <block id="8b1a6c95fed8363998ed5d7eae965f1a" category="inline-link-macro">管理服務注意事項2.19.48（VCP 4.8.34）</block>
@@ -6108,13 +6106,11 @@
   <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
   <block id="7941eda6d75aeac7fd5d3f88cb08cb39" category="list-text"><block ref="7941eda6d75aeac7fd5d3f88cb08cb39" category="inline-link-rx"></block></block>
   <block id="e7c54ed43221b67b988af5312c783bb4" category="inline-link-macro">運算韌體套裝組合2.154.1版本說明</block>
-  <block id="1ede45b15f29951945dbf9a93aff5d13" category="list-text"><block ref="da7af753dc484a3dd141f979cd511421" category="inline-link-macro-rx"></block> _新_</block>
   <block id="97107deca957b5e4a6b53d3c09cc1c16" category="list-text"><block ref="97107deca957b5e4a6b53d3c09cc1c16" category="inline-link-macro-rx"></block></block>
   <block id="f73f11dc118d0773193fe38ff975e133" category="inline-link-macro">儲存韌體產品組合2.150版本說明</block>
   <block id="9b85276bde33152eca1f76222abdb811" category="list-text"><block ref="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="inline-link-macro-rx"></block> _新_</block>
   <block id="67a13cf9dcb3321b59f28def3726ce13" category="list-text"><block ref="67a13cf9dcb3321b59f28def3726ce13" category="inline-link-macro-rx"></block></block>
   <block id="7ab1151c4498ab191b7470333595b532" category="admonition">如果看不到vCenter外掛程式圖示、請參閱 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 外掛程式疑難排解的相關文件。使用VMware vCenter Server 6.7U1升級至VCP 4.8或更新版本之後、如果未列出儲存叢集、或NetApp Element 是在「VMware vCenter組態」的「*叢集*」和「* QoSSIOC設定*」區段中出現伺服器錯誤、請參閱 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 疑難排解這些錯誤的相關文件。</block>
-  <block id="2ce86d9c954f97c282bf8eed5bf20807" category="paragraph">儲存韌體套裝軟體2.150版包含重大錯誤修正。您可以依照中的指示升級儲存韌體 <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
   <block id="3e94ced9564aa4fd2c0b54fde5c1108f" category="paragraph">此韌體套件包含下列硬體元件的韌體版本：</block>
   <block id="9671fe0cd1cee15ffc6e623894e0c90c" category="cell">3B11.</block>
   <block id="d7d76e22f94a7f97f91de8b48bb8e450" category="cell">3.94.07</block>
@@ -6149,6 +6145,15 @@
   <block id="e678afceed55b1dcc8ebe2ece545090a" category="section-title">下載Compute韌體產品組合2.154.1</block>
   <block id="831b7fafcb48c5cdc3232392066936d8" category="inline-link-macro">儲存韌體產品組合2.150注意事項</block>
   <block id="ce22f95c04c4b1b4db9fa2b54e703681" category="list-text"><block ref="ce22f95c04c4b1b4db9fa2b54e703681" category="inline-link-macro-rx"></block></block>
-  <block id="45bcc1809d993bf4834cacf8a3723536" category="inline-link-macro">運算韌體產品組合2.154.1注意事項</block>
-  <block id="85c8fe6ae514fde647235db86ba4c0a4" category="list-text"><block ref="85c8fe6ae514fde647235db86ba4c0a4" category="inline-link-macro-rx"></block></block>
+  <block id="c6b05958d5d84e06da847e5e05b865f8" category="inline-link-macro">運算韌體套裝組合2.154.4版本說明</block>
+  <block id="4249bb54f0106bb7ec8845d90f3f6dc3" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block> _新_</block>
+  <block id="a4f57cecae9cc51dbe0e706f0c125ec9" category="paragraph">儲存韌體套裝軟體2.150版包含H410S（PE-14168）的重大錯誤修正。請參閱<block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block> 以取得更多詳細資料。您可以依照中的指示升級儲存韌體 <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
+  <block id="04435ca341320fdf8ae3f7ed2b34efab" category="admonition">NetApp混合雲控制需要最新的管理服務組合。您必須先升級至最新的管理服務套裝組合、才能將運算節點上的韌體升級至2.154.4版。如果您要將運算節點上的韌體升級至2.154.4版、則需要管理服務2.2才能繼續。</block>
+  <block id="1c1dee2a250a78c000e763a2c9f3c413" category="paragraph">2.154.4版包含一般錯誤修正。</block>
+  <block id="7a8c3a3ea58590f9691275c93e28e645" category="admonition">在升級至2.154.4版之前、請務必檢查目前的ESXi驅動程式版本。如果驅動程式已過期、請先升級驅動程式。然後將運算節點的運算韌體升級至2.154.4版。請造訪 <block ref="325436a4e666ed53574c87eb30870a4b" category="inline-link-macro-rx"></block> 如需更新運算節點驅動程式的說明、請參閱內含ESXi驅動程式的說明。</block>
+  <block id="d6f24a7c552da781cf54bcf584415bba" category="section-title">下載Compute韌體產品組合2.154.4</block>
+  <block id="5eb0bcdf6eff7a408414590c81d98183" category="inline-link-macro">運算韌體產品組合2.154.4注意事項</block>
+  <block id="007f90b7875049f66b3609b089201095" category="list-text"><block ref="007f90b7875049f66b3609b089201095" category="inline-link-macro-rx"></block></block>
+  <block id="24ebb39da100996506dfec70b3c18c3e" category="inline-link-macro">運算韌體ISO注意事項</block>
+  <block id="0a3fa8cc98ca1fccda9e33f500cd1a33" category="list-text"><block ref="0a3fa8cc98ca1fccda9e33f500cd1a33" category="inline-link-macro-rx"></block></block>
 </blocks>

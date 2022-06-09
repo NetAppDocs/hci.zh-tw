@@ -21,7 +21,7 @@ keywords: netapp, hci, storage firmware
 
 == 新增功能
 
-儲存韌體套裝軟體2.150版包含重大錯誤修正。您可以依照中的指示升級儲存韌體 link:task_hcc_upgrade_storage_firmware.html["升級儲存韌體"]。
+儲存韌體套裝軟體2.150版包含H410S（PE-14168）的重大錯誤修正。請參閱 https://mysupport.netapp.com/site/bugs-online/product["錯誤線上工具"^] 以取得更多詳細資料。您可以依照中的指示升級儲存韌體 link:task_hcc_upgrade_storage_firmware.html["升級儲存韌體"]。
 
 
 

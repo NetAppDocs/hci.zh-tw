@@ -76,7 +76,7 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 
 == 運算韌體
 
-* link:rn_compute_firmware_2.154.1.html["運算韌體套裝組合2.154.1版本說明"] _新_
+* link:rn_compute_firmware_2.154.4.html["運算韌體套裝組合2.154.4版本說明"] _新_
 * link:rn_compute_firmware_2.146.html["運算韌體套裝組合2.146版本說明"]
 * link:rn_compute_firmware_2.76.html["運算韌體套裝組合2.76版本說明"]
 * link:rn_compute_firmware_2.27.html["運算韌體套裝組合2.27版本說明"]
