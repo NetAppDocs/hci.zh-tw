@@ -5,7 +5,12 @@ summary: 您可以使用REST API UI將運算和控制器資產新增至管理節
 keywords: netapp, hci, mnode, api, management node, add proxy, proxy server 
 ---
 = 設定Proxy伺服器
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]

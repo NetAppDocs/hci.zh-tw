@@ -56,7 +56,7 @@ NOTE: NetApp混合雲控制需要最新的管理服務組合。您必須先升�
 
 
 
-NOTE: 在升級至2.154.4版之前、請務必檢查目前的ESXi驅動程式版本。如果驅動程式已過期、請先升級驅動程式。然後將運算節點的運算韌體升級至2.154.4版。請造訪 link:task_hcc_upgrade_compute_node_drivers.html["更新運算節點驅動程式"^] 如需更新運算節點驅動程式的說明、請參閱內含ESXi驅動程式的說明。
+NOTE: 在升級至2.154.4版之前、請務必檢查目前的ESXi驅動程式版本。如果驅動程式已過期、請先升級驅動程式。然後將運算節點的運算韌體升級至2.154.4版。請造訪 link:task_hcc_upgrade_compute_node_drivers.html["更新運算節點驅動程式"] 如需更新運算節點驅動程式的說明、請參閱內含ESXi驅動程式的說明。
 
 當您手動安裝或升級主機作業系統時、NetApp無法控制這些作業系統的驅動程式和韌體。
 
@@ -71,7 +71,7 @@ NOTE: 在升級至2.154.4版之前、請務必檢查目前的ESXi驅動程式版
 . 按一下「 * 執行 * 」。
 
 
-請造訪 link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui["更新運算節點韌體"^] 以取得更新運算節點韌體的指示。
+請造訪 link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui["更新運算節點韌體"] 以取得更新運算節點韌體的指示。
 
 
 

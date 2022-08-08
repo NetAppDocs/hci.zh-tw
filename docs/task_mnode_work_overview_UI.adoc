@@ -5,7 +5,12 @@ summary: '使用管理節點UI (https://<mNodeIP>:442)[]、您可以變更網路
 keywords: 'netapp, management node ui, mnode ui, :442, element' 
 ---
 = 管理節點UI總覽
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]

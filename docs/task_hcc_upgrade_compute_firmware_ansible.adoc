@@ -18,7 +18,7 @@ NOTE: 雖然NetApp提供了自動化運算節點韌體升級的Ansible角色、�
 NOTE: 升級的Ansible角色僅適用於NetApp HCI 不間斷的H系列運算節點。您無法使用此角色來升級協力廠商運算節點。
 
 .您需要的是 #8217 ；需要的是什麼
-* *韌體升級的整備度和先決條件*：NetApp HCI 您的安裝必須準備好進行韌體升級、如的說明所述 link:task_hcc_upgrade_compute_node_firmware.html["執行韌體升級"^]。
+* *韌體升級的整備度和先決條件*：NetApp HCI 您的安裝必須準備好進行韌體升級、如的說明所述 link:task_hcc_upgrade_compute_node_firmware.html["執行韌體升級"]。
 * *準備在Ansible控制節點*上執行自動化：實體或虛擬伺服器、以在Ansible中執行韌體更新自動化。
 
 

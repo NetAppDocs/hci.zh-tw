@@ -47,7 +47,7 @@ NOTE: 您的網路拓撲可能與此處顯示的不同。這只是一個範例�
 請閱讀以下資源：
 
 * 安裝之前、請使用「_ NetApp HCI 靜態安裝探索工作簿_」來設定您的網路。
-* 如需詳細資料及其他支援的組態、請參閱 https://www.netapp.com/us/media/tr-4820.pdf["_TR-4820：NetApp HCI 《鏈路》快速規劃指南"] 和 https://library.netapp.com/ecm/ecm_download_file/ECMLP2856176["_《安裝與設定說明》_ NetApp HCI"]。
+* 如需詳細資料及其他支援的組態、請參閱 https://www.netapp.com/us/media/tr-4820.pdf["_TR-4820：NetApp HCI 《鏈路》快速規劃指南"^] 和 https://library.netapp.com/ecm/ecm_download_file/ECMLP2856176["_《安裝與設定說明》_ NetApp HCI"^]。
 * 如需NetApp HCI 有關小於四個儲存節點的不完整組態資訊、請參閱 https://www.netapp.com/us/media/tr-4823.pdf["_TR-4823：NetApp HCI 《SURF2-Node Storage Clust集中》"^]。
 * 如需在每個儲存節點所使用的交換器連接埠上設定連結集合控制傳輸協定（LACP）的詳細資訊、請參閱 link:hci_prereqs_LACP_configuration.html["設定LTAP以獲得最佳儲存效能"]。
 
@@ -82,7 +82,7 @@ NOTE: 在NDE程序期間、所有節點都會被指派永久IP位址、而任何
 
 若要確保NetApp HCI 網路能夠做好執行效能不整的準備、請安裝NetApp Active IQ Config Advisor 功能更新版本的NetApp此網路驗證工具位於其他 link:https://mysupport.netapp.com/site/tools/tool-eula/5ddb829ebd393e00015179b2["NetApp支援工具"^]。使用此工具來驗證連線能力、VLAN ID、IP位址需求、交換器連線能力等。
 
-如需詳細資訊、請參閱 link:hci_prereqs_task_validate_config_advisor.html["利用Active IQ Config Advisor 功能驗證您的環境"]
+如需詳細資訊、請參閱 link:hci_prereqs_task_validate_config_advisor.html["利用Active IQ Config Advisor 功能驗證您的環境"]。
 
 
 

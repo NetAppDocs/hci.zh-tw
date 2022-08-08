@@ -5,7 +5,12 @@ summary: 您可以使用REST API UI編輯vCenter管理節點控制器。
 keywords: netapp, mnode, management node, rest api, hci 
 ---
 = 檢視或編輯現有的控制器資產
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]

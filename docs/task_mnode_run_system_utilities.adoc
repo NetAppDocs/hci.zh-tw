@@ -5,7 +5,12 @@ summary: 您可以建立或刪除叢集支援套件、重設節點組態設定�
 keywords: netapp, element, management node ui, mnode ui, system utilities 
 ---
 = 從管理節點執行系統公用程式
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]

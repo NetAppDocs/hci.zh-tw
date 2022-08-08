@@ -5,7 +5,12 @@ summary: 您可以使用管理節點（mNode）來使用系統服務、管理叢
 keywords: netapp, mnode, api, rest api, mnode ui, management node ui 
 ---
 = 管理節點總覽
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]
