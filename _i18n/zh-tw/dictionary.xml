@@ -4764,7 +4764,6 @@
   <block id="75ec7e73d66c5080707b379e6eb28e91" category="inline-link-macro">更換儲存節點的磁碟機</block>
   <block id="9345b76867dd96005ed1e404ca6e256f" category="list-text"><block ref="9345b76867dd96005ed1e404ca6e256f" category="inline-link-macro-rx"></block></block>
   <block id="7f874a6debff4d8e3670b59ddfdf3bd0" category="inline-link-macro">更換雙節點叢集中的儲存節點</block>
-  <block id="605ec667ea79ce686f82eb8a5a6a3972" category="list-text"><block ref="605ec667ea79ce686f82eb8a5a6a3972" category="inline-link-macro-rx"></block></block>
   <block id="cb41a10c3ad1c89de8c68f4308811042" category="summary">瞭NetApp HCI 解關於「節點需求」的資訊。</block>
   <block id="6bc3cc5c8a1df1f098ef6e35a878f98e" category="doc">兩節點儲存叢集的見證節點資源需求</block>
   <block id="8b2deb2ee0646b01bfac86564456e1c2" category="paragraph">支援兩個儲存節點和兩個運算節點的最低安裝大小。NetApp HCI當您使用兩個或三個節點的儲存叢集安裝NetApp HCI 時、您必須注意NetApp HCI 到「見證節點」及其虛擬機器（VM）資源需求。</block>
@@ -6157,4 +6156,5 @@
   <block id="72bc06ff4e2b235a52b1bd8ed1e8201b" category="paragraph">您可以手動進行<block ref="51de2eecc77c7894734d39577009251b" category="inline-link-rx"></block> 使用NetApp Element vCenter Server的VMware vCenter外掛程式。您可以根據節點或機箱網域選取保護網域臨界值。</block>
   <block id="c887aa2abefbdf59345793bdbe530aa6" category="list-text">從機架中實際移除故障節點。這些步驟取決於您擁有的儲存節點類型。請參閱 <block ref="22268cae5c79b327558b5acefb524b62" category="inline-link-macro-rx"></block> 和 <block ref="04e6f25ecadf1d5213318ff0863162b7" category="inline-link-macro-rx"></block>。</block>
   <block id="6b488f4677081a24e52d30be5ea2fe98" category="list-text">使用NetApp混合雲控制來設定您新增的新儲存節點。請參閱 <block ref="f2feaea5d9b29c0df76acac116f3553b" category="inline-link-macro-rx"></block>。</block>
+  <block id="82b3f7ae87bb09e10a73ba2a67846c4f" category="list-text"><block ref="82b3f7ae87bb09e10a73ba2a67846c4f" category="inline-link-macro-rx"></block></block>
 </blocks>

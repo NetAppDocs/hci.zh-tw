@@ -28,7 +28,7 @@ keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance, ra
 * link:task_hci_h610srepl.html["更換H610S節點"]
 * link:task_hci_psurepl.html["更換電源供應器"]
 * link:task_hci_snswitches.html["更換SN2010、SN2100和SN2700交換器"]
-* link:task_hci_2noderepl.html["更換雙節點叢集中的儲存節點"^]
+* link:task_hci_2noderepl.html["更換雙節點叢集中的儲存節點"]
 
 
 [discrete]
