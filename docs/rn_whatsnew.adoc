@@ -54,6 +54,12 @@ vCenter Server 4.9版的《VMware vCenter Server 4.9版》可在管理節點12.5
 
 
 
+=== 支援的VMware vSphere更新版本
+
+利用VMware vSphere 1.10、可支援部署與擴充。NetApp HCI
+
+
+
 === NetApp混合雲控制增強功能
 
 NetApp混合雲控制功能已針對1.10版進行強化。 link:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["深入瞭解"^]。

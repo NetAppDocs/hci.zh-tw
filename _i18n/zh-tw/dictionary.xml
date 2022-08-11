@@ -6157,4 +6157,6 @@
   <block id="c887aa2abefbdf59345793bdbe530aa6" category="list-text">從機架中實際移除故障節點。這些步驟取決於您擁有的儲存節點類型。請參閱 <block ref="22268cae5c79b327558b5acefb524b62" category="inline-link-macro-rx"></block> 和 <block ref="04e6f25ecadf1d5213318ff0863162b7" category="inline-link-macro-rx"></block>。</block>
   <block id="6b488f4677081a24e52d30be5ea2fe98" category="list-text">使用NetApp混合雲控制來設定您新增的新儲存節點。請參閱 <block ref="f2feaea5d9b29c0df76acac116f3553b" category="inline-link-macro-rx"></block>。</block>
   <block id="82b3f7ae87bb09e10a73ba2a67846c4f" category="list-text"><block ref="82b3f7ae87bb09e10a73ba2a67846c4f" category="inline-link-macro-rx"></block></block>
+  <block id="728e6fd8c429fa825a7f232711ea7ed8" category="section-title">支援的VMware vSphere更新版本</block>
+  <block id="eb08a40eb36c998c44f480fa50a74b2a" category="paragraph">利用VMware vSphere 1.10、可支援部署與擴充。NetApp HCI</block>
 </blocks>
