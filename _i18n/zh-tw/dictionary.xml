@@ -6166,4 +6166,205 @@
   <block id="921c0975b352bf1530a52271d2abf5c6" category="inline-link">解決方案文件NetApp HCI</block>
   <block id="705d4d08d5af2e9dd1c4616188dd681f" category="paragraph">如需NetApp HCI 瞭解有關解決方案的資訊、請參閱<block ref="80564718f738f8f02fcd8afb2a3d09de" category="inline-link-rx"></block>。</block>
   <block id="fbbe254e45b4762e05a1addfd1b1da7b" category="admonition">深入瞭解 <block ref="e8537a9bbe8826a9f8e7b689e79abc77" category="inline-link-macro-rx"></block>。</block>
+  <block id="0dc2c3036c99248e0e9f340a2cfc8fb1" category="summary">儲存節點支援的韌體和驅動程式版本。</block>
+  <block id="10a16317486e698f70640e8342028ef1" category="list-text"><block ref="d02062eff89a2ae583064c32a7f5ba19" category="inline-xref-macro-rx"></block></block>
+  <block id="ee921cd8571be167745ca46fd5662653" category="paragraph">*型號（系列部分）：* H610S *完整型號：* H610S-1、H610S-1-NE、H610S-2、H610S-2-NE、H610S-4、 H610S-4-NE和H610S-2F</block>
+  <block id="42f95ea300f7aca212452f34f3029cfc" category="section-title">由儲存韌體產品組合管理的元件韌體</block>
+  <block id="c60bedadea2f465d7a7aede1952c5824" category="paragraph">在11.x期間、NetApp Element 發行韌體的唯一方法就是使用「資訊」軟體。從元件12.0開始、*儲存韌體產品組合*的概念已推出、而獨立發行的儲存韌體產品組合或儲存韌體產品組合（包含在12.x Element版本中）現在也能進行韌體更新。</block>
+  <block id="7f725124635cae9d920f527b52c91e1f" category="admonition">下表中的破折號（*-*）表示該特定的硬體元件不受該特定版本車輛支援。</block>
+  <block id="811756c7591f205ccf18828f4341af4a" category="cell">釋放車輛</block>
+  <block id="6a330702a04f4b3a688f8fbfc0c9006b" category="cell">推出日期</block>
+  <block id="5ddc86a7dad161eef1cc36ffd0bea42d" category="cell">CPLD</block>
+  <block id="739875ce1e8d4fdd288adec8e4ef79dd" category="cell">10/25 GbE NIC Quanta Mellanox</block>
+  <block id="d62c43bc88253f47039186c24fd2728c" category="cell">快取NVDIMM NVDIMM模組智慧型（第1代）</block>
+  <block id="aba0754de2a797e1308f5b7fb9d2799a" category="cell">快取NVDIMM能源（BPM）智慧型（Gen1）</block>
+  <block id="9228d22003d9bf6f445bf9c657f18e3d" category="cell">快取NVDIMM NVDIMM模組智慧型（第2代）</block>
+  <block id="3b40e256203cd6f53e1484e8aa20a129" category="cell">快取NVDIMM能源（BPM）智慧型（Gen2）</block>
+  <block id="8de62d5b40d3c405e29e6952fcd8bdc4" category="cell">快取NVDIMM NVDIMM模組Michron（第1代）</block>
+  <block id="273dca175c79c4482d049e2424cb3c18" category="cell">快取NVDIMM能源（PGEM）Agigatech（Gen1）</block>
+  <block id="19540d2aaf799c340af8ebc0ad50aa58" category="cell">快取NVDIMM NVDIMM模組Michron（第2代）</block>
+  <block id="af136e041d4ab6bc2dd0195414406127" category="cell">快取NVDIMM能源（PGEM）Agigatech（Gen2）</block>
+  <block id="cdeba74adf4d6e9515df9fecdc2dc9eb" category="cell">快取NVDIMM能源（PGEM）Agigatech（Gen3）</block>
+  <block id="f7cb46c3d187eb433e2cd13c57f01de3" category="cell">磁碟機Samsung PM963（SED）</block>
+  <block id="bbca6a95077ef321a79b0d7b8a0acf3c" category="cell">磁碟機Samsung PM963（N-SED）</block>
+  <block id="25a64f957bec02d1a907af388215f1ec" category="cell">磁碟：Samsung PM983（SED）</block>
+  <block id="6ff7edde4516afbd9aa1fbc3b6f9aa4e" category="cell">磁碟：Samsung PM983（N-SED）</block>
+  <block id="e9ebcc2d513e23695ccb5684ba896dd2" category="cell">磁碟Kioxia CD5（SED）</block>
+  <block id="6eadfbbc249c37cb6b951937c9145da7" category="cell">磁碟Kioxia CD5（N-SED）</block>
+  <block id="5d1d544b875e8f0e267651f3c1dc72e3" category="cell">磁碟機CD5（FIPS）</block>
+  <block id="5cfd33f46dd1f74b29ddee43372c8c66" category="cell">磁碟：Samsung PM9A3（SED）</block>
+  <block id="6df3968cc040ad2cb904b1a6ba10ad7b" category="cell">推動SK Hynix PE8010（SED）</block>
+  <block id="80dddcfece551adcfa2c64f7d0c7e904" category="cell">推動SK Hynix PE8010（N-SED）</block>
+  <block id="76b32d0df4efa424b2efa6728e2b5da7" category="cell">*儲存韌體套裝組合2.150.4 *</block>
+  <block id="b0c9867bdf153402438ba4d694d73ada" category="cell">2022年6月8日</block>
+  <block id="a0a080f42e6f13b3a2df133f073095dd" category="cell">122.</block>
+  <block id="b90192b2aeb39444852ac0e41788ae24" category="cell">26.2C</block>
+  <block id="2d079c532c696d6fea892213dcc69907" category="cell">1.30</block>
+  <block id="89769faf6029849ab91bac0aeb7f672f" category="cell">25-3C</block>
+  <block id="bdca6efb043178ef172612dd1e173dde" category="cell">1.10</block>
+  <block id="096d3b928cb77d0fdc812bee8c099ba0" category="cell">*儲存韌體套裝組合2.150.4到NetApp Element 版本12.5*</block>
+  <block id="c46a08345b2035ee8ab756b20e94f710" category="cell">*儲存韌體套裝組合2.146.2*</block>
+  <block id="31fcef57c9af10cef3b1dc2e7bd7361b" category="cell">02/2/2022</block>
+  <block id="a631cac3230223bc3f32cb5e4546a73f" category="cell">*儲存韌體套裝組合2.99.4到NetApp Element 更新版本12.3.2*</block>
+  <block id="4879051613c070fa9236dc2575bc2430" category="cell">2021年9月16日</block>
+  <block id="a2ea04ad41b20e5d3b21d25d9fbf213f" category="cell">3.91.07</block>
+  <block id="2af2c7d8343fff71b5f952a344782d55" category="cell">*儲存韌體套裝組合2.99.4到NetApp Element 版本12.3.1.165*</block>
+  <block id="f63616bb6a8255ed08089231c746f285" category="cell">2021年6月12日</block>
+  <block id="48b742b3c5f2b045d4754ac2dac1943c" category="cell">*儲存韌體套裝組合2.99.2*</block>
+  <block id="7516a2d6734219a47964dc8f30041a07" category="cell">*儲存韌體套裝組合2.99.1到NetApp Element 更新版本12.3.1.103*</block>
+  <block id="d188ad5f6031514053f54b5286964cda" category="cell">3.867.07</block>
+  <block id="e4f50a0789ebf08fa05023e9a61c1010" category="cell">*儲存韌體套裝組合2.99到NetApp Element 2.3*</block>
+  <block id="d29a3a9a5f3d571bec079e49e182f110" category="cell">04/15/2021</block>
+  <block id="83661d0fed3532dca9f28b44c6432605" category="cell">*儲存韌體套裝組合2.76.8*</block>
+  <block id="8138d0c3e613508050b6fec12c4322c7" category="cell">02/03/2021</block>
+  <block id="ff42d30418d0191fc7e1fde3b771c408" category="cell">*儲存韌體套裝組合2.27.1*</block>
+  <block id="930f4cd13d5218dc456cb841741a958d" category="cell">2020年9月29日</block>
+  <block id="9f03278b1390caf3393a9e847bbb63cb" category="cell">3.84.07</block>
+  <block id="0a18b565f699b458e27a609f888ca3ae" category="cell">14.02.1002.</block>
+  <block id="63a7c6669b7e20c8ea791d6ec1763099" category="cell">EDA5302Q</block>
+  <block id="ab58765784b661fc62339a36881d8ab7" category="cell">EDA5600Q</block>
+  <block id="939a740ce586c233759b09a82948a488" category="cell">*儲存韌體套裝組合2.76.8至NetApp Element 版本12.2.1 *</block>
+  <block id="ad6403dd0d9c1d5ca86140a3666b21ff" category="cell">06/02/2021</block>
+  <block id="a34da37a26e88fc95a7ddca290f879ec" category="cell">*儲存韌體套裝組合2.21到NetApp Element 版本12.2*</block>
+  <block id="1c8c88c43f4a0ea652e5ddeda67ffd35" category="cell">*儲存韌體套裝組合2.76.8至NetApp Element 更新版本12.0.1*</block>
+  <block id="1a82c2d5238d08e9f6332a4de5623dd0" category="cell">*儲存韌體套裝組合1.2.17到NetApp Element 更新版12.0*</block>
+  <block id="85022c12a4dd8eafd94aced180432a3a" category="cell">2020年3月20日</block>
+  <block id="95eaa3da21290a58908937827e71bc2f" category="cell">3.78.07</block>
+  <block id="159617368b583f476d64b5a98ad4595c" category="cell">EDA5202Q</block>
+  <block id="20bc65670162736a7259642647385d1f" category="cell">EDA5200Q</block>
+  <block id="728c3ef9989eafa737ef1e78fe572dd0" category="cell">*《*》11.8* NetApp Element</block>
+  <block id="57e28b7186503f0ef90817241a71671e" category="cell">2020年11月3日</block>
+  <block id="13448471d89a9cd8d7f71026a0334ec8" category="cell">0107</block>
+  <block id="4da149c2ade5335cbd24426b3eabdedc" category="cell">*《*》11.7* NetApp Element</block>
+  <block id="70c514eca13f69d3e578c44185effb17" category="cell">2019年11月21日</block>
+  <block id="e92261f11fe71fddea1f753d1a00b412" category="cell">3A10</block>
+  <block id="0cef1f42a7dcb861df2c82f06bef5501" category="cell">3.76.07</block>
+  <block id="eb160de1de89d9058fcb0b968dbbbd68" category="cell">117.</block>
+  <block id="84a5806c4e8f0a641adabe6a947e8ea7" category="cell">2.</block>
+  <block id="7f8a3cb21bf6c31961c634036d0cfab6" category="cell">2.07</block>
+  <block id="a3bc1e7861db287c17dc93d46a7ad1ef" category="cell">*《*》11.5.1* NetApp Element</block>
+  <block id="5f1cc6c37caca365f29fc5485909da3f" category="cell">02/20/2020年</block>
+  <block id="794116110959f54684d3d5415ae3f5fd" category="cell">3A08</block>
+  <block id="14d91fe96711c07272c2d7e5e15ddc49" category="cell">*《*》*《*》NetApp Element</block>
+  <block id="65bd363094fccf3008943d6784a877b2" category="cell">2019年9月26日</block>
+  <block id="705e6c8b665423f4d766a8501a034bfa" category="cell">*《*》11.3.2* NetApp Element</block>
+  <block id="28b1849a6cd1c75972de6822a5ce0c9b" category="cell">2020年2月19日</block>
+  <block id="3c9aebf06f1243bd2184aacc5838be0b" category="cell">*《*》11.3.1* NetApp Element</block>
+  <block id="c610d54ccf66af2ec995761ab6da2fc0" category="cell">2019年8月19日</block>
+  <block id="ced64f3fd7046f3a488311d86ec38903" category="cell">*《*》第11.1.1*版NetApp Element</block>
+  <block id="d5c20bed749ed3a53e99ac88b147cc1e" category="cell">3A06.</block>
+  <block id="bcfa7ab5d9104ea28feee9f6b39e8605" category="cell">3.70.07</block>
+  <block id="dee270d34058f9a2f7487f044497fd38" category="cell">*《*》第11.1*版NetApp Element</block>
+  <block id="5375e4c8250d02c18b01238486c7450a" category="cell">2019年4月25日</block>
+  <block id="48ec0ec3eae85c803f25de5e893afcd7" category="cell">*《*》11.0.2* NetApp Element</block>
+  <block id="c31a8fd432f03eb7157e47d995182405" category="cell">*《*》11 * NetApp Element</block>
+  <block id="4a6d1e11e1b6d4cd924476c0dcc9be5f" category="cell">2018年11月29日</block>
+  <block id="c33066dcfbd5d20e4cfb37008beaaafe" category="section-title">未由儲存韌體產品組合管理的元件韌體</block>
+  <block id="227c9a49d0445b0faacfdd02bf1448d8" category="paragraph">下列韌體並非由儲存韌體產品組合管理：</block>
+  <block id="011fedf4050817b8826f95a53d9555b2" category="cell">目前版本</block>
+  <block id="5147d60478e41c8b69a152b88415c238" category="cell">1/10 GbE NIC</block>
+  <block id="30f5362f47b8bcde317f02c78d6a5636" category="cell">3.2d x80000b4b</block>
+  <block id="6f6e63d50ee3fda10d779e0d7725a0fa" category="cell">開機裝置</block>
+  <block id="60a9bc12f17cf6055f6132fadd1491f8" category="cell">M161225i</block>
+  <block id="9d3a9fcb16bf4adf9bc799b6496ad0fe" category="paragraph">*型號（系列部分）：* H410S *完整型號：* H410S-0、H410S-1、H410S-1-NE及H410S-2</block>
+  <block id="7e2c70fe26452c962e901d547afb8f0c" category="paragraph">由儲存韌體產品組合管理的元件韌體。</block>
+  <block id="da5cbb1097393d6916987f43b61c8c5e" category="cell">10/25 GbE NIC SMCI Mellanox</block>
+  <block id="a7eb1ce55aedf794ba783c905c1a7995" category="cell">快取NVDIMM RMS200</block>
+  <block id="08641da985d09dcaa0d20bf79da0d3c8" category="cell">快取NVDIMM RMS300</block>
+  <block id="ec1068adfaa16c1deb22dd7c994f459a" category="cell">磁碟：Samsung PM863（SED）</block>
+  <block id="13b894e9a8633f266b20839e2f8465b6" category="cell">磁碟：Samsung PM863（N-SED）</block>
+  <block id="6b4633d853ed19436d779041f8ac3490" category="cell">磁碟機Toshiba Hawk-4（SED）</block>
+  <block id="60d788b5461ac876fe9e656fd99ba55a" category="cell">磁碟機Toshiba Hawk-4（N-SED）</block>
+  <block id="02057cc854600d68c5fb8b16e44333cb" category="cell">磁碟：Samsung PM883（SED）</block>
+  <block id="dd7f542392a4b31946826638316847cb" category="cell">3.25</block>
+  <block id="a96f3090a2365a224fd062d83446f5c4" category="cell">* SFB 1.2.17到NetApp Element S12 12.0*</block>
+  <block id="fecef1f3257db1c56b2809ab7f1d9879" category="cell">*《*》11.8.2* NetApp Element</block>
+  <block id="9733899a197ba17a05e1c36d76587410" category="cell">*《*》11.8.1* NetApp Element</block>
+  <block id="8b3bfab20f63e97f107866a9f6bd44cc" category="cell">14.17.2020年</block>
+  <block id="27a02e379dd2c114ce96c377013a56a3" category="cell">*《*》11.0* NetApp Element</block>
+  <block id="a95e19455391023e27800f1a8ba4be22" category="cell">01.A1.06.</block>
+  <block id="a74f6ab3a02e9ba6e5fee0ab938f75c2" category="cell">微控制器單元（微控制器）</block>
+  <block id="836eb480bf66641d4fb44675e000d22b" category="cell">1.18</block>
+  <block id="36f140c6fef39a7678033125fe4a9c6a" category="cell">SIOM 1/10 GbE NIC</block>
+  <block id="859c493e15e9bd45eb8a63b15f2282e6" category="cell">1.93</block>
+  <block id="c534d7561d213f23027bf41139e5e159" category="cell">電源供應器</block>
+  <block id="0b0ec9f1cc28b3c19dc6c36dcd5af7cc" category="cell">1.3</block>
+  <block id="09c6b739887df91f78d60d4a00998645" category="cell">開機裝置SSDSCKJB240G7</block>
+  <block id="47ce9fae54593a6a3da1acdf1277ec87" category="cell">N2010121.</block>
+  <block id="b4b6eed26c1b7fb010effa45dbd8e250" category="cell">開機裝置MTFDDAV240TCB1AR</block>
+  <block id="3d5f5610a92e78d21998fe95e35ae2ef" category="cell">DOMU037</block>
+  <block id="f9b8ab4f362b47d973e3a4421687f93f" category="summary">運算節點支援的韌體和驅動程式版本。</block>
+  <block id="53e431432ac4950ade485e1bb43c6f4f" category="list-text"><block ref="0c812a8da69b7d31b76f8ad80554ed9c" category="inline-xref-macro-rx"></block></block>
+  <block id="dd2004514ed5cdb9bab3af15450bc4ba" category="list-text"><block ref="68573ebd713d521e7bc0152370db4547" category="inline-xref-macro-rx"></block></block>
+  <block id="4c84f7900337f0bdad5983703b91782d" category="list-text"><block ref="6099ff797ca403d79bc0c248f2fa3635" category="inline-xref-macro-rx"></block></block>
+  <block id="467353f52d50146582f1796ce2dc32a5" category="paragraph">*型號（系列部分）：* H615C</block>
+  <block id="3a32371bd24d644ae7b313be014a6118" category="section-title">由運算韌體產品組合管理的元件韌體</block>
+  <block id="3f729803517444beab075d042c1032b0" category="paragraph">在11.x期間、Element Software是發行韌體的唯一方法。從元件12.0開始、*運算韌體套裝組合*的概念已經推出、而且韌體更新現在可以透過獨立發行的運算韌體套裝組合進行。</block>
+  <block id="4eab3896873393011964c9ec04212391" category="paragraph">與10/25 GbE NIC相容的ESXi驅動程式未包含在運算韌體產品組合中、而是指定供參考。</block>
+  <block id="6529a92d6fd6230b5d98993508f29b55" category="cell">10/25 GbE NIC</block>
+  <block id="a04ab49fbc99800499a31fd6daad50d7" category="cell">VMware ESXi 6.5驅動程式版本</block>
+  <block id="92dad43acf6caddcef6a11187ef43de4" category="cell">VMware ESXi 6.7驅動程式版本</block>
+  <block id="ebc7b9bd5df46748a021059450c652a9" category="cell">VMware ESXi 7.0驅動程式版本</block>
+  <block id="bea2aab7715bd285e6448fdfd2c9ef64" category="cell">*運算韌體套裝組合2.154.4*</block>
+  <block id="aba28e7740c0a5dcdb98b111eea839a8" category="cell">3B12.CO</block>
+  <block id="0ff7b002ad8e0963d8e5de5fcdef1b8e" category="cell">14.29.1016</block>
+  <block id="989bedd4e408d8af19987dfefb57c8ba" category="cell">4.16.71.1</block>
+  <block id="e11215e9a3c962ba326e4f7d5b37ab83" category="cell">4.17.71.1</block>
+  <block id="47b51736fc613e938e34cf9279aa080a" category="cell">4.21.71.1</block>
+  <block id="f92b215e1551241f1b580bdc46d3b4a2" category="cell">*儲存韌體套裝組合2.150.4到NetApp HCI 更新版本1.10*</block>
+  <block id="0dcc10c5a615de87d1a63982b57968cb" category="cell">4.16.13.5%</block>
+  <block id="9274ed8f3da729fa3ccb9501aabe7b1e" category="cell">4.17.16.15</block>
+  <block id="732cd0edb5feb318c74c28ce5a757d94" category="cell">02/02/2022</block>
+  <block id="76e2055993b11b0b8303d0352fce7f6a" category="cell">*運算韌體套裝組合2.99.4到NetApp HCI 更新版本1.71*</block>
+  <block id="d432d2ccddb38f18f9cba6689d1132fe" category="cell">*運算韌體套裝組合2.76.10*</block>
+  <block id="f6f29f0196843fb61178f2f482110613" category="cell">2021年8月29日</block>
+  <block id="b5807adcdf666919467bb86508efe1cf" category="cell">*運算韌體套裝組合2.99到NetApp HCI 更新版本1.9*</block>
+  <block id="fdeda32b959afe441ba0d75a2d197a7f" category="cell">*運算韌體套裝組合2.76.8*</block>
+  <block id="6f7fc3f69fc0125e8437a177e551ceea" category="cell">*運算韌體套裝組合2.27.1*</block>
+  <block id="4ec33c92882aef591ef68552cff88253" category="cell">2020年9月18日</block>
+  <block id="e81897a369e2e66d705879ad424b586a" category="cell">*運算韌體套裝組合2.21到NetApp HCI 1.8P1*</block>
+  <block id="961b1987ee91e0ff9ffdc12f1245e3da" category="cell">4.64.07</block>
+  <block id="7b1650e6cf51f1a98c019399510ee4e7" category="cell">4.17.13.8</block>
+  <block id="1151a34e0c8876ed683672e1e0ca184a" category="cell">*運算韌體套件12.2.109*</block>
+  <block id="a0f5113e0a8fb9b1f806086655219b20" category="cell">2020年7月8日</block>
+  <block id="b1fa1e013ecef5cc89099f871c3ddc38" category="cell">*運算韌體套件12.2.92*</block>
+  <block id="c6ce05793b4b5fa39d303c2500de956a" category="cell">06/2/2020</block>
+  <block id="e4f6aeafaa587a81bea1da3a5139674d" category="cell">*運算韌體套裝組合1.2.17到NetApp HCI 版本1.8*</block>
+  <block id="8c4774061cee76ff66c561586df5baff" category="cell">4.6.0.07</block>
+  <block id="f940dfd9fcd05a61d869b743ba611872" category="cell">*《*》1.7P1* NetApp HCI</block>
+  <block id="9487cab96a779669f66620981bd38550" category="cell">*《*》1.7* NetApp HCI</block>
+  <block id="63f44f4f6d3eec70dc9ef2c47509438f" category="section-title">未由運算韌體產品組合管理的元件韌體</block>
+  <block id="dff906ef991d36b32836ab1f825f803e" category="paragraph">運算韌體套裝組合無法管理下列韌體：</block>
+  <block id="da4fb5c6e93e74d3df8527599fa62642" category="cell">120</block>
+  <block id="5492630e47a935421aec1248cfb29dcb" category="cell">GPU T4</block>
+  <block id="3513209b9956f12c23da2b34420a4d1b" category="cell">90.04.38.00.03（BIOS）410.48（驅動程式）</block>
+  <block id="0f672475e8fa274580ec372c5bb9616c" category="cell">開機裝置DGSML-A28D81BCBQCA-B196</block>
+  <block id="39486c62ce076cf0a7f04b56e3e9ddf2" category="paragraph">*型號（系列部分）：* H610C</block>
+  <block id="061b20e64ba80f50d9e82e2c06552222" category="paragraph">在發行版韌體的過程中、僅有使用功能不一的功能就是使用功能不受限的功能。NetApp HCI NetApp HCI NetApp HCI從推出「*運算韌體產品組合*」的概念開始、而獨立發行的運算韌體產品組合現在可以進行韌體更新。NetApp HCI</block>
+  <block id="5a6beba95a03d97749a23c4e355d83fc" category="cell">3.967.07</block>
+  <block id="39f7026b2ce4e83f5c1c200f1e3299c4" category="cell">3A02.</block>
+  <block id="0488464cefbdae0a20446603052935f3" category="cell">*《*》1.6 * NetApp HCI</block>
+  <block id="6f4a77351c1876a3191f934ab742002d" category="cell">*《*》第1.4P1*版NetApp HCI</block>
+  <block id="7dd203da319999c870dc6cbb5e3f09ab" category="cell">*《*》NetApp HCI</block>
+  <block id="13944b50b01e2327de5341edebe65730" category="cell">GPU M10</block>
+  <block id="54828ce671b8010c02cce5852fedb2c2" category="cell">82.07.ab.00.12 82.07.ab.00.13 82.07.ab.00.14 82.07.ab.00.15</block>
+  <block id="09b6d08d2fc7a03e4e76863d35df5437" category="paragraph">*型號（系列部分）：* H410C</block>
+  <block id="30b0f54d1326f1e54cfb26657ac34180" category="cell">4.17.15.16</block>
+  <block id="85f50a0954cdbc89504952d949f653b2" category="cell">4.19.16.1</block>
+  <block id="c4e6fed6d73652ddbccd0fa8464f03c6" category="cell">NA3.4</block>
+  <block id="f56ac5dcb56928e1c289ab77de3e54a1" category="cell">NA3.3</block>
+  <block id="2a175ad50f9fc94e05c7e77f185e1852" category="cell">6.53</block>
+  <block id="601344e9e1cf622b3cbfa91f56ca47e2" category="cell">NA2.2</block>
+  <block id="5e44585c355ae19a353abfc161fc21a8" category="cell">03.B0.09</block>
+  <block id="3e100d041a82db8371344338f4eba2f9" category="cell">開機裝置SSDSCKJB240G7</block>
+  <block id="005dfb275b378d65280cf215810f8dbd" category="cell">開機裝置MTFDDAV240TCB1AR</block>
+  <block id="5b1d1e4dbc8cd8e4ec110c7e700e056f" category="section-title">H300E/H500E/H700E</block>
+  <block id="f0f15f2c98a9ba8013c265fbf2b1874f" category="paragraph">*型號（系列部分）：* H300E/H500E/H700E</block>
+  <block id="d71c6945136972f4e9c1f9b42747c72a" category="inline-link-macro">支援的韌體和驅動程式版本</block>
+  <block id="e3e84763de81500e88546de11ec81383" category="list-text"><block ref="6f4efb8bfcfdab5c2740503a6ae823b5" category="inline-link-macro-rx"></block> _新_</block>
+  <block id="a61d8a4fcaa8b59b1d8f1d63aada7783" category="summary">支援的韌體與驅動程式版本NetApp HCI 、可在支援的支援功能中使用。NetApp Element</block>
+  <block id="2e697d89104c46a74e44aa847695f3f8" category="doc">支援的韌體和ESXi驅動程式版本NetApp HCI 適用於支援NetApp HCI 的VMware及韌體版本、適用於各種儲存節點</block>
+  <block id="b757850bdb41a8f86215fd4d7394eeb9" category="paragraph">支援的韌體和ESXi驅動程式版本NetApp HCI 適用於支援NetApp HCI 的VMware及韌體版本、適用於各種儲存節點。</block>
+  <block id="bf44a0123ec45362af49b3862557cdd8" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block>* H610S * H410S</block>
+  <block id="a82f3d9d22bfe1382d03945f3377eb65" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block>* H615C * H610C * H410C * H300E/H500E/H700E</block>
 </blocks>
