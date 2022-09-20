@@ -3700,8 +3700,6 @@
   <block id="502293ff6f825a4e5ab5a89252e4762e" category="list-text">如果您在虛擬桌面基礎架構（VDI）環境中使用啟用vGPU的桌面、請設定適用於NVIDIA vGPU軟體的VMware Horizon View。</block>
   <block id="f77963c528aa19e59cf9f7c9d5b4a19d" category="summary">在進行系統升級時、您需要升級運算節點驅動程式。NetApp HCI</block>
   <block id="0c13e0dd6ebaa11c814ce3c5b29ab7f1" category="paragraph">對於任何H系列運算節點、您都可以使用VMware Update Manager來更新節點上使用的驅動程式。</block>
-  <block id="bab93f378f6cea1ed1024018548e066c" category="inline-link">這篇NetApp知識庫文章</block>
-  <block id="de3741b094be24deccfc553754ce0a3a" category="paragraph">請參閱中硬體的韌體和驅動程式對照表<block ref="69b1d186a6529d94f61dae13551aa3aa" category="inline-link-rx"></block> （需要登入）。</block>
   <block id="cae4b286c77e42f24641d126e94e3848" category="paragraph">一次只執行其中一項更新作業。</block>
   <block id="7f1cb6f883abc23a81f6db00c067e34f" category="paragraph">您應該先檢查目前的ESXi驅動程式版本、再嘗試執行運算韌體升級。如果驅動程式已過期、請先升級驅動程式。然後升級運算節點的運算韌體。</block>
   <block id="3e79f2f4eea24dddb8f0e1d175482fea" category="inline-link">下載軟體NetApp HCI</block>
@@ -3713,8 +3711,6 @@
   <block id="8ac52d731af552b5cc23f653ec478d24" category="admonition">NetApp驅動程式套裝組合包含一或多個VMware離線套裝組合ZIP檔案、請勿解壓縮這些ZIP檔案。</block>
   <block id="c6972aeb3a2332cb320c9779d55b24a0" category="list-text">請移至VMware vCenter中的* VMware Update Manager*。</block>
   <block id="c7bbe9e0cbf5a288fc641b66af382299" category="list-text">將運算節點的驅動程式離線套件檔案匯入*修補程式儲存庫*。</block>
-  <block id="17a3f3fcb25f60a1e4c1a40f1e7eace3" category="list-text">對於VMware ESXi 7.0、NetApp H610C、H615C、H410C和Hx00E運算節點及其內建系統元件的所有必要驅動程式、均包含在標準VMware ESXi 7.0安裝ISO映像中。執行VMware ESXi 7.0（及更新）的VMware ESXi運算節點不需要額外或更新的驅動程式NetApp HCI 。</block>
-  <block id="3df9942375d4c2463d762d41ec77a6e1" category="list-text">對於VMware ESXi 6.x、請執行下列步驟以匯入驅動程式離線套件檔案：</block>
   <block id="772251791cdb07bc2fc3967b8243ac21" category="list-text">選擇* Updates *（更新*）選項卡。</block>
   <block id="633d466e4a34f3db8d313150633fe669" category="list-text">選取*從檔案上傳*。</block>
   <block id="0965e8793c3a408e2c948a5aa3f43df7" category="list-text">瀏覽至先前下載的離線套件組合、然後選取*匯入*。</block>
@@ -6367,4 +6363,19 @@
   <block id="7f6c7867ac3c62c136dad288b3e3298e" category="paragraph">^1^如需硬體的韌體與驅動程式韌體完整對照表、請參閱<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>。</block>
   <block id="d8288c4d481f3eb3a21b3ee9d3d34f3e" category="list-text">*有效的升級路徑*：您已檢查要升級的元素版本的升級路徑資訊、並確認升級路徑有效。請參閱<block ref="2980f5bfbc85d7c14e3d7a2c57af53b5" category="inline-link-rx"></block></block>
   <block id="3c22f77849e3b66d2e0c9c63419afb53" category="admonition">如需硬體的韌體和驅動程式韌體完整對照表、請參閱<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>。</block>
+  <block id="9671b9c99a15fe8beaa959d54510f7e0" category="paragraph">* VMware ESXi驅動程式版本*</block>
+  <block id="1aa66ef3a8e34a7a538960a80d2e1e31" category="cell">ESXi</block>
+  <block id="48cf24486d9a8e65a142b25682f19949" category="cell">驅動程式</block>
+  <block id="01deebfa87b938c89ecb3dcb4effcbe2" category="cell">7.0</block>
+  <block id="4f467eda35ff78e59bbdb4e520ef904c" category="cell">4.19.71.101 4.19.71.1</block>
+  <block id="e5f63614505322239ff5a403089bbab7" category="cell">7.0更新1</block>
+  <block id="e3115a7b25952e2b6ea2fb2bf9cca3b3" category="cell">7.0 Update 2</block>
+  <block id="1391518963f261b2531840ce43ab39d4" category="cell">4.21.71.101 4.21.71.1</block>
+  <block id="ccf0280076b3ef40ee8b72dbd3470d53" category="cell">7.0更新3</block>
+  <block id="c3e22f2ae1ddef844509890f97faa80b" category="cell">6.7</block>
+  <block id="f884cc5c56f9c9a8d4d61568ff64db9c" category="cell">6.5</block>
+  <block id="391bb6060127038cc328796fa4f0b3c5" category="inline-link-macro">VMware vSphere下載</block>
+  <block id="f3d906055e8465bbb09581a2798127ae" category="admonition">7.0、7.0、U2、7.0 U3的驅動程式可從取得 <block ref="2d30eb2542d74a72bd10b13092aa6d1f" category="inline-link-macro-rx"></block> 頁面。</block>
+  <block id="ac4ea0116877e7d9fa4a0111b67b92f1" category="paragraph">請參閱硬體的韌體與驅動程式對照表、網址為<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>。</block>
+  <block id="6099f1a8115acef9b6c8b5715b669041" category="paragraph">對於VMware ESXi 6.x和7.0至7.0 U3、請執行下列步驟以匯入驅動程式離線套件檔案：</block>
 </blocks>

@@ -50,10 +50,33 @@ NOTE: NetApp混合雲控制需要最新的管理服務組合。您必須先升�
 
 更新的Mellanox韌體14.29.1016版需要VMware ESXi驅動程式的最低版本、如下所示：
 
-* * ESXi 7.0*：4.21.71.1版
-* * ESXi 6.7*：4.17.71.1版
-* * ESXi 6.5*：4.16.71.1版
+* VMware ESXi驅動程式版本*
 
+|===
+
+
+| ESXi | 驅動程式 
+
+
+| 7.0 | 4.19.71.101 4.19.71.1 
+
+
+| 7.0更新1 | 4.19.71.101 4.19.71.1 
+
+
+| 7.0 Update 2 | 4.21.71.101 4.21.71.1 
+
+
+| 7.0更新3 | 4.21.71.101 4.21.71.1 
+
+
+| 6.7 | 4.17.71.1 
+
+
+| 6.5 | 4.16.71.1 
+|===
+
+NOTE: 7.0、7.0、U2、7.0 U3的驅動程式可從取得 link:https://customerconnect.vmware.com/downloads/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/7_0["VMware vSphere下載"^] 頁面。
 
 
 NOTE: 在升級至2.154.4版之前、請務必檢查目前的ESXi驅動程式版本。如果驅動程式已過期、請先升級驅動程式。然後將運算節點的運算韌體升級至2.154.4版。請造訪 link:task_hcc_upgrade_compute_node_drivers.html["更新運算節點驅動程式"] 如需更新運算節點驅動程式的說明、請參閱內含ESXi驅動程式的說明。

@@ -11,7 +11,7 @@ keywords: netapp, hci, on premise, cluster, element, compute node
 [role="lead"]
 對於任何H系列運算節點、您都可以使用VMware Update Manager來更新節點上使用的驅動程式。
 
-請參閱中硬體的韌體和驅動程式對照表 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["這篇NetApp知識庫文章"^] （需要登入）。
+請參閱硬體的韌體與驅動程式對照表、網址為 https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html["支援的韌體和ESXi驅動程式版本"^]。
 
 一次只執行其中一項更新作業。
 
@@ -30,14 +30,12 @@ NOTE: NetApp驅動程式套裝組合包含一或多個VMware離線套裝組合ZI
 . 請移至VMware vCenter中的* VMware Update Manager*。
 . 將運算節點的驅動程式離線套件檔案匯入*修補程式儲存庫*。
 +
-** 對於VMware ESXi 7.0、NetApp H610C、H615C、H410C和Hx00E運算節點及其內建系統元件的所有必要驅動程式、均包含在標準VMware ESXi 7.0安裝ISO映像中。執行VMware ESXi 7.0（及更新）的VMware ESXi運算節點不需要額外或更新的驅動程式NetApp HCI 。
-** 對於VMware ESXi 6.x、請執行下列步驟以匯入驅動程式離線套件檔案：
+對於VMware ESXi 6.x和7.0至7.0 U3、請執行下列步驟以匯入驅動程式離線套件檔案：
+
 +
-... 選擇* Updates *（更新*）選項卡。
-... 選取*從檔案上傳*。
-... 瀏覽至先前下載的離線套件組合、然後選取*匯入*。
-
-
+.. 選擇* Updates *（更新*）選項卡。
+.. 選取*從檔案上傳*。
+.. 瀏覽至先前下載的離線套件組合、然後選取*匯入*。
 
 
 . 為運算節點建立新的主機基準。
