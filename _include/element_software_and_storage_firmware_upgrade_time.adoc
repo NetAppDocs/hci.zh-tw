@@ -18,7 +18,7 @@
 | H610S | 11.7及更早版本 | 90分鐘 | 40至70分鐘 | 您也必須花費130到160分鐘的時間 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["執行完整的節點關機和電源中斷"^] 針對每個H610S節點。 
 |===
 +
-^1^如需硬體韌體與驅動程式韌體的完整對照表、請參閱此 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["知識庫文章"^] （需要登入）。
+^1^如需硬體的韌體與驅動程式韌體完整對照表、請參閱 https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html["支援的韌體和ESXi驅動程式版本"^]。
 
 +
 ^2^如果將叢集與大量寫入IOPS負載結合、並延長韌體更新時間、資料同步時間將會增加。

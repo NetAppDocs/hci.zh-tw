@@ -584,7 +584,6 @@
   <block id="1162dd84e55b1e6c2517bf0323faf96b" category="admonition">若要更新IDC/BIOS韌體、請聯絡NetApp支援部門。如需詳細資訊、請參閱 <block ref="ce98bbbd0598351d03b47f370ea3b773" category="inline-link-macro-rx"></block>。</block>
   <block id="736c409b380383ee8843715d26079c63" category="list-text">*叢集健全狀況*：您已執行健全狀況檢查。請參閱 <block ref="bdcf6db43efb3c82b174a0c4c0a65c66" category="inline-link-macro-rx"></block>。</block>
   <block id="d12abcbed858bffa82e8d643aeac1e4f" category="inline-link-macro">版本說明與升級指示</block>
-  <block id="13c2b42759130af4400c46b2b928dc26" category="admonition">如需硬體的韌體和驅動程式韌體完整對照表、請參閱此<block ref="919d0da258d2c9346bfb11f078cfd474" category="inline-link-rx"></block> （需要登入）。</block>
   <block id="5212e4232f93722ce70d3ed042cd25c1" category="paragraph">請選擇下列其中一個儲存韌體升級選項：</block>
   <block id="71894c0623112f371e3598666af16695" category="list-text"><block ref="c67f607f0c5a6b98a7e28e151694a09a" category="inline-xref-macro-rx"></block></block>
   <block id="b8cff0b41605e83e8a12999dd0a4ca92" category="list-text"><block ref="bd241c643056b4027f18f8f059752b73" category="inline-xref-macro-rx"></block></block>
@@ -592,7 +591,6 @@
   <block id="f650a00f1e40f26bd9259f0a248e5104" category="paragraph">您可以使用NetApp混合雲控制UI來升級叢集中儲存節點的韌體。</block>
   <block id="6f0fdd346038a9e820296de3d9746c93" category="inline-link">已下載NetApp HCI 適用於整個儲存叢集的儲存韌體套件</block>
   <block id="68591212ccf64f918a02a9a99d9b17cb" category="paragraph">如果您的管理節點未連線至網際網路、您就有了<block ref="aafe992914552d0a3aa0655fa1abc52d" category="inline-link-rx"></block>。</block>
-  <block id="2882996895673f16b2fcf0cabfb994f1" category="admonition">如需使用NetApp混合式雲端控制及其因應措施升級儲存叢集的潛在問題、請參閱<block ref="385c83615df1d77fbf0bae3f06fabb3d" category="inline-link-rx"></block>。</block>
   <block id="021194ed35c1ca85c5ddd9daaf8630c3" category="admonition">每個儲存節點大約需要30分鐘的升級程序。如果您要將元素儲存叢集升級至版本2.76以上的儲存韌體、則只有在新韌體寫入節點時、個別儲存節點才會在升級期間重新開機。</block>
   <block id="1f760966967601f6feb32cc62bb11ca3" category="list-text">選取介面右上角附近的*升級*。</block>
   <block id="8d2b20731c568a1d9a02267e5d20edb7" category="list-text">在「*升級*」頁面上、選取「*儲存設備*」。</block>
@@ -4683,7 +4681,6 @@
   <block id="084b0131bd480b2202263e1d2feee26f" category="summary">在升級版的過程中、您需要升級一套功能完善的功能。NetApp HCI NetApp Element</block>
   <block id="c4d41483c4ebb2063097b14712424742" category="doc">升級Element軟體</block>
   <block id="992d266839a579e9b62b9fbb2193d3bf" category="inline-link">NetApp知識庫：執行NetApp Element 「更新軟體」之儲存叢集的升級對照表</block>
-  <block id="1f530b0c76d9de4275104c651b6d5411" category="list-text">*有效的升級路徑*：您已檢查要升級的元素版本的升級路徑資訊、並確認升級路徑有效。<block ref="b87eae6ace29db9b17ab7b20ed6745f5" category="inline-link-rx"></block></block>
   <block id="eb3ef9d3145086e8447906c0ff28c122" category="list-text">*叢集健全狀況*：您已確認叢集已準備好升級。請參閱 <block ref="bdcf6db43efb3c82b174a0c4c0a65c66" category="inline-link-macro-rx"></block>。</block>
   <block id="0e7647873b3166c20d4bb762ef96b543" category="paragraph">請選擇下列其中一個元素軟體升級選項：</block>
   <block id="f04c2dffe18d2f3b135204db9355705a" category="list-text"><block ref="d671d4153cf8124770baff9fa1830cd7" category="inline-xref-macro-rx"></block></block>
@@ -5862,7 +5859,6 @@
   <block id="a0fc274442d4c69dfe575d357ce015e2" category="cell">40至70分鐘</block>
   <block id="9b2b1e8f398acbac5493461c590118f6" category="inline-link">執行完整的節點關機和電源中斷</block>
   <block id="2233d6c0637a0dd985141fefd60451a0" category="cell">您也必須花費130到160分鐘的時間<block ref="b75cb1417453c96f34f9e695ad57b88f" category="inline-link-rx"></block> 針對每個H610S節點。</block>
-  <block id="6ed1151a1c81c87309cd82c96457f044" category="paragraph">^1^如需硬體韌體與驅動程式韌體的完整對照表、請參閱此<block ref="919d0da258d2c9346bfb11f078cfd474" category="inline-link-rx"></block> （需要登入）。</block>
   <block id="0fe84530e14d6cb77f51c3d2cc85aa18" category="paragraph">^2^如果將叢集與大量寫入IOPS負載結合、並延長韌體更新時間、資料同步時間將會增加。</block>
   <block id="53f59c169b2bb48ac0b8253252a06467" category="list-text">。 <block ref="72c4f5351976259ad654b85496cb20be" category="inline-xref-macro-rx"></block> 一節說明NetApp HCI 了更新版本1.10的新功能。</block>
   <block id="2a0ce9a56c6130320cccb8a7f34ec593" category="list-text">。 <block ref="18a6515b1da0f2a2d89c5832cee91752" category="inline-xref-macro-rx"></block> 一節說明元素12.5的新功能與更新。</block>
@@ -6367,4 +6363,8 @@
   <block id="b757850bdb41a8f86215fd4d7394eeb9" category="paragraph">支援的韌體和ESXi驅動程式版本NetApp HCI 適用於支援NetApp HCI 的VMware及韌體版本、適用於各種儲存節點。</block>
   <block id="bf44a0123ec45362af49b3862557cdd8" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block>* H610S * H410S</block>
   <block id="a82f3d9d22bfe1382d03945f3377eb65" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block>* H615C * H610C * H410C * H300E/H500E/H700E</block>
+  <block id="4b8861a11346d673205d074f862db70a" category="inline-link">支援的韌體和ESXi驅動程式版本</block>
+  <block id="7f6c7867ac3c62c136dad288b3e3298e" category="paragraph">^1^如需硬體的韌體與驅動程式韌體完整對照表、請參閱<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>。</block>
+  <block id="d8288c4d481f3eb3a21b3ee9d3d34f3e" category="list-text">*有效的升級路徑*：您已檢查要升級的元素版本的升級路徑資訊、並確認升級路徑有效。請參閱<block ref="2980f5bfbc85d7c14e3d7a2c57af53b5" category="inline-link-rx"></block></block>
+  <block id="3c22f77849e3b66d2e0c9c63419afb53" category="admonition">如需硬體的韌體和驅動程式韌體完整對照表、請參閱<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>。</block>
 </blocks>

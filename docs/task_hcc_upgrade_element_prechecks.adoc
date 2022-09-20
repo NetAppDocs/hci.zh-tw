@@ -40,13 +40,13 @@ NOTE: 當您接受EULA時、系統會記錄所有未來更新、並啟用自動�
 
 您可以使用NetApp混合雲控制UI或NetApp混合雲控制API執行健全狀況檢查：
 
-* <<Use NetApp Hybrid Cloud Control to run Element storage health checks prior to upgrading storage>> （偏好的方法）
-* <<Use API to run Element storage health checks prior to upgrading storage>>
+*  NetApp Hybrid Cloud Control to run Element storage health checks prior to upgrading storage （偏好的方法）
+*  API to run Element storage health checks prior to upgrading storage
 
 
 您也可以深入瞭解服務執行的儲存健全狀況檢查：
 
-* <<Storage health checks made by the service>>
+*  health checks made by the service
 
 
 

@@ -48,8 +48,8 @@ NOTE: 當您接受EULA時、系統會記錄所有未來更新、並啟用自動�
 
 請選擇下列其中一個升級程序：
 
-* <<Use NetApp Hybrid Cloud Control UI to upgrade a Rancher deployment>>
-* <<Use NetApp Hybrid Cloud Control API to upgrade a Rancher deployment>>
+*  NetApp Hybrid Cloud Control UI to upgrade a Rancher deployment
+*  NetApp Hybrid Cloud Control API to upgrade a Rancher deployment
 
 
 
@@ -107,9 +107,9 @@ NOTE: 對於節點作業系統、安全性修補程式的無人值守升級會�
 您可以使用所選的自動化工具來執行管理節點上可用的API或REST API UI。
 
 .選項
-* <<Upgrade Rancher Server>>
-* <<Upgrade RKE>>
-* <<Apply node OS security updates>>
+*  Rancher Server
+*  RKE
+*  node OS security updates
 +
 
 NOTE: 對於節點作業系統、安全性修補程式的無人值守升級會每日執行、但節點不會自動重新開機。套用升級之後、您會重新啟動每個節點、使安全性更新生效。

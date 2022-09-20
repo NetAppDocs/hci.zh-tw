@@ -16,7 +16,7 @@ keywords: netapp, hci, on premise, cluster, upgrade, element
 
 NOTE: 從元素12.5開始、NetApp HealthTools不再支援元素軟體升級。如果您執行的是元件11.0或11.1、則必須先執行 link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["使用HealthTools升級至Element 123"^] 然後使用NetApp混合雲控制升級至Element 12.5。
 
-。 <<sys_upgrade_seq,系統升級順序>> 內容說明完成NetApp HCI 更新功能所需的工作。理想情況下、您可以執行這些程序、做為較大規模升級順序的一部分、而非隔離。如果需要元件型升級或更新、請參閱程序先決條件、以確保解決更多複雜性問題。
+。 ,系統升級順序 內容說明完成NetApp HCI 更新功能所需的工作。理想情況下、您可以執行這些程序、做為較大規模升級順序的一部分、而非隔離。如果需要元件型升級或更新、請參閱程序先決條件、以確保解決更多複雜性問題。
 
 。 xref:task_hci_upgrade_all_vsphere.adoc[vSphere升級順序] 包含Element Plug-in for vCenter Server內容、說明重新安裝Element Plug-in for vCenter Server所需的其他升級前和升級後步驟。
 

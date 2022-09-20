@@ -18,8 +18,8 @@ NOTE: 如果您需要有關升級管理節點12．2或更早版本的資訊、�
 
 請選擇下列其中一個選項：
 
-* <<Upgrade a management node to version 12.5 from 12.3.x>>
-* <<Reconfigure authentication using the management node REST API>>
+*  a management node to version 12.5 from 12.3.x
+*  authentication using the management node REST API
 +
 如果您已*連續*更新管理服務版本（1）、以及（2）您的元素儲存版本、而且您想*保留*現有的管理節點、請選擇此選項：
 

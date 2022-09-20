@@ -18,8 +18,8 @@ keywords: netapp, hci, element, new, whatsnew
 [role="lead"]
 NetApp會定期更新NetApp HCI 功能、為您帶來新功能、增強功能和錯誤修復。支援儲存叢集的Element軟體12.5。NetApp HCI
 
-* 。 <<NetApp HCI 1.10>> 一節說明NetApp HCI 了更新版本1.10的新功能。
-* 。 <<Element software 12.5>> 一節說明元素12.5的新功能與更新。
+* 。  HCI 1.10 一節說明NetApp HCI 了更新版本1.10的新功能。
+* 。  software 12.5 一節說明元素12.5的新功能與更新。
 
 
 

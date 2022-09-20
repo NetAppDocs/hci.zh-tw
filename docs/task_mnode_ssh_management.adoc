@@ -32,13 +32,13 @@ keywords: netapp, mnode, management node, ssh, disable, enable, rest api, hybrid
 
 
 .選項
-* <<Disable or enable the SSH capability on the management node using NetApp Hybrid Cloud Control UI>>
+*  or enable the SSH capability on the management node using NetApp Hybrid Cloud Control UI
 
 
 您可以在之後執行下列任何一項工作 link:task_mnode_api_get_authorizationtouse.html["驗證"]：
 
-* <<Disable or enable the SSH capability on the management node using APIs>>
-* <<Determine status of the SSH capability on the management node using APIs>>
+*  or enable the SSH capability on the management node using APIs
+*  status of the SSH capability on the management node using APIs
 
 
 
