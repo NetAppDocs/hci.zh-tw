@@ -5942,7 +5942,6 @@
   <block id="94accfc9ce60fbdbc6b912533ff89998" category="list-text">在重新開機期間、按* F11 *選取開機選項並載入運算韌體套裝組合。</block>
   <block id="4489a95481ba0e8e951ca2cdc4403b89" category="list-text"><block ref="4489a95481ba0e8e951ca2cdc4403b89" category="inline-link-rx"></block></block>
   <block id="b7fe022e3d13a1a7248fb1583851f437" category="inline-link">《軟件11.8.2發行說明》NetApp Element</block>
-  <block id="96a6137975cbcfe6dbff95b85cf1b6bf" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block> _新_</block>
   <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">《軟件11.8.1發行說明》NetApp Element</block>
   <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
   <block id="7941eda6d75aeac7fd5d3f88cb08cb39" category="list-text"><block ref="7941eda6d75aeac7fd5d3f88cb08cb39" category="inline-link-rx"></block></block>
@@ -5985,7 +5984,6 @@
   <block id="831b7fafcb48c5cdc3232392066936d8" category="inline-link-macro">儲存韌體產品組合2.150注意事項</block>
   <block id="ce22f95c04c4b1b4db9fa2b54e703681" category="list-text"><block ref="ce22f95c04c4b1b4db9fa2b54e703681" category="inline-link-macro-rx"></block></block>
   <block id="c6b05958d5d84e06da847e5e05b865f8" category="inline-link-macro">運算韌體套裝組合2.154.4版本說明</block>
-  <block id="4249bb54f0106bb7ec8845d90f3f6dc3" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block> _新_</block>
   <block id="a4f57cecae9cc51dbe0e706f0c125ec9" category="paragraph">儲存韌體套裝軟體2.150版包含H410S（PE-14168）的重大錯誤修正。請參閱<block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block> 以取得更多詳細資料。您可以依照中的指示升級儲存韌體 <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
   <block id="04435ca341320fdf8ae3f7ed2b34efab" category="admonition">NetApp混合雲控制需要最新的管理服務組合。您必須先升級至最新的管理服務套裝組合、才能將運算節點上的韌體升級至2.154.4版。如果您要將運算節點上的韌體升級至2.154.4版、則需要管理服務2.2才能繼續。</block>
   <block id="1c1dee2a250a78c000e763a2c9f3c413" category="paragraph">2.154.4版包含一般錯誤修正。</block>
@@ -6383,4 +6381,6 @@
   <block id="54c78d15a850ddddfc9da22742280908" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來執行元件儲存健全狀況檢查：</block>
   <block id="b1dc794dd924da27c3e3280ab948e305" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API執行運算節點健全狀況檢查：</block>
   <block id="19675be2a917a2efeeead44ff5060fe2" category="list-text"><block ref="19675be2a917a2efeeead44ff5060fe2" category="inline-link-macro-rx"></block></block>
+  <block id="5ed2b0be7714cf9bfe94c6d0660549bb" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block></block>
+  <block id="75dde1dc17bd100ca4331fd989a91f97" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block></block>
 </blocks>
