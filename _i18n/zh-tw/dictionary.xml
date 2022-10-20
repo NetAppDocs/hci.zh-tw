@@ -6005,7 +6005,6 @@
   <block id="e7c54ed43221b67b988af5312c783bb4" category="inline-link-macro">運算韌體套裝組合2.154.1版本說明</block>
   <block id="97107deca957b5e4a6b53d3c09cc1c16" category="list-text"><block ref="97107deca957b5e4a6b53d3c09cc1c16" category="inline-link-macro-rx"></block></block>
   <block id="f73f11dc118d0773193fe38ff975e133" category="inline-link-macro">儲存韌體產品組合2.150版本說明</block>
-  <block id="9b85276bde33152eca1f76222abdb811" category="list-text"><block ref="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="inline-link-macro-rx"></block> _新_</block>
   <block id="67a13cf9dcb3321b59f28def3726ce13" category="list-text"><block ref="67a13cf9dcb3321b59f28def3726ce13" category="inline-link-macro-rx"></block></block>
   <block id="3e94ced9564aa4fd2c0b54fde5c1108f" category="paragraph">此韌體套件包含下列硬體元件的韌體版本：</block>
   <block id="9671fe0cd1cee15ffc6e623894e0c90c" category="cell">3B11.</block>
@@ -6352,8 +6351,6 @@
   <block id="005dfb275b378d65280cf215810f8dbd" category="cell">開機裝置MTFDDAV240TCB1AR</block>
   <block id="5b1d1e4dbc8cd8e4ec110c7e700e056f" category="section-title">H300E/H500E/H700E</block>
   <block id="f0f15f2c98a9ba8013c265fbf2b1874f" category="paragraph">*型號（系列部分）：* H300E/H500E/H700E</block>
-  <block id="d71c6945136972f4e9c1f9b42747c72a" category="inline-link-macro">支援的韌體和驅動程式版本</block>
-  <block id="e3e84763de81500e88546de11ec81383" category="list-text"><block ref="6f4efb8bfcfdab5c2740503a6ae823b5" category="inline-link-macro-rx"></block> _新_</block>
   <block id="a61d8a4fcaa8b59b1d8f1d63aada7783" category="summary">支援的韌體與驅動程式版本NetApp HCI 、可在支援的支援功能中使用。NetApp Element</block>
   <block id="2e697d89104c46a74e44aa847695f3f8" category="doc">支援的韌體和ESXi驅動程式版本NetApp HCI 適用於支援NetApp HCI 的VMware及韌體版本、適用於各種儲存節點</block>
   <block id="b757850bdb41a8f86215fd4d7394eeb9" category="paragraph">支援的韌體和ESXi驅動程式版本NetApp HCI 適用於支援NetApp HCI 的VMware及韌體版本、適用於各種儲存節點。</block>
@@ -6378,4 +6375,16 @@
   <block id="f3d906055e8465bbb09581a2798127ae" category="admonition">7.0、7.0、U2、7.0 U3的驅動程式可從取得 <block ref="2d30eb2542d74a72bd10b13092aa6d1f" category="inline-link-macro-rx"></block> 頁面。</block>
   <block id="ac4ea0116877e7d9fa4a0111b67b92f1" category="paragraph">請參閱硬體的韌體與驅動程式對照表、網址為<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>。</block>
   <block id="6099f1a8115acef9b6c8b5715b669041" category="paragraph">對於VMware ESXi 6.x和7.0至7.0 U3、請執行下列步驟以匯入驅動程式離線套件檔案：</block>
+  <block id="e5f0019a70375a2e883b7840f439118a" category="list-text"><block ref="732713df3c4c58fb19fab37e747f6f0d" category="inline-link-macro-rx"></block> _新_</block>
+  <block id="eb66a5e31d8328246fdb5497ed40a7a4" category="inline-link-macro">儲存韌體套裝組合2.164.0版本說明</block>
+  <block id="fddb0d91393a6472f9894a9e10c5d3b5" category="list-text"><block ref="05897b3b8549d60a9bbb1bea2303559b" category="inline-link-macro-rx"></block> _新_</block>
+  <block id="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="list-text"><block ref="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="inline-link-macro-rx"></block></block>
+  <block id="1e27fffa2cb3a38bf6c4f19753e5c750" category="paragraph">從Element 12和管理服務2.14版開始、您可以使用NetApp混合雲控制UI和REST API、在儲存節點上執行純韌體升級。此程序不會升級Element軟體、可讓您在主要Element版本之外升級儲存韌體。</block>
+  <block id="ab9c2528be862fe9060ba417c0e4592c" category="paragraph">儲存韌體套裝軟體2.164.0版支援NIC、Mellanox CX5 16.32.1010、以及PM9A3磁碟機的韌體更新。</block>
+  <block id="c58131f683a01fe377feac2a274a453c" category="cell">NIC、Mellanox CX4</block>
+  <block id="5b9e54957990854773d289415ff737c6" category="cell">NIC、Mellanox CX5</block>
+  <block id="abb927a2f22181a1c8e40f36a8ae13f5" category="cell">* 16.32.10101010*</block>
+  <block id="7c5ccf80b07d1effc359d2dbc6b965e3" category="cell">* GDC5602Q*</block>
+  <block id="32e2e1f8da88327e0f6733fff723309a" category="admonition">下表說明SF38410、SFG19210、SF9605和SF4805的此儲存韌體產品組合版本支援的元件韌體版本。不過、這些元件韌體無法透過儲存韌體產品組合進行更新。</block>
+  <block id="2a7341cae34c31f19bf7e5068a68845a" category="list-text">瀏覽至<block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block> 並從下拉式清單中選取* Element Software*：</block>
 </blocks>
