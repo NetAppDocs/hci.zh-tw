@@ -14,7 +14,7 @@ keywords: netapp, hci, on premise, cluster, upgrade, element
 這些元件包括管理服務、NetApp混合雲控制、Element軟體、管理節點、運算韌體、運算驅動程式、 以及vCenter Server的Element外掛程式
 
 
-NOTE: 從元素12.5開始、NetApp HealthTools不再支援元素軟體升級。如果您執行的是元件11.0或11.1、則必須先執行 link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["使用HealthTools升級至Element 123"^] 然後使用NetApp混合雲控制升級至Element 12.5或更新版本。
+NOTE: 從元素12.5開始、NetApp HealthTools不再支援元素軟體升級。如果您執行的是元件11.0或11.1、則必須先執行 link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["使用HealthTools升級至Element 123"^] 然後使用NetApp混合雲控制升級至Element 12.5。
 
 。 ,系統升級順序 內容說明完成NetApp HCI 更新功能所需的工作。理想情況下、您可以執行這些程序、做為較大規模升級順序的一部分、而非隔離。如果需要元件型升級或更新、請參閱程序先決條件、以確保解決更多複雜性問題。
 
@@ -31,7 +31,7 @@ TIP: 若要檢查版本、請登入管理節點、並在登入橫幅中檢視元
 使用NetApp混合式雲端控制進行升級的舊版服務組合版本無法使用。
 
 * 您已確保所有節點上的系統時間都已同步、且儲存叢集和節點的NTP設定正確。每個節點都必須在每個節點的Web UI（「https://[IP位址」：442`）中設定DNS名稱伺服器、且不會發生與時間偏移相關的未解決叢集故障。
-* 您已為安排足夠的時間 link:task_hcc_upgrade_element_software.html#element-upgrade-time["Element軟體"] 和 link:task_hcc_upgrade_storage_firmware.html#storage-firmware-upgrade["儲存韌體"] 升級：升級至Element軟體12.5或更新版本時、升級程序時間會因元件軟體版本和韌體更新而有所不同。
+* 您已為安排足夠的時間 link:task_hcc_upgrade_element_software.html#element-upgrade-time["Element軟體"] 和 link:task_hcc_upgrade_storage_firmware.html#storage-firmware-upgrade["儲存韌體"] 升級：升級至Element軟體12.5時、升級程序時間會因Element軟體版本和韌體更新而有所不同。
 
 
 

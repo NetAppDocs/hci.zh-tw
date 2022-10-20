@@ -24,7 +24,7 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 
 == NetApp HCI
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2882194["《》（英文NetApp HCI"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2882194["《》（英文NetApp HCI"^] _新_
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2879274["《》（英文）：《》（英文）NetApp HCI"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2876591["發行說明NetApp HCI"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2873790["《》發行說明1.8P1 NetApp HCI"^]
@@ -36,8 +36,7 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 
 == 軟件NetApp Element
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2884468["《軟件》第12版發行說明NetApp Element"^] _新_
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2882193["《軟件發行說明》（英文）NetApp Element"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2882193["《軟件發行說明》（英文）NetApp Element"^] _新_
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["《軟件12.3.2發行說明》NetApp Element"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2878089["《軟件12.3.1發行說明》NetApp Element"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2876498["Software 123版本資訊NetApp Element"^]
