@@ -304,39 +304,7 @@ sidebar:
     - title: 擴充叢集後移除見證節點
       url: "/docs/task_hci_removewn.html"
   - title: 使用Rancher on NetApp HCI 支援
-    entries:
-    - title: Rancher on NetApp HCI 》概述
-      url: "/docs/concept_rancher_product_overview.html"
-    - title: 概念
-      url: "/docs/concept_rancher_concepts.html"
-    - title: Rancher on NetApp HCI 支援需求
-      url: "/docs/rancher_prereqs_overview.html"
-    - title: 將Rancher部署在NetApp HCI
-      url: "/docs/task_rancher_deploy.html"
-    - title: 部署後工作
-      entries:
-      - title: 部署後工作總覽
-        url: "/docs/concept_rancher_post_deployment_overview.html"
-      - title: 確保Rancher支援同位元檢查
-        url: "/docs/task_rancher_ensure_rancher_support_parity.html"
-      - title: 改善Rancher VM恢復能力
-        url: "/docs/task_rancher_config_anti_affinity.html"
-      - title: 設定監控
-        url: "/docs/task_rancher_enable_monitoring.html"
-      - title: 安裝Trident
-        url: "/docs/task_rancher_trident.html"
-      - title: 啟用使用者叢集的Trident支援
-        url: "/docs/task_trident_configure_networking.html"
-    - title: 部署使用者叢集與應用程式
-      url: "/docs/task_rancher_deploy_user_clusters.html"
-    - title: 在NetApp HCI 支援的基礎上管理Rancher
-      url: "/docs/task_rancher_manage.html"
-    - title: 監控Rancher on NetApp HCI
-      url: "/docs/task_rancher_monitor.html"
-    - title: 升級Rancher on NetApp HCI
-      url: "/docs/task_rancher_upgrades.html"
-    - title: 移除NetApp HCI 在不支援的情況下安裝Rancher
-      url: "/docs/task_rancher_remove_deployment.html"
+    url: "/docs/concept_rancher_index.html"
   - title: 維護H系列硬體
     entries:
     - title: H系列硬體維護總覽
@@ -401,8 +369,6 @@ homepage:
       url: "/docs/task_mnode_work_overview.html"
     - title: 使用NetApp Element vCenter Server的VMware vCenter外掛程式
       url: https://docs.netapp.com/us-en/vcp/index.html
-    - title: 使用Rancher
-      url: "/docs/concept_rancher_product_overview.html"
     - title: 展開NetApp HCI
       url: "/docs/concept_hcc_expandoverview.html"
     - title: 升級NetApp HCI

@@ -28,7 +28,8 @@ NOTE: 如果vSphere庫存組態使用資料夾將NetApp HCI VMware叢集儲存�
 
 如果您安裝新的vCenter Server、可以在網路組態期間安裝vSphere標準交換器或vSphere分散式交換器（VDS）。VDS可在NetApp HCI 部署完成後、簡化且集中化地管理虛擬機器網路組態。在VMware上的雲端資料服務功能NetApp HCI 需要VDS；vSphere標準交換器不支援雲端資料服務。
 
-[discrete]
+
+
 == 如需詳細資訊、請參閱
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["韌體與驅動程式版本、以NetApp HCI 更新版本為目標NetApp Element"^]

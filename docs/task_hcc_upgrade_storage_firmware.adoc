@@ -33,10 +33,10 @@ IMPORTANT: 若要更新IDC/BIOS韌體、請聯絡NetApp支援部門。如需詳�
 
 
 
-NOTE: 如需硬體的韌體和驅動程式韌體完整對照表、請參閱 https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html["支援的韌體和ESXi驅動程式版本"^]。
+NOTE: 如需硬體的韌體和驅動程式韌體完整對照表、請參閱 link:firmware_driver_versions.html["支援的韌體和ESXi驅動程式版本NetApp HCI 、適用於支援NetApp HCI 的VMware及韌體版本、適用於各種儲存節點"]。
 
 [[storage-firmware-upgrade]]
-* *升級程序時間*：您已排定足夠的時間來執行升級。升級至Element軟體12.5時、升級程序時間會因您目前的Element軟體版本和韌體更新而有所不同。
+* *升級程序時間*：您已排定足夠的時間來執行升級。升級至Element軟體12.5或更新版本時、升級程序時間會因您目前的Element軟體版本和韌體更新而有所不同。
 +
 [cols="20,20,20,20,20"]
 |===
@@ -52,12 +52,12 @@ NOTE: 如需硬體的韌體和驅動程式韌體完整對照表、請參閱 http
 | H610S | 11.7及更早版本 | 90分鐘 | 40至70分鐘 | 您也必須花費130到160分鐘的時間 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["執行完整的節點關機和電源中斷"^] 針對每個H610S節點。 
 |===
 +
-^1^如需硬體的韌體與驅動程式韌體完整對照表、請參閱 https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html["支援的韌體和ESXi驅動程式版本"^]。
+^1^如需硬體的韌體與驅動程式韌體完整對照表、請參閱 link:firmware_driver_versions.html["支援的韌體和ESXi驅動程式版本NetApp HCI 、適用於支援NetApp HCI 的VMware及韌體版本、適用於各種儲存節點"]。
 
 +
 ^2^如果將叢集與大量寫入IOPS負載結合、並延長韌體更新時間、資料同步時間將會增加。
 
-* *終端使用者授權合約（EULA）*：從管理服務的2.20開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級儲存韌體：
+* *終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級儲存韌體：
 +
 .. 在Web瀏覽器中開啟管理節點的IP位址：
 +
