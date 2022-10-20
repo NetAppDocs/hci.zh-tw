@@ -51,11 +51,16 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。
 
+* link:../media/NetApp_HCI_1.11_notice.pdf["關於此產品的注意事項NetApp HCI 1.11"^]
+* link:../media/Element_Software_12.7.pdf["Element軟體注意事項12.7"^]
+* link:../media/Ember_OS_12.7.pdf["Ember OS 12.7注意事項"^]
+* link:../media/mNode_12.7.pdf["管理節點12．7注意事項"^]
 * link:../media/NetApp_HCI_1.10_notice.pdf["關於本產品的注意事項NetApp HCI 1.10"^]
 * link:../media/Element_Software_12.5.pdf["Element軟體12.5注意事項"^]
 * link:../media/SolidFire_eSDS_12.5.pdf["NetApp SolidFire 企業SDS 12.5注意事項"^]
 * link:../media/mNode_12.5.pdf["管理節點12.5注意事項"^]
 * link:../media/ansible-products-notice.pdf["運算升級的Ansible角色注意事項"^]
+* link:../media/storage_firmware_bundle_2.164.0_notices.pdf["儲存韌體產品組合2.164注意事項"^]
 * link:../media/storage_firmware_bundle_2.150_notices.pdf["儲存韌體產品組合2.150注意事項"^]
 * link:../media/compute_firmware_bundle_2.154.4_notices.pdf["運算韌體產品組合2.154.4注意事項"^]
 * link:../media/storage_firmware_bundle_2.146_notices.pdf["儲存韌體產品組合2.146注意事項"^]

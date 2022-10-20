@@ -42,7 +42,8 @@ Rancher可在NetApp HCI 使用者叢集上執行各種功能、並在其中提�
 
 如需詳細資料、請造訪 https://netapp-trident.readthedocs.io/en/stable-v20.10/introduction.html["Trident文件"^]。
 
-[discrete]
+
+
 == 如需詳細資訊、請參閱
 
 * https://rancher.com/docs/rancher/v2.x/en/overview/architecture/["有關架構的Rancher文件"^]
