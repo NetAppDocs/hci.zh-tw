@@ -6367,7 +6367,6 @@
   <block id="46e87a91de6f38f3b1344d05a59270dd" category="inline-link">部分1.9文件NetApp HCI</block>
   <block id="fc55c296a158a74f2203216a080cac11" category="paragraph">對於現有的Rancher部署、從管理服務2.21.61開始、Rancher不再受支援。如果您升級至管理服務2.21.61、則無法使用NetApp混合雲控制來管理、監控或升級Rancher以進行現有部署、或是NetApp HCI 在更新的支援系統上執行新的部署。如果您已在NetApp HCI 您的支援系統上部署Rancher、並執行2.20.69或更早版本的管理服務、您可以繼續使用來管理、監控及升級Rancher<block ref="366a8df179e5c8339fa05bf5fe38a812" category="inline-link-rx"></block>。</block>
   <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">管理服務注意事項2.21.61（NetApp Element VMware vCenter Server 4.10.12適用的VMware vCenter外掛程式）</block>
-  <block id="5a4d1edee05c62a7171ceb8c43afb590" category="list-text"><block ref="5a4d1edee05c62a7171ceb8c43afb590" category="inline-link-macro-rx"></block></block>
   <block id="d6802e127914e53f73aa2f2db8cb5e44" category="paragraph">從管理服務2.20.69開始、您必須先接受並儲存終端使用者授權合約（EULA）、才能使用NetApp混合雲控制UI或API來升級管理服務：</block>
   <block id="29bba7cbe3dac4ea58cab61272150fe8" category="paragraph">您可以將管理節點從12.3.x版或更新版本升級至管理節點12.5或更新版本。</block>
   <block id="4ff70a8151851ab1e82db6f0eed42808" category="list-text"><block ref="810c9a492c31390e08f0e76e7c298785" category="inline-xref-macro-rx"></block></block>
@@ -6383,4 +6382,5 @@
   <block id="edb046160eb6ed03c39de5860e72e509" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級Rancher部署：</block>
   <block id="54c78d15a850ddddfc9da22742280908" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來執行元件儲存健全狀況檢查：</block>
   <block id="b1dc794dd924da27c3e3280ab948e305" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API執行運算節點健全狀況檢查：</block>
+  <block id="19675be2a917a2efeeead44ff5060fe2" category="list-text"><block ref="19675be2a917a2efeeead44ff5060fe2" category="inline-link-macro-rx"></block></block>
 </blocks>
