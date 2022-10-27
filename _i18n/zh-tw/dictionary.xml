@@ -6108,7 +6108,6 @@
   <block id="811756c7591f205ccf18828f4341af4a" category="cell">釋放車輛</block>
   <block id="6a330702a04f4b3a688f8fbfc0c9006b" category="cell">推出日期</block>
   <block id="5ddc86a7dad161eef1cc36ffd0bea42d" category="cell">CPLD</block>
-  <block id="739875ce1e8d4fdd288adec8e4ef79dd" category="cell">10/25 GbE NIC Quanta Mellanox</block>
   <block id="d62c43bc88253f47039186c24fd2728c" category="cell">快取NVDIMM NVDIMM模組智慧型（第1代）</block>
   <block id="aba0754de2a797e1308f5b7fb9d2799a" category="cell">快取NVDIMM能源（BPM）智慧型（Gen1）</block>
   <block id="9228d22003d9bf6f445bf9c657f18e3d" category="cell">快取NVDIMM NVDIMM模組智慧型（第2代）</block>
@@ -6210,7 +6209,6 @@
   <block id="60d788b5461ac876fe9e656fd99ba55a" category="cell">磁碟機Toshiba Hawk-4（N-SED）</block>
   <block id="02057cc854600d68c5fb8b16e44333cb" category="cell">磁碟：Samsung PM883（SED）</block>
   <block id="dd7f542392a4b31946826638316847cb" category="cell">3.25</block>
-  <block id="a96f3090a2365a224fd062d83446f5c4" category="cell">* SFB 1.2.17到NetApp Element S12 12.0*</block>
   <block id="fecef1f3257db1c56b2809ab7f1d9879" category="cell">*《*》11.8.2* NetApp Element</block>
   <block id="9733899a197ba17a05e1c36d76587410" category="cell">*《*》11.8.1* NetApp Element</block>
   <block id="8b3bfab20f63e97f107866a9f6bd44cc" category="cell">14.17.2020年</block>
@@ -6383,4 +6381,20 @@
   <block id="19675be2a917a2efeeead44ff5060fe2" category="list-text"><block ref="19675be2a917a2efeeead44ff5060fe2" category="inline-link-macro-rx"></block></block>
   <block id="5ed2b0be7714cf9bfe94c6d0660549bb" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block></block>
   <block id="75dde1dc17bd100ca4331fd989a91f97" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block></block>
+  <block id="dd351a18764128aac11df1a1c727372c" category="list-text"><block ref="7bcb78e4fc7d97f5deaab3647840e2ea" category="inline-xref-macro-rx"></block></block>
+  <block id="2642e800ea806ba3c4a8b1b2dc29af36" category="cell">10/25 GbE NIC cx4</block>
+  <block id="a3f7d364350371e673946634fd90659b" category="cell">10/25 GbE NIC CX5</block>
+  <block id="2ee8e09999beeee54d2bd467af8fa223" category="cell">*儲存韌體套裝組合2.164.0*</block>
+  <block id="d4b212557e55b6e6583c0d02ccccd6eb" category="cell">10/20/2022</block>
+  <block id="51de44f160b8b55c4e5d2ce02998d259" category="cell">16.32.1010</block>
+  <block id="b480fd4504480e5139a20c8cc66fcf79" category="cell">GDC5602Q</block>
+  <block id="68ed34bb8a8f8b7d7a0942f7a94cd4f2" category="cell">*儲存韌體套裝組合2.164.0到NetApp Element 更新版本12.7*</block>
+  <block id="8c3879f362310e6f570e2d7df90ed4c3" category="paragraph">*完整型號：* H410S-0、H410S-1、H410S-1-NE及H410S-2</block>
+  <block id="220071ab44b426f80ef21f1c552c363c" category="cell">NIC</block>
+  <block id="b7a94f3bf805dd30bc00a3663f3f2464" category="cell">快取NVDIMM RMS200（RMS200）</block>
+  <block id="5299c51e79a24211e817dccc91a4e700" category="cell">快取NVDIMM RMS200（RMS300）</block>
+  <block id="100ff17a6b36ad7642954c2fd974ed5f" category="cell">2021年3月8日</block>
+  <block id="55fc3b139c0a126af7257f980acb20c5" category="cell">身分識別模組</block>
+  <block id="c9c5cc2efc04287e6fe8d7feebf032aa" category="cell">N41WC 1.02</block>
+  <block id="126078d2e17c3ac2589cca85b30163c7" category="cell">開機裝置</block>
 </blocks>
