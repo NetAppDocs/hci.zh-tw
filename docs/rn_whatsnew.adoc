@@ -115,7 +115,7 @@ Element 12.5包含儲存節點的韌體更新。 link:https://docs.netapp.com/us
 
 元素12.5包含的緩和措施可關閉元素軟體曝險於Apache log4j弱點。啟用虛擬Volume（VVols）功能的NetApp SolidFire 支援區儲存叢集、會暴露於Apache log4j弱點。如需NetApp Element 有關解決方案的資訊、請參閱｛url-peak｝[KB文章]。
 
-如果您執行的是Element 11.x、12.0或12.2、或是儲存叢集已在元素123或12.3.1、且已啟用VVols功能、則強烈建議升級至12.5。
+如果您執行的是Element 11.x、12.0或12.2、或是儲存叢集已在元素123或12.3.1、且已啟用VVols功能、則應升級至12.5。
 
 元素12.5也包含120多項可修復的CVE安全性弱點。
 
