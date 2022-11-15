@@ -2687,7 +2687,6 @@
   <block id="2bfb7d51aea637d48bf5bca4afcb46a1" category="list-text">以vCenter管理員身分登入vSphere Web Client。如果您已登入vSphere Web Client、則必須先登出、等待兩到三分鐘、然後再次登入。</block>
   <block id="f523905d48a1db956815565365a5a6ad" category="admonition">此動作會建立新的資料庫、並在vSphere Web Client中完成安裝。</block>
   <block id="9b572df8237d34b7c32142ac15f1325f" category="list-text">在vSphere Web Client中、請在工作監控器中尋找下列已完成的工作、以確保安裝完成：「下載外掛程式」和「部署外掛程式」。</block>
-  <block id="c4676996d8b51da422f5ab619c54ae01" category="list-text">確認NetApp Element vSphere Web Client的「*捷徑*」索引標籤和側邊面板中顯示「功能不實的組態與管理」擴充點。</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server的Element外掛程式</block>
   <block id="b9e50e6a339819ad9d12906b29e978ca" category="list-text">確認NetApp Element 外掛程式*的「組態*」擴充點*「關於*」索引標籤中的版本變更。</block>
   <block id="a2b39afbde860c9c0fc759f3772e2dd2" category="paragraph">您應該會看到下列版本詳細資料或較新版本的詳細資料：</block>
@@ -6431,4 +6430,7 @@
   <block id="307d07425c54bb4aa0778a14487a9a93" category="list-text">使用NetApp Element vCenter Server 4．10及更早版本的支援程式、從其他vCenter Server管理叢集資源、使用<block ref="b9ce345290cb228a35dd424c40eebf37" category="inline-link-rx"></block> 僅限於本機儲存叢集。</block>
   <block id="ec78c54d60054bc44ae2e26c00313bdb" category="list-text">管理服務2.22.7包含NetApp Element VMware vCenter Server 5.0的VMware vCenter外掛程式、其中包含遠端外掛程式。如果您使用Element外掛程式、則應升級至5.0版、以符合VMware指令、該指令會移除對本機外掛程式的支援。<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>。如果您不使用外掛程式、這是選擇性的升級。</block>
   <block id="9db4acd10c15ec173e6516c347342e25" category="admonition">您應在vCenter中建立新的NetApp HCC角色、以新增控制器子資產。這項新的NetApp HCC-角色會將管理節點服務檢視限制為僅適用於NetApp的資產。請參閱 <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>。</block>
+  <block id="d471727ba1fb423986701d5307906d08" category="list-text">確認外掛程式擴充點顯示在vSphere Web Client的*捷徑*索引標籤和側邊面板中。</block>
+  <block id="290b380ec7760347344e9055b68f217d" category="paragraph">從Element Plug-in for vCenter Server 5.0開始、NetApp Element 就是「VMware遠端外掛程式」的延伸點：</block>
+  <block id="7491d78d51f3545fc9fe30d2249bc196" category="paragraph">Element Plug-In for vCenter Server 4.10或更早版本、NetApp Element 不支援「組態與管理」擴充點：</block>
 </blocks>

@@ -138,15 +138,15 @@ NOTE: 如果您使用HTTP或HTTPS伺服器（黑網站）或修改了郵遞區�
 NOTE: 此動作會建立新的資料庫、並在vSphere Web Client中完成安裝。
 
 . 在vSphere Web Client中、請在工作監控器中尋找下列已完成的工作、以確保安裝完成：「下載外掛程式」和「部署外掛程式」。
-. 確認NetApp Element vSphere Web Client的「*捷徑*」索引標籤和側邊面板中顯示「功能不實的組態與管理」擴充點。
+. 確認外掛程式擴充點顯示在vSphere Web Client的*捷徑*索引標籤和側邊面板中。
 +
-從vCenter Server 5：0的元素外掛開始：
+從Element Plug-in for vCenter Server 5.0開始、NetApp Element 就是「VMware遠端外掛程式」的延伸點：
 
 +
 image::vcp_remote_plugin_icons_home_page.png[說明在元素外掛程式5.10或更新版本成功升級或安裝之後的外掛程式擴充點]
 
 +
-vCenter Server 4．10或更早版本的Element外掛程式：
+Element Plug-In for vCenter Server 4.10或更早版本、NetApp Element 不支援「組態與管理」擴充點：
 
 +
 image::vcp_shortcuts_page_accessing_plugin.png[說明在元素外掛程式4.10或更早版本成功升級或安裝之後的外掛程式擴充點]
