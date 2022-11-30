@@ -6087,9 +6087,7 @@
   <block id="fbbe254e45b4762e05a1addfd1b1da7b" category="admonition">深入瞭解 <block ref="e8537a9bbe8826a9f8e7b689e79abc77" category="inline-link-macro-rx"></block>。</block>
   <block id="0dc2c3036c99248e0e9f340a2cfc8fb1" category="summary">儲存節點支援的韌體和驅動程式版本。</block>
   <block id="10a16317486e698f70640e8342028ef1" category="list-text"><block ref="d02062eff89a2ae583064c32a7f5ba19" category="inline-xref-macro-rx"></block></block>
-  <block id="ee921cd8571be167745ca46fd5662653" category="paragraph">*型號（系列部分）：* H610S *完整型號：* H610S-1、H610S-1-NE、H610S-2、H610S-2-NE、H610S-4、 H610S-4-NE和H610S-2F</block>
   <block id="42f95ea300f7aca212452f34f3029cfc" category="section-title">由儲存韌體產品組合管理的元件韌體</block>
-  <block id="c60bedadea2f465d7a7aede1952c5824" category="paragraph">在11.x期間、NetApp Element 發行韌體的唯一方法就是使用「資訊」軟體。從元件12.0開始、*儲存韌體產品組合*的概念已推出、而獨立發行的儲存韌體產品組合或儲存韌體產品組合（包含在12.x Element版本中）現在也能進行韌體更新。</block>
   <block id="7f725124635cae9d920f527b52c91e1f" category="admonition">下表中的破折號（*-*）表示該特定的硬體元件不受該特定版本車輛支援。</block>
   <block id="811756c7591f205ccf18828f4341af4a" category="cell">釋放車輛</block>
   <block id="6a330702a04f4b3a688f8fbfc0c9006b" category="cell">推出日期</block>
@@ -6372,7 +6370,6 @@
   <block id="51de44f160b8b55c4e5d2ce02998d259" category="cell">16.32.1010</block>
   <block id="b480fd4504480e5139a20c8cc66fcf79" category="cell">GDC5602Q</block>
   <block id="68ed34bb8a8f8b7d7a0942f7a94cd4f2" category="cell">*儲存韌體套裝組合2.164.0到NetApp Element 更新版本12.7*</block>
-  <block id="8c3879f362310e6f570e2d7df90ed4c3" category="paragraph">*完整型號：* H410S-0、H410S-1、H410S-1-NE及H410S-2</block>
   <block id="220071ab44b426f80ef21f1c552c363c" category="cell">NIC</block>
   <block id="b7a94f3bf805dd30bc00a3663f3f2464" category="cell">快取NVDIMM RMS200（RMS200）</block>
   <block id="5299c51e79a24211e817dccc91a4e700" category="cell">快取NVDIMM RMS200（RMS300）</block>
@@ -6438,4 +6435,9 @@
   <block id="b8b146fd1e1ecdf074536a02bfe40871" category="list-text">（適用於內部伺服器/黑點）視您的Element Plug-in for vCenter版本而定、外掛程式Json檔案或外掛程式ZIP的自訂URL：</block>
   <block id="1993643c12bb4ee547f04d8d85f8c4bf" category="list-text">從Element Plug-in for vCenter Server 5.0開始、NetApp Element 畫面會出現「VMware遠端外掛程式」擴充點：</block>
   <block id="1c63b3cd9a6d3bdf8b9b31aca68672d7" category="list-text">對於vCenter Server 4．10或更早版本的Element Plug-in、NetApp Element 將會顯示「VMware組態與管理」擴充點：</block>
+  <block id="ed49450e49f19333986b5262b5e1a4d4" category="paragraph">支援的韌體和ESXi驅動程式版本、適用於NetApp HCI 支援的運算節點。</block>
+  <block id="0b50a6dd18dd8aee8ba17d59674440d3" category="paragraph">H系列和SolidFire 支援的韌體版本。</block>
+  <block id="64e18ac9b2149d7132eaef6563caaaf6" category="paragraph">*型號（系列部分）：* H610S *完整型號：* H610S-1、H610S-1-NE、H610S-2、H610S-2-NE、H610S-4、H610S-4-NE和H610S-2F</block>
+  <block id="cbbfc38164561754239654f9b4436dfb" category="paragraph">在11.x期間、NetApp Element 發行韌體的唯一方法就是使用「資訊」軟體。從元件12.0開始、我們推出*儲存韌體產品組合*的概念、而隨附於Element 12.x版本的獨立版本儲存韌體產品組合或儲存韌體產品組合、現在可以進行韌體更新。</block>
+  <block id="fc7b9c0546e7d4972b0e2c8495d3ed48" category="paragraph">*完整型號：* SF38410、SF19210、SF9605和SF4805</block>
 </blocks>

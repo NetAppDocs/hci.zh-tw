@@ -1,20 +1,7 @@
----
-sidebar: sidebar 
-permalink: docs/fw_storage_nodes.html 
-keywords: documentation, earlier, previous, versions 
-summary: 儲存節點支援的韌體和驅動程式版本。 
----
-= 儲存節點
-:hardbreaks:
+= H610S
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ../media/
-:keywords: hci, earlier, documentation, versions
 
 
-[role="lead"]
 H系列和SolidFire 支援的韌體版本。
 
 * 
