@@ -11,7 +11,7 @@ keywords: netapp, storage prechecks, element upgrade, sfupgradecheck
 [role="lead"]
 您必須在升級元素儲存設備之前執行健全狀況檢查、以確保叢集中的所有儲存節點都已準備好進行下一個元素儲存設備升級。
 
-.您需要的是 #8217 ；需要的是什麼
+.您需要的產品
 * *管理服務*：您已更新至最新的管理服務套裝組合（2.10.27或更新版本）。
 +
 
@@ -38,15 +38,16 @@ NOTE: 當您接受EULA時、系統會記錄所有未來更新、並啟用自動�
 
 
 
+.健全狀況檢查選項
 您可以使用NetApp混合雲控制UI或NetApp混合雲控制API執行健全狀況檢查：
 
-*  NetApp Hybrid Cloud Control to run Element storage health checks prior to upgrading storage （偏好的方法）
-*  API to run Element storage health checks prior to upgrading storage
+* <<在升級儲存設備之前、請使用NetApp混合雲控制來執行Element儲存設備健全狀況檢查>> （偏好的方法）
+* <<在升級儲存設備之前、請使用API執行元素儲存設備健全狀況檢查>>
 
 
 您也可以深入瞭解服務執行的儲存健全狀況檢查：
 
-*  health checks made by the service
+* <<由服務進行儲存健全狀況檢查>>
 
 
 

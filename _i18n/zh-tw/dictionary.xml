@@ -29,14 +29,12 @@
   <block id="ad56c46e8e9f8e0bb939f50f5e76805b" category="paragraph">。 <block ref="73cba4e8b2341cec7edfdf3782fd4351" category="inline-xref-macro-rx"></block> 內容說明完成NetApp HCI 更新功能所需的工作。理想情況下、您可以執行這些程序、做為較大規模升級順序的一部分、而非隔離。如果需要元件型升級或更新、請參閱程序先決條件、以確保解決更多複雜性問題。</block>
   <block id="7ce03284a3322764084b916532f7b97d" category="inline-xref-macro">vSphere升級順序</block>
   <block id="03d9736b99e2da5cd9960094356e494f" category="paragraph">。 <block ref="9f008f1bb66c711bf62156989885280f" category="inline-xref-macro-rx"></block> 包含Element Plug-in for vCenter Server內容、說明重新安裝Element Plug-in for vCenter Server所需的其他升級前和升級後步驟。</block>
-  <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">您需要的是 #8217 ；需要的是什麼</block>
   <block id="05384005cf99c46ea432f9d7696f56e1" category="list-text">您執行的是管理節點11.3或更新版本。較新版本的管理節點採用模組化架構、可提供個別服務。</block>
   <block id="ffa0fe3bc6da6c9b920ff8ce89a0609f" category="inline-link-macro">升級管理節點</block>
   <block id="ee04baa2ee228c73a80bcb76420c3f83" category="admonition">若要檢查版本、請登入管理節點、並在登入橫幅中檢視元素版本編號。如果您沒有11.3、請參閱 <block ref="298642ffea6db0968793883313b436ff" category="inline-link-macro-rx"></block>。</block>
   <block id="dc80874f9d06173050949a80fc641cfc" category="list-text">您已將管理服務升級至至少2.1.326版。</block>
   <block id="df3748edc080e7a8ed49863460584cdd" category="paragraph">使用NetApp混合式雲端控制進行升級的舊版服務組合版本無法使用。</block>
   <block id="ced99676ffdce11db0cf7ce2a4a812b8" category="list-text">您已確保所有節點上的系統時間都已同步、且儲存叢集和節點的NTP設定正確。每個節點都必須在每個節點的Web UI（「https://[IP位址」：442`）中設定DNS名稱伺服器、且不會發生與時間偏移相關的未解決叢集故障。</block>
-  <block id="6ea7f8d4483b20144d2c82f1ed99c07a" category="section-title">系統升級順序</block>
   <block id="47f1925137d1bc975fa326ab8c3fdaba" category="paragraph">您可以使用下列順序來升級NetApp HCI 您的作業系統。</block>
   <block id="524813e84d210a04a3c005022becca08" category="inline-link-macro">從混合雲控制系統更新管理服務</block>
   <block id="c43409e402c491faff614694ff49b45b" category="list-text"><block ref="d96c5e393dc7f7cfcba5644a67a6ff8a" category="inline-link-macro-rx"></block>。</block>
@@ -71,7 +69,6 @@
   <block id="7c4a6e26b432f1ad131564bc6dc6e32d" category="doc">儲存韌體產品組合2.27版本說明</block>
   <block id="7bb9848301f8ece6cf7cd1a03218b8ff" category="paragraph">從Element 12和管理服務2.14版開始、您可以使用NetApp混合雲控制UI和REST API、在儲存節點上執行純韌體升級。此程序不會升級Element軟體、可讓您在主要Element版本之外升級儲存韌體。</block>
   <block id="95354607013474f8df935e1d60dac05d" category="admonition">對於執行Element軟體12.0版的H610S儲存節點、在升級至儲存韌體套件2.27之前、您應該先套用D-PAT修補 程式的SUST-909。升級前、請聯絡NetApp支援部門以取得D-修補 程式。</block>
-  <block id="5fef629b836b60819e0c0ce49cd2b9d7" category="section-title">新增功能</block>
   <block id="1d1633bfe72bbc8d0c4b0a029ebed057" category="inline-link-macro">升級儲存韌體</block>
   <block id="bedc681918a3dad446ad93d7cca9b145" category="paragraph">儲存韌體套裝軟體2.27版包含各種錯誤修正與新功能、包括安全性弱點修正。您可以依照中的指示升級儲存韌體 <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>。</block>
   <block id="692731d8e937243e33f91c14df51cf3f" category="section-title">更新韌體元件</block>
@@ -748,7 +745,6 @@
   <block id="0e68b38eaff7123dcc12ce395a147a48" category="summary">提供儲存與運算資源、結合這些資源、打造出以VMware軟體功能為後盾的VMware vSphere環境。NetApp HCI NetApp Element</block>
   <block id="2bfee064de23abb29a29ad16b90c3080" category="doc">組態與管理文件NetApp HCI</block>
   <block id="2d2319a467144bf3a0e5baabca9ea680" category="paragraph">您可以使用NetApp混合雲控制介面來升級、擴充及監控系統、NetApp HCI 並使用NetApp Element 適用於vCenter Server的VMware外掛程式來管理各種VMware資源。</block>
-  <block id="1fde0727b387439572ade83eecff4f68" category="section-title">瞭解新功能</block>
   <block id="6b51db420393cbff0d9f09dfeb229ecb" category="inline-link-macro">更新功能NetApp HCI</block>
   <block id="6709fa8e92b382825b811cdae7781d0f" category="list-text"><block ref="6709fa8e92b382825b811cdae7781d0f" category="inline-link-macro-rx"></block></block>
   <block id="858ea7ae6467e65992f082751f2c1cdf" category="inline-link">更新功能NetApp Element</block>
@@ -4817,7 +4813,6 @@
   <block id="ae4ac9937fe2124bac1e8af524c0bdc6" category="list-text">在「*動作*」下、選取「*啟用維護模式*」。</block>
   <block id="b66e6d3d140b3a6b8af0112f6c915150" category="paragraph">當*維護模式*已啟用時、所選節點和同一個叢集上的所有其他節點無法使用維護模式動作。</block>
   <block id="62ae267478305435d23b7df0f401bb38" category="paragraph">在*啟用維護模式*完成後、「*節點狀態*」欄會顯示一個扳手圖示、並顯示處於維護模式之節點的「*維護模式*」文字。</block>
-  <block id="093586b1f3ef758c1cea8d476b072359" category="section-title">停用維護模式</block>
   <block id="a1572d68c738e66df4f2eba84768fe13" category="paragraph">在節點成功置於維護模式之後、此節點可使用*停用維護模式*動作。其他節點上的動作將無法使用、直到正在進行維護的節點上成功停用維護模式為止。</block>
   <block id="6351ccc6ed60aa5dd025a0b847793a94" category="list-text">對於維護模式下的節點、請在*「Actions」（動作）*下選取*「停用維護模式」*。</block>
   <block id="fc081ac4444d21e696896e77aedce790" category="paragraph">當*維護模式*停用時、所選節點和同一叢集上的所有其他節點無法使用維護模式動作。</block>
@@ -5348,7 +5343,6 @@
   <block id="f4ad5fe6377e47eb0f1d3efd91917e13" category="section-title">使用vCenter Server驗證部署</block>
   <block id="6c8f5781f8959d00ff258798ba1d4a06" category="paragraph">在vSphere用戶端中、您可以看到Rancher管理叢集、其中包含三個虛擬機器。</block>
   <block id="6d5e0d8752a1244db9529c72a9402187" category="admonition">完成部署後、請勿修改Rancher伺服器虛擬機器叢集的組態、或移除虛擬機器。Rancher on NetApp HCI 支援功能仰賴部署的RKE管理叢集組態、才能正常運作。</block>
-  <block id="3f297ef15cde0668e93b35f2752fd4fd" category="section-title">接下來呢？</block>
   <block id="9ce36cf8bc97284a665ac4d465211731" category="inline-link-macro">完成部署後的工作</block>
   <block id="0d15f5317410136724749d58832233cd" category="list-text"><block ref="0d15f5317410136724749d58832233cd" category="inline-link-macro-rx"></block></block>
   <block id="50488dc9ca0f950ef434f471ee1a1ea1" category="list-text"><block ref="50488dc9ca0f950ef434f471ee1a1ea1" category="inline-link-macro-rx"></block></block>
@@ -6440,4 +6434,28 @@
   <block id="64e18ac9b2149d7132eaef6563caaaf6" category="paragraph">*型號（系列部分）：* H610S *完整型號：* H610S-1、H610S-1-NE、H610S-2、H610S-2-NE、H610S-4、H610S-4-NE和H610S-2F</block>
   <block id="cbbfc38164561754239654f9b4436dfb" category="paragraph">在11.x期間、NetApp Element 發行韌體的唯一方法就是使用「資訊」軟體。從元件12.0開始、我們推出*儲存韌體產品組合*的概念、而隨附於Element 12.x版本的獨立版本儲存韌體產品組合或儲存韌體產品組合、現在可以進行韌體更新。</block>
   <block id="fc7b9c0546e7d4972b0e2c8495d3ed48" category="paragraph">*完整型號：* SF38410、SF19210、SF9605和SF4805</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">您需要的產品</block>
+  <block id="625cc9b8ccc34496dc2b3fcffb7e384a" category="paragraph-title">步驟總覽</block>
+  <block id="6c7cffebdb1404e3fc10effbd8df3e0b" category="paragraph-title">何時應重新部署見證節點？</block>
+  <block id="91770f038cd944a1d3b9b347edeb2b10" category="section-title">新增功能</block>
+  <block id="64916198004d1ee19b1b50002f51f1a8" category="paragraph-title">升級選項</block>
+  <block id="29d5a1c31c94981fab1916121b43f763" category="cell">儲存節點BMC / IPMI</block>
+  <block id="fde2050933cb4096508de5d1d771786e" category="paragraph-title">更換選項</block>
+  <block id="8fe5279440ee3c239e840ed9b8e10ddd" category="list-text"><block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block></block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">下一步</block>
+  <block id="e7be2be07c433bfd89cb0a290a7015a0" category="paragraph-title">組態上限</block>
+  <block id="2cd70ba1e2d0b294626ea7f96d25a07f" category="paragraph-title">記錄收集選項</block>
+  <block id="e5181fceb27eb67cd4791c26a3fa9076" category="paragraph-title">開始使用韌體升級自動化</block>
+  <block id="492e5546e60705134bff8d7f80511a8d" category="section-title">瞭解最新資訊</block>
+  <block id="6a31058d1e6208d43e0d620fb4953c23" category="paragraph-title">儲存叢集資產管理選項</block>
+  <block id="50f33d14f129e4548c1c270fd6725a78" category="paragraph-title">組態選項</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
+  <block id="891a52ee80600fd58bac60927df7a3a9" category="section-title">[[ene_main_mode]]啟用維護模式</block>
+  <block id="27404255e546058b4a4837fb07e90bbf" category="section-title">[[disable_main_mode]停用維護模式</block>
+  <block id="a31b6eafc73ca0db90a0d96e6fb9dc93" category="paragraph-title">健全狀況檢查選項</block>
+  <block id="df5820ca7f238b48987ff74db1271e4a" category="paragraph-title">更新選項</block>
+  <block id="d0ce6a73cc0e7aedcf58ba0e0c96c737" category="paragraph-title">疑難排解常見問題</block>
+  <block id="2de79e7b8c77e4847d6bcd5a8ee879ce" category="section-title">[SF_nodes]SF38410、SF19210、SF9605和SF4805</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="section-title">接下來呢？</block>
+  <block id="18526b4be693f8e5ed12fb2721f65eea" category="section-title">[sys_升級_seq]系統升級順序</block>
 </blocks>
