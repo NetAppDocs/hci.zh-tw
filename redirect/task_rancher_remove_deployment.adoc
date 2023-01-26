@@ -1,0 +1,8 @@
+---
+permalink: docs/task_rancher_remove_deployment.html 
+redirect: hci/docs/concept_rancher_index.html 
+---
+= 
+:allow-uri-read: 
+
+

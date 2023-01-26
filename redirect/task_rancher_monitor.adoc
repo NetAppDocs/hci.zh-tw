@@ -1,0 +1,8 @@
+---
+permalink: docs/task_rancher_monitor.html 
+redirect: hci/docs/concept_rancher_index.html 
+---
+= 
+:allow-uri-read: 
+
+
