@@ -6112,4 +6112,6 @@
   <block id="43e34bcd62fca2ef36509ec2613974a0" category="admonition">如需硬體的韌體和驅動程式韌體完整對照表、請參閱 <block ref="913963bf89b539ef788a8e09cb649658" category="inline-link-macro-rx"></block>。</block>
   <block id="12b23b4c09d649df7ce5a85073a16761" category="inline-link-macro">支援的韌體版本、適用於NetApp HCI 不支援的儲存節點</block>
   <block id="70e945411317a488defaf4452814955d" category="admonition">如需硬體的韌體和驅動程式韌體完整對照表、請參閱 <block ref="5044654178b92d05d74ce63fd089f27a" category="inline-link-macro-rx"></block>。</block>
+  <block id="22e88e4089c8681eb3fe26ebca3e4cc5" category="cell">*運算韌體套裝組合2.150.4到NetApp HCI 更新版本1.10*</block>
+  <block id="a6bbe5a2ef47a653214029cd4a762104" category="cell">*運算韌體套裝組合2.146.2*</block>
 </blocks>
