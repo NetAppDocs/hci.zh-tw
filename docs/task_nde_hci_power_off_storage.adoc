@@ -65,5 +65,3 @@ NOTE: 您可以在無痕式視窗中執行命令、避免在稍後階段從儲�
 == 如需詳細資訊、請參閱
 
 link:firmware_driver_versions.html["支援的韌體和ESXi驅動程式版本NetApp HCI 、適用於支援NetApp HCI 的VMware及韌體版本、適用於各種儲存節點"]
-
- // 2023-MAR-3, DOC-4661
