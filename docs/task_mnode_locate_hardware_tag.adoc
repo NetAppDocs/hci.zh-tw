@@ -25,7 +25,7 @@ keywords: netapp, management node, rest api, hci, hardware tag
 image:../media/hw_tag_70.PNG["System表格的快照"]
 
 . 複製並儲存*標記*的值。
-. xref:task_mnode_add_assets.adoc[將運算和控制器資產新增至管理節點]...
+. xref:task_mnode_add_assets.adoc[將運算和控制器資產新增至管理節點]。
 
 
 --
