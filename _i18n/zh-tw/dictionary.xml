@@ -5964,7 +5964,6 @@
   <block id="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block></block>
   <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">使用適用於vCenter Server 4.x的Element外掛程式、當您升級至VMware vCenter Server 7.0 Update 3時、外掛程式無法部署。若要使用Spring Framework 4解決此問題、請參閱<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>。</block>
   <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">針對已註冊NetApp Element 的VMware vCenter Server適用的VMware vSphere環境、您可以在第一次更新包含外掛程式服務的管理服務套件之後、更新外掛程式登錄。</block>
-  <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">此升級程序涵蓋下列升級案例。</block>
   <block id="04e630ae5e9700f09b6ca3715246283d" category="open-title">適用於vCenter 5.0及更新版本的Element外掛程式</block>
   <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">您正在升級至8.0或7.0 HTML5 vSphere Web Client。</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">vCenter 5.0及更新版本的Element外掛程式與vCenter Server 6.7及6.5不相容。</block>
@@ -6077,7 +6076,6 @@
   <block id="8157d1d3bb72f3ce50b0672f12f201dd" category="list-text">選取「瀏覽」以找出您儲存的套件並加以上傳。</block>
   <block id="4ac581155f2c6a4a3a056078e2b122a1" category="list-text">在管理節點上開啟REST API UI：</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">此升級程序涵蓋下列升級案例：</block>
-  <block id="0c6a507d40e276c8d0426facc36aaeca" category="list-text">您正在升級至Element Plug-in for vCenter Server 5.0或5.1。</block>
   <block id="609cfd925544c2aaccb703dcb95eed4d" category="admonition">當您從Element Plug-in for vCenter Server 4.x升級至5.x時、已使用外掛程式設定的叢集將會遺失、因為無法將資料從vCenter執行個體複製到遠端外掛程式。您必須將叢集重新新增至遠端外掛程式。這是從本機外掛程式升級至遠端外掛程式的一次性活動。</block>
   <block id="4edf62fd94cfb84b727afbee52aa8128" category="list-text">vCenter Server 5.x元素外掛程式的vCenter外掛程式登錄頁面：</block>
   <block id="04bac97a16b610a555c29c398dc04860" category="paragraph">「*儲存設備*」索引標籤會列出您安裝時所需的儲存叢集。如果NetApp混合雲控制無法存取叢集、則不會顯示在「*升級*」頁面上。如果叢集執行元件12或更新版本、您會看到這些叢集目前列出的韌體套裝組合版本。如果單一叢集中的節點上有不同的韌體版本、或是在升級過程中、您會在*目前的韌體產品組合版本*欄中看到*多個*。您可以選取*多重*來瀏覽至*節點*頁面、以比較韌體版本。如果所有叢集都執行的元件版本早於12.0、您將看不到任何韌體套裝軟體版本編號的相關資訊。此資訊也可在*節點*頁面上找到。請參閱 <block ref="4d8bfbcb84a29a1601595359b67752e6" category="inline-link-macro-rx"></block>。</block>
@@ -6103,4 +6101,5 @@
   <block id="e3b4df69e2fe4e8545e5e0240eada6a2" category="list-text"><block ref="e3b4df69e2fe4e8545e5e0240eada6a2" category="inline-link-rx"></block></block>
   <block id="631923a687ff82d68973d99b95597b47" category="inline-link">「元件與元素資源」頁面SolidFire</block>
   <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
+  <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">您正在升級至Element Plug-in for vCenter Server 5.1或5.0。</block>
 </blocks>
