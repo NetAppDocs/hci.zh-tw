@@ -6102,4 +6102,16 @@
   <block id="631923a687ff82d68973d99b95597b47" category="inline-link">「元件與元素資源」頁面SolidFire</block>
   <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
   <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">您正在升級至Element Plug-in for vCenter Server 5.1或5.0。</block>
+  <block id="8ce84b11df4b07d7aa9bb1fd260b434f" category="inline-link-macro">運算韌體套件 2.174.0 版本資訊</block>
+  <block id="5b0fda3cebcf8a643f1180cab01f12da" category="list-text"><block ref="1a4479b2e3ec8fc20906c13b738e7820" category="inline-link-macro-rx"></block> _新_</block>
+  <block id="69bac05cf2ab747a8ac20a157b6363b6" category="admonition">NetApp混合雲控制需要最新的管理服務組合。您必須先升級至最新的管理服務套件、才能將運算節點上的韌體升級至版本 2.174.0 。如果您要將運算節點上的韌體升級至版本 2.174.0 、則需要管理服務 2.20 才能繼續。</block>
+  <block id="78810bf1f4f592e0de1616224eda921a" category="paragraph">2.174.0 版包含一般的修正程式。</block>
+  <block id="2dac99af4ba8d6920084f83699b5757d" category="cell">*07.02.00*</block>
+  <block id="0054b05feeebac288bc28bf8d6a9d248" category="admonition">升級至版本 2.174.0 之前、您必須檢查目前的 ESXi 驅動程式版本。如果驅動程式已過期、請先升級驅動程式。然後將運算節點的運算韌體升級至 2.174.0 版。請造訪 <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> 如需更新運算節點驅動程式的說明、請參閱內含ESXi驅動程式的說明。</block>
+  <block id="72538e8fdaa12e28f9171c0b783493e7" category="section-title">下載 Compute Firmware Bundle 2.174.0</block>
+  <block id="b7f798a9967001ca08ab89776c0966fc" category="list-text">選取 * 導航 * 。</block>
+  <block id="bb9f34e8741cf096f686b7632f900879" category="list-text">瀏覽至<block ref="e26f094ec200dc78420831e36f6f3bb7" category="inline-link-rx"></block> 並從下拉式清單中選取* Element Software*：</block>
+  <block id="53edb91d1e6b34073e6e243ed47db12d" category="list-text">在關鍵字搜尋欄位中、輸入「運算韌體套件」、然後選取 * 新搜尋 * ：</block>
+  <block id="dfa721c0f57e3559aa22a411a4ad2fb0" category="inline-link-macro">運算韌體套件 2.174.0 注意事項</block>
+  <block id="4d34470d64d9d2f569cd7f9c561a9343" category="list-text"><block ref="4d34470d64d9d2f569cd7f9c561a9343" category="inline-link-macro-rx"></block></block>
 </blocks>
