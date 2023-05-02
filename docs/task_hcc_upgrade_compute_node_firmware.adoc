@@ -24,6 +24,9 @@ keywords: netapp, hci, on premise, cluster, element, compute node, vmware, upgra
 | 模型 | 最低BMC版本 | 最低BIOS版本 
 
 
+| H300E/H500E/H700E | 6.84.00 | NA2.1 
+
+
 | H410C410C | 所有支援的版本（不需升級） | 所有支援的版本（不需升級） 
 
 
