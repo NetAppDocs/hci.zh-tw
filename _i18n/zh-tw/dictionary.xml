@@ -64,7 +64,6 @@
   <block id="a83404b3b2ca8b3c39459b719d7844d7" category="inline-link">參考資源頁面NetApp HCI</block>
   <block id="efb3497df51898324a04d1329dc9b9ae" category="list-text"><block ref="efb3497df51898324a04d1329dc9b9ae" category="inline-link-rx"></block></block>
   <block id="0c44c4e22a7e5a446ab9db51be083194" category="inline-link">升級NetApp SolidFire 的All Flash儲存系統</block>
-  <block id="0a9bb27e26601025f1f2f83ed531e6f2" category="list-text"><block ref="0a9bb27e26601025f1f2f83ed531e6f2" category="inline-link-rx"></block></block>
   <block id="92f931e19caf8af4e3a31a82b06ccabd" category="summary">取得可下載並套用NetApp HCI 至各個節點之韌體套件版本資訊的連結。</block>
   <block id="7c4a6e26b432f1ad131564bc6dc6e32d" category="doc">儲存韌體產品組合2.27版本說明</block>
   <block id="7bb9848301f8ece6cf7cd1a03218b8ff" category="paragraph">從Element 12和管理服務2.14版開始、您可以使用NetApp混合雲控制UI和REST API、在儲存節點上執行純韌體升級。此程序不會升級Element軟體、可讓您在主要Element版本之外升級儲存韌體。</block>
@@ -1121,7 +1120,6 @@
   <block id="a4da6a7298a51c03437fe8215d4cd7dc" category="admonition">與管理服務相關的持續磁碟區會在安裝或升級期間指派給新帳戶。如果您使用的是持續磁碟區、請勿修改或刪除磁碟區或其相關帳戶。如果您確實刪除這些帳戶、可能會使管理節點無法使用。</block>
   <block id="b12641981b1007fecfaf498bd16ae5d5" category="list-text">在表格的「*動作*」欄中、展開該帳戶的功能表、然後選取「*刪除*」。</block>
   <block id="1326a41ad4b26f3395b0f54dd9172b2b" category="inline-link-macro">深入瞭解客戶</block>
-  <block id="469d7f183f29ad292b8937af8903b1dc" category="list-text"><block ref="469d7f183f29ad292b8937af8903b1dc" category="inline-link-macro-rx"></block></block>
   <block id="7e5784de66821e5068bc24c9a5c6d1d6" category="inline-link">使用使用者帳戶</block>
   <block id="9197cc48c8ddd2d400f10cc220189fb2" category="list-text"><block ref="9197cc48c8ddd2d400f10cc220189fb2" category="inline-link-rx"></block></block>
   <block id="8eb6b37075837187e3cf3f0539ba2d68" category="summary">瞭NetApp HCI 解如何新增Volume存取群組以搭配使用各種功能、從系統移除Volume存取群組、編輯現有的Volume存取群組、以及檢視Volume存取群組的詳細資料。</block>
@@ -2120,7 +2118,6 @@
   <block id="56e2546f6d8d4f46bdb3d14153ad92ee" category="paragraph">如果H615C節點中有GPU、請在ESXi中為您安裝的每個H615C節點安裝GPU驅動程式、並驗證其功能。</block>
   <block id="c94f753aa1baf797e0eea49696404564" category="inline-link">_TR-4820：NetApp HCI 《鏈路》快速規劃指南</block>
   <block id="42f1d5fbe05e1bdd25e119b9262b7dbd" category="list-text"><block ref="42f1d5fbe05e1bdd25e119b9262b7dbd" category="inline-link-rx"></block></block>
-  <block id="1f9e8829ba3f07efa25b77f1eb0d6c07" category="inline-link">NetApp組態顧問</block>
   <block id="158f6a1d36f1b909e5a2856681ce6f42" category="summary">您必須先授權、才能在REST API UI中使用API進行管理服務。</block>
   <block id="223b5bfc7fd9ecabdd773228e6069bdd" category="doc">取得使用REST API的授權</block>
   <block id="b1ccc7e57db400d23b97089b6c6526f6" category="paragraph">您必須先授權、才能在REST API UI中使用API進行管理服務。您可以取得存取權杖來執行此作業。</block>
@@ -3055,7 +3052,6 @@
   <block id="091d9ffd182526624821c249c3335c90" category="list-text"><block ref="091d9ffd182526624821c249c3335c90" category="inline-link-macro-rx"></block></block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="b8ce529cfc2b9255a783e211ddb57996" category="list-text"><block ref="b8ce529cfc2b9255a783e211ddb57996" category="inline-link-macro-rx"></block></block>
-  <block id="d422fe7cf0f32ce6c7b8426538c06795" category="list-text"><block ref="d422fe7cf0f32ce6c7b8426538c06795" category="inline-link-macro-rx"></block></block>
   <block id="cba91d641a588dab374321d0b55628b8" category="doc">選取網路拓撲</block>
   <block id="fce717bdf852e3204fcc194f41240ea9" category="paragraph">在佈線NetApp HCI 過程中、您可以根據需求選擇使用不同的網路纜線組態。對於每個運算節點、您可以使用所有六個網路連接埠、並將不同類型的流量指派給每對連接埠、也可以使用兩個連接埠來處理指派給連接埠的所有類型流量。儲存節點使用標準的四纜線組態。您的選擇會影響庫存中可選取的運算節點。</block>
   <block id="4477241329d8c36bd8b01fa178d83155" category="paragraph">如果您為運算節點選擇雙纜線網路拓撲、請考慮下列需求：</block>
@@ -3592,7 +3588,6 @@
   <block id="6f5983880dad4e85e696acaacf3a185b" category="paragraph">持續磁碟區功能（如果在安裝或升級期間啟用）會自動建立多個磁碟區、並將NetApp-HCI預先置於指派叢集上的名稱。這些磁碟區和任何元件軟體型磁碟區一樣、都可以使用Element軟體Web UI、NetApp Element vCenter Server的支援功能或API來檢視、視您的偏好和安裝而定。持續磁碟區必須以iSCSI連線至管理節點來啟動和執行、才能維持目前可用於還原的組態資料。</block>
   <block id="055a5661c230e542ad2a37a3d951d4fd" category="admonition">與管理服務相關的持續磁碟區會在安裝或升級期間建立並指派給新帳戶。如果您使用的是持續磁碟區、請勿修改或刪除磁碟區或其相關帳戶</block>
   <block id="e2439a8512b353f75391ba9c346bc84d" category="inline-link-macro">管理磁碟區</block>
-  <block id="9e69e35241eb196e84b4b8c5230c84b9" category="list-text"><block ref="9e69e35241eb196e84b4b8c5230c84b9" category="inline-link-macro-rx"></block></block>
   <block id="c2b84ecb666aacd04ee573fd0e391592" category="summary">每NetApp HCI 個啟用雲端服務的支援系統都會與NetApp Cloud Central帳戶建立關聯。</block>
   <block id="dbdd6377389228728e6ab594c50ad011" category="doc">使用者帳戶</block>
   <block id="aff3c7b36ff15eea0f8fb7b38926555f" category="paragraph">若要存取系統上的儲存資源、您必須設定使用者帳戶。</block>
@@ -3853,7 +3848,6 @@
   <block id="85dcef363aee58216fb5391e1fe35922" category="list-text"><block ref="85dcef363aee58216fb5391e1fe35922" category="inline-link-rx"></block></block>
   <block id="da3eb0bd8c882a21931739ac39ce915a" category="inline-link">vCenter Server文件的適用插件NetApp Element</block>
   <block id="412377cf78b07a27c835e112fdfa7507" category="list-text"><block ref="412377cf78b07a27c835e112fdfa7507" category="inline-link-rx"></block></block>
-  <block id="d1ba909955f7a2392ac07c215865424a" category="list-text"><block ref="8eb8242e05dec3c7873bd909a6d9def7" category="inline-link-rx"></block> 5.8.1或更新版本的網路驗證工具</block>
   <block id="9f4096a99dd5e34243eb7be9c6242d12" category="doc">自訂保護網域</block>
   <block id="8180c850351845f95651f26f4897b5b5" category="paragraph">如果未指派自訂保護網域：</block>
   <block id="b6dd1183963dd2c5522f37e316c9da3d" category="list-text">叢集作業不受影響。</block>
@@ -3865,7 +3859,6 @@
   <block id="eddbea64540d3f03b2661d8ecd4ac2a7" category="list-text">SetProtectionDomainLayout：允許將自訂保護網域指派給每個節點。</block>
   <block id="03540783615c6f29364ad461ea3aa641" category="paragraph">如需使用自訂保護網域的詳細資訊、請聯絡NetApp支援部門。</block>
   <block id="afc48abd77915d4342bb6d52750ca477" category="inline-link-macro">使用Element API管理儲存設備</block>
-  <block id="8e078db9f02bd406ca631ba2825dd629" category="paragraph"><block ref="8e078db9f02bd406ca631ba2825dd629" category="inline-link-macro-rx"></block></block>
   <block id="eebbea2e3d3238970edd5faf3ee76678" category="summary">您可以為執行NetApp Element NetApp軟體的叢集恢復及重新部署管理節點。視組態而定、您可能需要重新設定管理節點的驗證。</block>
   <block id="9d226f75a0de37a8029518f0cd20ca3f" category="doc">恢復管理節點</block>
   <block id="ebcea89670ad7762801129c59295e4fc" category="paragraph">如果先前的管理節點使用持續磁碟區、您可以手動為執行NetApp Element 此軟體的叢集恢復和重新部署管理節點。</block>
@@ -6117,4 +6110,9 @@
   <block id="bc2a79198b157bed1c1eaa43da985e00" category="cell">* 運算韌體套件 2.174.0*</block>
   <block id="def5f641ad1584ffe19a578902c863ee" category="cell">04/12/2023</block>
   <block id="0b67b64b71fa04f23305e691b81ba252" category="cell">07.02.00</block>
+  <block id="ba3433b658d56109d8826f49ee0a8064" category="list-text"><block ref="ba3433b658d56109d8826f49ee0a8064" category="inline-link-rx"></block></block>
+  <block id="d5147898f653b5500d1ba07c4204c743" category="list-text"><block ref="9d6606ad3ff5278801234da0e6746362" category="inline-link-rx"></block> 5.8.1或更新版本的網路驗證工具</block>
+  <block id="c411aac8cf32395c454762934e85315b" category="list-text"><block ref="c411aac8cf32395c454762934e85315b" category="inline-link-macro-rx"></block></block>
+  <block id="3f8636b2ed4be15cc908d52557ffc327" category="list-text"><block ref="3f8636b2ed4be15cc908d52557ffc327" category="inline-link-macro-rx"></block></block>
+  <block id="78997922bf48b612914b49bc22e40752" category="paragraph"><block ref="78997922bf48b612914b49bc22e40752" category="inline-link-rx"></block></block>
 </blocks>
