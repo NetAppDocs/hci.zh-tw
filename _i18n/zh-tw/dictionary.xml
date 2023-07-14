@@ -6175,4 +6175,8 @@
   <block id="f096b63658cb95d8f43a07e2d68c70b3" category="paragraph">對於 vCenter 4.10 及更早版本的 Element 外掛程式、請將節點（主機）新增至叢集。</block>
   <block id="fc4dbbaeabdf5700f373a65d12b45108" category="list-text">在您要新增節點的叢集上按一下滑鼠右鍵、然後選取*「Add Host*（新增主機*）」。</block>
   <block id="a4b367d6a2f57fe52d770b2264b7d2d8" category="paragraph">在更換節點之前、您應該先將節點上裝載的虛擬機器（VM）移轉至可用的主機、然後從叢集移除節點。您應該記錄有關節點的詳細資料、例如序號和網路資訊。移轉 VM 並記錄節點詳細資料、也適用於元件故障的情況、例如節點仍在線上且運作正常、例如雙列直插式記憶體模組（ DIMM ）故障。</block>
+  <block id="29e13a3bca7d11d4ebec7e6356a5b466" category="cell">* 儲存韌體套件 2.175.0*</block>
+  <block id="022beb4c9e2bdbe9e3398445a4fad6b2" category="cell">2023 年 6 月 15 日</block>
+  <block id="804066a6a5042090a2a0b25c55f38e72" category="cell">3.5.</block>
+  <block id="489901e715cade6fe0efc7e21e194576" category="cell">2.17.</block>
 </blocks>
