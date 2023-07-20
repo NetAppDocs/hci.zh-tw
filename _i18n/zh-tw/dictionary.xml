@@ -185,7 +185,6 @@
   <block id="4d41fb1211aa5ce58e5235fb983f1a15" category="list-text">提供NetApp HCI 不實的儲存叢集管理員認證資料、以登入NetApp混合雲控制系統。</block>
   <block id="9b6c54a62f57f89342aae003cf762345" category="list-text">按一下介面右上角的*展開*。</block>
   <block id="c279fa7b9df4852c4e23caa58f534561" category="paragraph">瀏覽器會開啟NetApp部署引擎。</block>
-  <block id="053ab309f18a77ef5149424304d1c86d" category="list-text">提供NetApp HCI 不實的儲存叢集管理員認證資料、以登入NetApp部署引擎。</block>
   <block id="1ca31be899446d53a6c18003ad9bb98c" category="list-text">在「*歡迎*」頁面上、按一下「*否*」、然後按一下「*繼續*」。</block>
   <block id="93bc44149bf00d4395f3d28176febbb7" category="list-text">在*可用的Inventory（庫存）*頁面上、選取您要新增的儲存節點、然後按一下* Continue（繼續）*。</block>
   <block id="f7f68fb5464054e0ce37414797bb7d64" category="list-text">在「*網路設定*」頁面上、從初始部署中偵測到部分網路資訊。每個新的儲存節點都會依序號列出、您需要為其指派新的網路資訊。針對每個新的儲存節點、請完成下列步驟：</block>
@@ -5845,8 +5844,6 @@
   <block id="5b1d1e4dbc8cd8e4ec110c7e700e056f" category="section-title">H300E/H500E/H700E</block>
   <block id="f0f15f2c98a9ba8013c265fbf2b1874f" category="paragraph">*型號（系列部分）：* H300E/H500E/H700E</block>
   <block id="a61d8a4fcaa8b59b1d8f1d63aada7783" category="summary">支援的韌體與驅動程式版本NetApp HCI 、可在支援的支援功能中使用。NetApp Element</block>
-  <block id="bf44a0123ec45362af49b3862557cdd8" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block>* H610S * H410S</block>
-  <block id="a82f3d9d22bfe1382d03945f3377eb65" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block>* H615C * H610C * H410C * H300E/H500E/H700E</block>
   <block id="4b8861a11346d673205d074f862db70a" category="inline-link">支援的韌體和ESXi驅動程式版本</block>
   <block id="d8288c4d481f3eb3a21b3ee9d3d34f3e" category="list-text">*有效的升級路徑*：您已檢查要升級的元素版本的升級路徑資訊、並確認升級路徑有效。請參閱<block ref="2980f5bfbc85d7c14e3d7a2c57af53b5" category="inline-link-rx"></block></block>
   <block id="9671b9c99a15fe8beaa959d54510f7e0" category="paragraph">* VMware ESXi驅動程式版本*</block>
@@ -6179,4 +6176,8 @@
   <block id="022beb4c9e2bdbe9e3398445a4fad6b2" category="cell">2023 年 6 月 15 日</block>
   <block id="804066a6a5042090a2a0b25c55f38e72" category="cell">3.5.</block>
   <block id="489901e715cade6fe0efc7e21e194576" category="cell">2.17.</block>
+  <block id="d44403a904c0446f29d8bc5c2ed4770e" category="list-text">提供本機 NetApp HCI 儲存叢集管理員認證、以登入 NetApp 部署引擎。</block>
+  <block id="60099f97c4a82ba2ee2d4a4d593b844b" category="admonition">您無法使用輕量型目錄存取傳輸協定認證登入。</block>
+  <block id="f4e8c07388940da9080e74e50960909d" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block></block>
+  <block id="4fe99558e9030b1914f3007a88f2f74d" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block></block>
 </blocks>
