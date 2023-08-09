@@ -33,17 +33,15 @@ keywords: netapp, hci, element, Witness Node
 |===
 在雙節點或三節點儲存叢集中、僅支援某些儲存節點機型。NetApp HCI如需更多資訊、請參閱NetApp HCI 《發行說明》以瞭解您的更新版本。
 
-|===
+[NOTE]
+====
+* 需求 * ：將見證節點 VM 設定為使用運算節點的本機資料存放區（預設由 NDE 設定）。您不應在共享儲存設備（例如 SolidFire 儲存磁碟區）上設定這些磁碟區。若要防止虛擬機器自動移轉、請將見證節點虛擬機器的 Distributed Resource Scheduler （ DRS ）自動化層級設為 * Disabled （已停用） * 。如此可防止在同一個運算節點上執行見證節點、並建立非高可用度（HA）配對組態。
+
+當安裝過程安裝見證節點時NetApp HCI 、VM範本會儲存在VMware vCenter中、您可以在見證節點意外移除、遺失或毀損時、使用該範本來重新部署見證節點。如果您需要更換裝載見證節點的故障運算節點、也可以使用範本來重新部署見證節點。如需相關指示、請參閱「*重新部署兩節點和三節點儲存叢集的見證節點*」一節 link:task_hci_h410crepl.html["請按這裡"^]。
+
+====
 
 
- a| 
-*最佳實務做法：*設定見證節點VM使用運算節點的本機資料存放區（預設為NDE）、不要在共享儲存區（例如SolidFire 、靜態儲存磁碟區）上設定。若要防止VM自動移轉、請將見證節點VM的Distributed Resource Scheduler（DRS）自動化層級設為*已停用*。如此可防止在同一個運算節點上執行見證節點、並建立非高可用度（HA）配對組態。
-
-|===
-
-NOTE: 當安裝過程安裝見證節點時NetApp HCI 、VM範本會儲存在VMware vCenter中、您可以在見證節點意外移除、遺失或毀損時、使用該範本來重新部署見證節點。如果您需要更換裝載見證節點的故障運算節點、也可以使用範本來重新部署見證節點。如需相關指示、請參閱「*重新部署兩節點和三節點儲存叢集的見證節點*」一節 link:task_hci_h410crepl.html["請按這裡"^]。
-
-[discrete]
 == 如需詳細資訊、請參閱
 
 * https://www.netapp.com/hybrid-cloud/hci-documentation/["「資源」頁面NetApp HCI"^]

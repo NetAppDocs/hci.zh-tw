@@ -1814,15 +1814,11 @@
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律聲明提供版權聲明、商標、專利等存取權限。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
   <block id="4ba16aa779bc8ad075658a848d8a534f" category="inline-link-macro">運算升級的Ansible角色注意事項</block>
@@ -1936,7 +1932,6 @@
   <block id="36d3df322550ec93e10b1da2e3571f62" category="paragraph">支援運算節點的硬體可提供執行虛擬化所需的運算資源、例如CPU、記憶體和網路功能。NetApp HCI NetApp HCI由於每部伺NetApp HCI 服器都執行VMware ESXi、因此必須在vSphere的「主機與叢集」功能表的外掛程式之外、執行VMware ESXi運算節點管理（新增或移除主機）。無論是四節點儲存叢集或雙節點儲存叢集、NetApp HCI 最少運算節點數仍維持在兩個、以利進行部署。</block>
   <block id="3366c96036458b6c9eedbdaccbd3dc34" category="section-title">見證節點</block>
   <block id="13637fc461c216e2f133872aa68284f3" category="paragraph">「支援節點」是在運算節點上執行的VM、與元件軟體型儲存叢集並行運作。NetApp HCI見證節點不裝載分區或區塊服務。見證節點可在儲存節點故障時啟用儲存叢集可用度。您可以使用與其他儲存節點相同的方式來管理及升級見證節點。儲存叢集最多可有四個見證節點。其主要目的是確保有足夠的叢集節點、以構成有效的整體仲裁。</block>
-  <block id="2c9355f24d4fb92e48ff0624b5165e70" category="paragraph">*最佳實務做法：*設定見證節點VM使用運算節點的本機資料存放區（預設為NDE）、不要在共享儲存區（例如SolidFire 、靜態儲存磁碟區）上設定。若要防止VM自動移轉、請將見證節點VM的Distributed Resource Scheduler（DRS）自動化層級設為*已停用*。如此可防止在同一個運算節點上執行見證節點、並建立非高可用度（HA）配對組態。</block>
   <block id="ebd9bcbadb9c9789b855381b4b3c91a1" category="inline-link-macro">見證節點資源需求</block>
   <block id="ed227f04b96772f206d5427ed842cdf1" category="inline-link-macro">見證節點IP位址需求</block>
   <block id="5d97960a6eafabed18140433c99665c6" category="paragraph">2.76版包含一般錯誤修正。</block>
@@ -6180,4 +6175,13 @@
   <block id="60099f97c4a82ba2ee2d4a4d593b844b" category="admonition">您無法使用輕量型目錄存取傳輸協定認證登入。</block>
   <block id="f4e8c07388940da9080e74e50960909d" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block></block>
   <block id="4fe99558e9030b1914f3007a88f2f74d" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block></block>
+  <block id="e74b413ef024dbf7c56a0e2cfe306bd8" category="paragraph">* 需求 * ：將見證節點 VM 設定為使用運算節點的本機資料存放區（預設由 NDE 設定）。您不應在共享儲存設備（例如 SolidFire 儲存磁碟區）上設定這些磁碟區。若要防止虛擬機器自動移轉、請將見證節點虛擬機器的 Distributed Resource Scheduler （ DRS ）自動化層級設為 * Disabled （已停用） * 。如此可防止在同一個運算節點上執行見證節點、並建立非高可用度（HA）配對組態。</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>
