@@ -966,7 +966,6 @@
   <block id="2520aed8e8da95ec6b6ee52b60cecada" category="list-text">*記憶體*索引標籤：請參閱運算叢集上目前的平均記憶體使用量。</block>
   <block id="82d5e97cf3f8dbd4f5b186241471c027" category="inline-link">NetApp SolidFire Active IQ 的歷史資料</block>
   <block id="38d2bb23849f828628a170b7814a5b48" category="summary">瞭解如何在部署NetApp HCI 完整套功能後、在已設定的交換器上停用「LACP個別」命令。</block>
-  <block id="f51859c5296df69766701d38fc7c8859" category="doc">在已設定的交換器上停用LACP個別命令</block>
   <block id="8b8fcd904806ca441f07a09ee921db7c" category="paragraph">依照預設、Mellanox交換器的「lacper-individual」命令和Cisco交換器的「lacp suspend-individual」命令會在部署後保留設定。安裝後不需要此命令；如果仍設定此命令、則在疑難排解或重新開機交換器時、可能會造成磁碟區存取問題。部署後、您應檢查每個Mellanox交換器和Cisco交換器組態、並移除「LACP個別」或「LACP暫停個別」命令。</block>
   <block id="7230032f9e3f3d80f5d464534044fa7e" category="list-text">使用SSH開啟交換器的工作階段。</block>
   <block id="ea81d6b9aaa9ef63fd80d7044e4a7dae" category="list-text">顯示執行中的組態：</block>
@@ -6188,4 +6187,5 @@
   <block id="4718467fa890cd0dcf159b3d461cedbe" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block> _新_</block>
   <block id="410ecb079e286058eeb2bc6b56d9379c" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block></block>
   <block id="732713df3c4c58fb19fab37e747f6f0d" category="list-text"><block ref="732713df3c4c58fb19fab37e747f6f0d" category="inline-link-macro-rx"></block></block>
+  <block id="890975e7736a237c513f38124344fb84" category="list-text"><block ref="890975e7736a237c513f38124344fb84" category="inline-link-macro-rx"></block></block>
 </blocks>

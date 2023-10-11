@@ -1,0 +1,8 @@
+---
+permalink: docs/task_upgrade_element_latest_healthtools.html 
+redirect: hci/docs/concept_hci_upgrade_overview.html 
+---
+= 
+:allow-uri-read: 
+
+
