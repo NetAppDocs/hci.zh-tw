@@ -1,6 +1,6 @@
 ---
 permalink: docs/task_rancher_manage.html 
-redirect: hci/docs/concept_rancher_index.html 
+redirect: hci/docs/concept_rancher_concept.html 
 ---
 = 
 :allow-uri-read: 
