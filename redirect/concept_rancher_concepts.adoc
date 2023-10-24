@@ -1,5 +1,5 @@
 ---
-permalink: docs/task_rancher_monitor.html 
+permalink: docs/concept_rancher_concepts.html 
 redirect: hci/docs/concept_rancher_product_overview.html 
 ---
 = 
