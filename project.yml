@@ -313,7 +313,7 @@ sidebar:
     - title: 擴充叢集後移除見證節點
       url: "/docs/task_hci_removewn.html"
   - title: 使用Rancher on NetApp HCI 支援
-    url: "/docs/concept_rancher_index.html"
+    url: "/docs/concept_rancher_concept.html"
   - title: 維護H系列硬體
     entries:
     - title: H系列硬體維護總覽
