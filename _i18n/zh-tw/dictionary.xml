@@ -2196,13 +2196,11 @@
   <block id="9c0a8dc1286f35f796fa9e5c11f79e86" category="list-text">等待約15分鐘、讓vCenter中的帳戶鎖定訊息消失。</block>
   <block id="8838c26820c2bdc7ab11f616de8739d6" category="summary">TCP和udp連接埠、供NetApp HCI 使用。</block>
   <block id="7375651611f00991b648b4a9ae04736e" category="doc">網路連接埠需求</block>
-  <block id="ba05be2241c302ce19b7534dcd611775" category="paragraph">您可能需要允許下列連接埠通過資料中心的邊緣防火牆、以便從遠端管理系統、允許資料中心外部的用戶端連線至資源、並確保內部服務能夠正常運作。視您使用系統的方式而定、可能不需要這些連接埠、URL或IP位址。除非另有說明、否則所有連接埠都是TCP。</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">下表使用下列縮寫：</block>
   <block id="60175d30ed8f8459b2f835b923bb4ee5" category="list-text">MIP：管理IP位址、每節點位址</block>
   <block id="b41c14a062a4854e04d459016f1eae73" category="list-text">Sip：儲存IP位址、每節點位址</block>
   <block id="416d6ad49d8853217a6bb321dc6df5aa" category="list-text">MVIP：管理虛擬IP位址</block>
   <block id="c51558c5b0e3376ab979005c0eadcc9e" category="list-text">SVIP：儲存虛擬IP位址</block>
-  <block id="96d2b8e68e9f540a05073cf66ebfb8fb" category="paragraph">除非另有說明、否則表格中的所有連接埠都是TCP。</block>
   <block id="f31bbdd1b3e85bccd652680e16935819" category="cell">來源</block>
   <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">目的地</block>
   <block id="60aaf44d4b562252c04db7f98497e9aa" category="cell">連接埠</block>
@@ -6188,4 +6186,6 @@
   <block id="410ecb079e286058eeb2bc6b56d9379c" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block></block>
   <block id="732713df3c4c58fb19fab37e747f6f0d" category="list-text"><block ref="732713df3c4c58fb19fab37e747f6f0d" category="inline-link-macro-rx"></block></block>
   <block id="890975e7736a237c513f38124344fb84" category="list-text"><block ref="890975e7736a237c513f38124344fb84" category="inline-link-macro-rx"></block></block>
+  <block id="7149d03eb62017e7cc5192a67ff56c1c" category="paragraph">您可能需要允許下列連接埠透過資料中心的邊緣防火牆、以便遠端管理系統、允許資料中心外部的用戶端連線至資源、並確保內部服務能正常運作。視您使用系統的方式而定、可能不需要這些連接埠、URL或IP位址。</block>
+  <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">除非另有說明、否則所有連接埠都是 TCP 、而且所有 TCP 連接埠都必須支援 NetApp 支援伺服器、管理節點和執行 Element 軟體的節點之間的三向信號交換通訊。例如、管理節點來源上的主機透過 TCP 連接埠 443 與儲存叢集 MVIP 目的地上的主機通訊、而目的地主機則透過任何連接埠回傳給來源主機。</block>
 </blocks>
