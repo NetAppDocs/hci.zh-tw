@@ -1564,19 +1564,6 @@
   <block id="aaeb8011e825f6e35c3a11da3b06ae8e" category="list-text">選擇*出廠預設值*、然後選取*移除目前設定、並將使用者預設值設為「管理/管理*」選項按鈕：</block>
   <block id="f77361b272ce81d8275727f7b1a756a8" category="list-text">選擇*還原*。</block>
   <block id="51cb13d5d7f53d14e1177bc7209fd917" category="list-text">登出後再重新登入、確認認證資料現在已變更。</block>
-  <block id="4365aa4d62fcaed8a61f5851f7c63acc" category="section-title">升級節點上的BMC韌體</block>
-  <block id="e64e1f5e233bff07158f07da3f6f71dc" category="inline-link-macro">NetApp支援網站（需登入）</block>
-  <block id="4cd4d7d72d12ae588ded720ce09eb6be" category="paragraph">更換運算節點之後、您可能必須升級韌體版本。您可以從的下拉式功能表下載最新的韌體檔案 <block ref="abee0fa17807b632b354ed0eee4c1a88" category="inline-link-macro-rx"></block>。</block>
-  <block id="2a0625a35fb4af01157e81573ba8eeda" category="list-text">選擇*維護&gt;韌體更新*。</block>
-  <block id="447bf1c51f518d302e2efefb20e4f3e5" category="image-alt">顯示韌體更新的BMC UI導覽。</block>
-  <block id="5d3ccc6c1013f8038b1f86a92db0c184" category="list-text">從BMC主控台選取*維護*。</block>
-  <block id="051af6c885ceb71e22b881985fe7c46c" category="image-alt">顯示BMC UI中的維護畫面。</block>
-  <block id="5f60cd8039f9c554b92de593bbb6a0a2" category="list-text">從「維護」索引標籤中、從UI左側的導覽中選取*韌體更新*、然後選取*進入更新模式*。</block>
-  <block id="67c015407a3660cd7c1736c3cbf43dd0" category="image-alt">顯示BMC UI中的韌體更新畫面。</block>
-  <block id="0356ec6b4d587e5f4d2782c817a2e96b" category="list-text">在確認對話方塊中選取*是*。</block>
-  <block id="7874642886c22920789477d73255c589" category="list-text">選取*瀏覽*以選取要上傳的韌體映像、然後選取*上傳韌體*。從節點鄰近區域以外的位置載入韌體、可能會導致延長載入時間和可能的逾時。</block>
-  <block id="9ca6aab24c6382de412d4fb67990fbb9" category="list-text">允許保留組態檢查、然後選取*開始升級*。升級大約需要5分鐘。如果上傳時間超過60分鐘、請取消上傳、並將檔案傳輸到節點附近的本機機器。如果工作階段逾時、您可能會在嘗試重新登入BMC UI的韌體更新區域時看到許多警示。如果您取消升級、系統會將您重新導向至登入頁面。</block>
-  <block id="fe29f01ceefdfc2a26d419451331a7de" category="list-text">更新完成後、選取*確定*、然後等待節點重新開機。升級後登入、然後選取* System*以確認*韌體修訂版*版本符合您上傳的版本。</block>
   <block id="497d518d6e399c2f91b16e0dec717424" category="summary">您可以在混合雲控制中檢視系統的庫存。</block>
   <block id="acdaf51e84092f9ece736cf38c23250f" category="doc">在NetApp HCI 混合雲控管系統中檢視您的不一樣庫存</block>
   <block id="bc7eee2e46f7815a5e4e0a3de181052f" category="paragraph">您可以在NetApp HCI 混合雲控制（Hybrid Cloud Control）中檢視您的不一樣系統庫存。</block>
@@ -5287,33 +5274,6 @@
   <block id="b7f7f58ec15cebe706964cdc95d8f5cf" category="sidebar">使用Rancher on NetApp HCI 支援</block>
   <block id="efaccef33aabd635656b681f92a298ea" category="sidebar">維護H系列硬體</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">舊版</block>
-  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
-  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
-  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
-  <block id="01064f33f360eefba819bf9542c0486b" category="sidebar">安裝維護硬體</block>
-  <block id="147fc8b7d94adc0dceb5978ab928f776" category="sidebar">H系列硬體安裝</block>
-  <block id="09af8dd99d422c917dcb27847056b045" category="sidebar">H系列硬體維護</block>
-  <block id="bc2592cdeeae26af69f28b4f6a1c8ca0" category="sidebar">安裝NetApp HCI</block>
-  <block id="96e1a5a82d70a24f161f0adb6e19ac8d" category="sidebar">安裝與部署總覽</block>
-  <block id="8a6e336622cf399a6453e4659f2a6147" category="sidebar">使用NetApp部署引擎開始部署</block>
-  <block id="a54d0ac20b8277a267fb90e8c0b05032" category="sidebar">執行部署後工作</block>
-  <block id="cfe80b2a0cabf734adc7b7c1613cfe4f" category="sidebar">使用NetApp HCI</block>
-  <block id="930dca22f6f735a61fd8f484808fecb3" category="sidebar">使用NetApp混合式雲端控制進行管理</block>
-  <block id="6cb5dfacb4ee1684b5483221bfcf580c" category="sidebar">使用NetApp Element vCenter Server的VMware vCenter外掛程式</block>
-  <block id="d02b5df8c0bf5a555ea650be898817f7" category="sidebar">展開NetApp HCI</block>
-  <block id="748ace58318ab9d82392d680b07e89e6" category="sidebar">升級NetApp HCI</block>
-  <block id="f7731734f4507319f744fe2c8158536a" category="sidebar">疑難排解NetApp HCI VMware和Rancher</block>
-  <block id="eeabaf7c41bcd50a6a02694c070dbfb4" category="sidebar">在運算節點上重設BMC</block>
-  <block id="166868e0f588717c1c62116a03c9b979" category="sidebar">更多知識庫文章</block>
-  <block id="2a9dbfa4b74c53d7304fc8b79a1874d3" category="sidebar">解決方案</block>
-  <block id="fcf140abed196b8eba71c45f21312bce" category="sidebar">NetApp解決方案</block>
-  <block id="81a123ccab93cd947289b672b0e50348" category="sidebar">示範教學課程</block>
-  <block id="45a52e6c046bce2a0f9f5253cc23fbd6" category="sidebar">視頻庫NetApp HCI</block>
-  <block id="9135ac6f13de11d3b4b9f2f98ff9bcb8" category="sidebar">NetApp學習服務</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
-  <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">NetApp社群</block>
-  <block id="213686afc3803be7caa09348765467fe" category="sidebar">取得協助的地方</block>
-  <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">本文檔資料NetApp HCI</block>
   <block id="f6a63a9052785a40e6a7b718acb627b9" category="list-text">*管理服務*：您已更新至最新的管理服務套裝組合（2.11或更新版本）。</block>
   <block id="2ce38f720dba5ff083bfe1933d11eacc" category="list-text">*管理節點*：您執行的是管理節點11.3或更新版本。</block>
   <block id="a141fe1c6179ed3e09aa6043ad364ac6" category="list-text">* Element軟體*：您的儲存叢集執行NetApp Element 的是功能不全的軟體11.3或更新版本。</block>
@@ -6190,4 +6150,9 @@
   <block id="4b07d1c342b03364f7120990720b53ef" category="section-title">步驟 5 ：為兩個和三個節點的儲存叢集重新部署見證節點</block>
   <block id="df0f8acf74958be223bdd3dabcce5038" category="inline-link">由於升級套件上傳錯誤、 SolidFire 和 HCI 升級無法啟動</block>
   <block id="b9bbae8efe5c0f15ffba3f05d619b861" category="list-text">自 2023 年 11 月起、您無法使用 NetApp 混合雲控制或 REST API 來開始元件升級、因為簽署金鑰憑證（私有和公有）已於 2023 年 11 月 5 日到期。您可以依照知識庫文件中所述的因應措施來解決此問題<block ref="43e83b9864cac922c7475bad0e74a40f" category="inline-link-rx"></block>。</block>
+  <block id="8daa3151587347980e74b151202ea3b6" category="list-text">設定 BMC 、請參閱 <block ref="785a710f4c6946c37cc4ffd8e78657df" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
+  <block id="a0701e6fb9d20d52e56b635ed36b87f5" category="inline-link">如何在 HCI 和 SolidFire H 系列系統上停用 BMC Web UI 存取</block>
+  <block id="6eacafa95777fb1e6eb8520265b58990" category="list-text">請參閱 NetApp 知識庫文件<block ref="241ab5b011155d72deeb18c5d431446f" category="inline-link-rx"></block> 判斷您的 BMC Web 存取是否需要停用。</block>
+  <block id="65c8d097794b4f73719e82bebe86d855" category="section-title">升級節點上的韌體</block>
+  <block id="08a91b27b8b81bd9d0b64ba51e61dd98" category="paragraph">更換運算節點之後、您可能必須升級韌體版本。請參閱 <block ref="502434424b58174296cfde9ecff2397f" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
 </blocks>

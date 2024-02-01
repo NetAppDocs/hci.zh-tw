@@ -58,7 +58,7 @@ VMware vSphere Web Client中的警示會在節點故障時發出警示。您應�
 
 * link:task_hci_removewn.html["移除見證節點以釋放運算資源"]
 * <<如果您收到使用非標準BMC密碼的替換節點、請變更密碼>>
-* <<升級節點上的BMC韌體>>
+* <<Upgrade the BMC firmware on your node>>
 
 
 
@@ -146,6 +146,8 @@ CAUTION: 如果機箱背面的通風孔被纜線或標籤阻塞、可能會因�
 
 TIP: 請確定替換節點的纜線方式與機箱中的其他節點相同。
 
+. 設定 BMC 、請參閱 link:hci_prereqs_final_prep.html["為每個節點設定IPMI"] 以取得詳細資料。
+. 請參閱 NetApp 知識庫文件 https://kb.netapp.com/onprem/solidfire/Element_OS/How_to_disable_BMC_web_UI_access_on_HCI_and_SolidFire_H-Series_systems["如何在 HCI 和 SolidFire H 系列系統上停用 BMC Web UI 存取"^] 判斷您的 BMC Web 存取是否需要停用。
 
 
 
@@ -923,29 +925,9 @@ image::bmc pw sticker.png[顯示節點背面、並在IPMI連接埠下方貼紙�
 
 
 
-== 升級節點上的BMC韌體
+== 升級節點上的韌體
 
-更換運算節點之後、您可能必須升級韌體版本。您可以從的下拉式功能表下載最新的韌體檔案 link:https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp支援網站（需登入）"^]。
-
-.步驟
-. 登入基板管理控制器（BMC）UI。
-. 選擇*維護>韌體更新*。
-+
-image::h410c-bmc1.png[顯示韌體更新的BMC UI導覽。]
-
-. 從BMC主控台選取*維護*。
-+
-image::h410c-bmc2.png[顯示BMC UI中的維護畫面。]
-
-. 從「維護」索引標籤中、從UI左側的導覽中選取*韌體更新*、然後選取*進入更新模式*。
-+
-image::h410c-bmc3.png[顯示BMC UI中的韌體更新畫面。]
-
-. 在確認對話方塊中選取*是*。
-. 選取*瀏覽*以選取要上傳的韌體映像、然後選取*上傳韌體*。從節點鄰近區域以外的位置載入韌體、可能會導致延長載入時間和可能的逾時。
-. 允許保留組態檢查、然後選取*開始升級*。升級大約需要5分鐘。如果上傳時間超過60分鐘、請取消上傳、並將檔案傳輸到節點附近的本機機器。如果工作階段逾時、您可能會在嘗試重新登入BMC UI的韌體更新區域時看到許多警示。如果您取消升級、系統會將您重新導向至登入頁面。
-. 更新完成後、選取*確定*、然後等待節點重新開機。升級後登入、然後選取* System*以確認*韌體修訂版*版本符合您上傳的版本。
-
+更換運算節點之後、您可能必須升級韌體版本。請參閱 link:task_hcc_upgrade_compute_node_firmware.html["升級運算節點韌體"] 以取得詳細資料。
 
 
 
