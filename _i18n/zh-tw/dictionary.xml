@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="db035ffffac30b1a95fd497625c55167" category="summary">如需深入瞭NetApp HCI 解、請使用下列資訊：「組態與管理」文件與NetApp HCI 「解決方案資訊」。</block>
-  <block id="ad0a505756223d68dc11afeae3459351" category="doc">資訊文件NetApp HCI</block>
   <block id="c22d54980e737e20937f0c5ba6b6861f" category="summary">瞭解如何在NetApp HCI 部署過程中設定VMware vSphere。</block>
   <block id="8dbca53f09cf9420f0d8b70c6ea8bbf4" category="doc">設定新的VMware vSphere環境</block>
   <block id="4f19202a32506ccdd6c5876f1e97fb13" category="paragraph">您可以提供vSphere應使用的部分網路資訊、將新的vSphere環境部署為NetApp HCI VMware安裝流程的一部分。請注意、如果您使用IP位址設定vSphere、則安裝後無法變更位址。</block>
@@ -6186,4 +6185,5 @@
   <block id="a5f38386dcceecb027de7fd15fcc6aa4" category="list-text"><block ref="a5f38386dcceecb027de7fd15fcc6aa4" category="inline-link-rx"></block></block>
   <block id="0287de700b52d79d64e09aca72f4850b" category="admonition">為的運算節點升級 ESXi<block ref="d6b7667dc675e8798d67d09fb8931bb2" category="inline-link-rx"></block> 時、一次只能升級一個運算節點、因此只有一個見證節點暫時無法使用、而且可以維持叢集仲裁。</block>
   <block id="a2f9c1250a16a7514c9d6b0865b7bf42" category="list-text"><block ref="a2f9c1250a16a7514c9d6b0865b7bf42" category="inline-link-rx"></block></block>
+  <block id="71ba5558351e89d8a3a0e99e30d1f750" category="sidebar">NetApp HCI 文件 1.10</block>
 </blocks>
