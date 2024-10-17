@@ -6,12 +6,7 @@ summary: 法律聲明提供版權聲明、商標、專利等存取權限。
 translate: false 
 ---
 = 法律聲明
-:hardbreaks:
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ../media/
 
 
 [role="lead"]
@@ -60,6 +55,8 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 * link:../media/SolidFire_eSDS_12.5.pdf["NetApp SolidFire 企業SDS 12.5注意事項"^]
 * link:../media/mNode_12.5.pdf["管理節點12.5注意事項"^]
 * link:../media/ansible-products-notice.pdf["運算升級的Ansible角色注意事項"^]
+* link:../media/storage_firmware_bundle_2.182.0_notices.pdf["儲存韌體套件 2.182.0 注意事項"^]
+* link:../media/compute_firmware_bundle_2.179.0_notices.pdf["運算韌體套件 2.179.0 注意事項"^]
 * link:../media/storage_firmware_bundle_2.175.0_notices.pdf["儲存韌體套件 2.175.0 注意事項"^]
 * link:../media/compute_firmware_bundle_2.174.0_notices.pdf["運算韌體套件 2.174.0 注意事項"^]
 * link:../media/storage_firmware_bundle_2.164.0_notices.pdf["儲存韌體產品組合2.164注意事項"^]

@@ -5990,7 +5990,6 @@
   <block id="f056eadecebc58790da8eb91b5211492" category="inline-link">在Element Software中設定自訂SSL憑證有哪些要求？</block>
   <block id="e3b4df69e2fe4e8545e5e0240eada6a2" category="list-text"><block ref="e3b4df69e2fe4e8545e5e0240eada6a2" category="inline-link-rx"></block></block>
   <block id="8ce84b11df4b07d7aa9bb1fd260b434f" category="inline-link-macro">運算韌體套件 2.174.0 版本資訊</block>
-  <block id="5b0fda3cebcf8a643f1180cab01f12da" category="list-text"><block ref="1a4479b2e3ec8fc20906c13b738e7820" category="inline-link-macro-rx"></block> _新_</block>
   <block id="69bac05cf2ab747a8ac20a157b6363b6" category="admonition">NetApp混合雲控制需要最新的管理服務組合。您必須先升級至最新的管理服務套件、才能將運算節點上的韌體升級至版本 2.174.0 。如果您要將運算節點上的韌體升級至版本 2.174.0 、則需要管理服務 2.20 才能繼續。</block>
   <block id="78810bf1f4f592e0de1616224eda921a" category="paragraph">2.174.0 版包含一般的修正程式。</block>
   <block id="2dac99af4ba8d6920084f83699b5757d" category="cell">*07.02.00*</block>
@@ -6018,7 +6017,6 @@
   <block id="d47b937e2f74388bd4fd552f0dc64877" category="list-text">在關鍵字搜尋欄位中、輸入「儲存韌體套件」、然後選取 * 新搜尋 * ：</block>
   <block id="165ffb421393136ac7930e23c971a009" category="inline-link-macro">儲存韌體套件 2.175.0 注意事項</block>
   <block id="112f8e7ac3d8ebc58aaf4c3565f340b0" category="list-text"><block ref="112f8e7ac3d8ebc58aaf4c3565f340b0" category="inline-link-macro-rx"></block></block>
-  <block id="0f680f15db273397148c72e656319e45" category="list-text"><block ref="9f2c8b7f9459e99daa861cf963d87ddb" category="inline-link-macro-rx"></block> _新_</block>
   <block id="05897b3b8549d60a9bbb1bea2303559b" category="list-text"><block ref="05897b3b8549d60a9bbb1bea2303559b" category="inline-link-macro-rx"></block></block>
   <block id="036abbfa45963ef13c18174a4e44a2e1" category="list-text">設定網路、使節點與叢集中的其他節點同步、如下所示：</block>
   <block id="3d76bb66295b6934cf67dde5bae83ad3" category="paragraph">從 Element Plug-in for vCenter 5.0 開始、將節點（主機）新增至資料中心。</block>
@@ -6186,4 +6184,49 @@
   <block id="0287de700b52d79d64e09aca72f4850b" category="admonition">為的運算節點升級 ESXi<block ref="d6b7667dc675e8798d67d09fb8931bb2" category="inline-link-rx"></block> 時、一次只能升級一個運算節點、因此只有一個見證節點暫時無法使用、而且可以維持叢集仲裁。</block>
   <block id="a2f9c1250a16a7514c9d6b0865b7bf42" category="list-text"><block ref="a2f9c1250a16a7514c9d6b0865b7bf42" category="inline-link-rx"></block></block>
   <block id="71ba5558351e89d8a3a0e99e30d1f750" category="sidebar">NetApp HCI 文件 1.10</block>
+  <block id="1489f018f83d74b9df101b568183bd78" category="inline-link-macro">NetApp HCI 和 VMware ESXi 8.0 版及更新版本支援哪些功能？</block>
+  <block id="b197c420bdfab7a6262382c815336a80" category="admonition">如需 VMware ESXi 8.0 版的詳細資訊、請參閱下列知識庫文章<block ref="442a301a8547af29c6a047e0e38d852a" category="inline-link-macro-rx"></block>。</block>
+  <block id="40bea71e4dc1728132e5027844f9a883" category="cell">* 運算韌體套件 2.179.0*</block>
+  <block id="f60525d0f867ed7f15f5ebf94bb879df" category="cell">2024-10-17</block>
+  <block id="03c66014424725888a3985fe19e7169f" category="cell">3B14.CO</block>
+  <block id="12547395b3665237b73acadbd21fbe97" category="cell">4.79.07</block>
+  <block id="ad314bc16cea6a12b38e3c62822138cd" category="cell">3B09</block>
+  <block id="9bafad90ba64b0a78867408b3dd555b0" category="cell">4.11.07</block>
+  <block id="f1361ff9826d8d72d43ae3d81ca49ba7" category="cell">NATP3.12</block>
+  <block id="b03a7d7cca9c38e7cb0b05ed782f190c" category="cell">6.71.26</block>
+  <block id="7a1a50b4f214356238b1fdd7473fb635" category="cell">NAT3.6</block>
+  <block id="c99fba0db719381ede00d894486894a0" category="cell">* 儲存韌體套件 2.182.0*</block>
+  <block id="40d02a54e5711497609651e0d06eb4ab" category="cell">3B14</block>
+  <block id="c55a468007fe87cc9f913dec692ea9eb" category="cell">4.01.07</block>
+  <block id="9365eb81d2e69739b5c5c0a6bda52315" category="cell">GDC5A02Q</block>
+  <block id="1a9f7cf4eade0ea391d219a7acbeea22" category="cell">11093A10</block>
+  <block id="a789af7a3f0be8e6b5b27e8f2c902f38" category="cell">110B3A10</block>
+  <block id="878e10f3ecb83396704ecc4b39ad7aa2" category="inline-link-macro">儲存韌體套件 2.182.0 注意事項</block>
+  <block id="9e043b2c98cbfab6237701383428d7df" category="list-text"><block ref="9e043b2c98cbfab6237701383428d7df" category="inline-link-macro-rx"></block></block>
+  <block id="02c0403c810268dcde8e00ec374d7aec" category="inline-link-macro">運算韌體套件 2.179.0 注意事項</block>
+  <block id="8d3240366b998899f7314c2fafdd4f5c" category="list-text"><block ref="8d3240366b998899f7314c2fafdd4f5c" category="inline-link-macro-rx"></block></block>
+  <block id="aa1d09bda06b840fd87aa0274761c4f1" category="doc">運算韌體套件 2.179.0 版本資訊</block>
+  <block id="13a4a6a5775d04bfcb515ffe511381ae" category="admonition">NetApp混合雲控制需要最新的管理服務組合。您必須先升級至最新的管理服務套件、才能將運算節點上的韌體升級至版本 2.179.0 。如果您要將運算節點上的韌體升級至版本 2.179.0 、則需要管理服務 2.20 或更新版本才能繼續。</block>
+  <block id="5e2a9600979f3a286f43c39a70c7de3f" category="paragraph">2.179.0 版包含一般的修正程式。</block>
+  <block id="ed1a7c6729669428696f761be28292c0" category="cell">* NAT3.6 *</block>
+  <block id="2300b3524da5539a8c1b09e1b9e615f9" category="cell">* NATP3.12 *</block>
+  <block id="e2f72d531fe2541a55f3d834afe738a2" category="cell">* 3B09 *</block>
+  <block id="6a4a9000a7936fc49fe75ac574c04869" category="cell">* 3B14.CO *</block>
+  <block id="092440283237cd4d74631d471f54c774" category="cell">*6.71.26*</block>
+  <block id="89c02a340e6a3cd5b526d4e6e1323392" category="cell">*4.11.07*</block>
+  <block id="c061349e1af8e6916a1a66bab68074bb" category="cell">*4.79.07*</block>
+  <block id="f56d6fafda33f65b522412926039bc57" category="admonition">升級至版本 2.179.0 之前、您必須檢查目前的 ESXi 驅動程式版本。如果驅動程式已過期、請先升級驅動程式。然後將運算節點的運算韌體升級至 2.179.0 版。如需更新運算節點驅動程式（包括 ESXi 驅動程式）的說明、請參閱<block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block>。</block>
+  <block id="18ecb030153f41ccccd7590bf2ab5f6a" category="section-title">下載 Compute Firmware Bundle 2.179.0</block>
+  <block id="d4bf7951fa04826ad5c1dac6a9954644" category="list-text">瀏覽<block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block>並從下拉式清單中選取 * 元素軟體 * ：</block>
+  <block id="10928303c7ba6d231678d5fa7125e53c" category="list-text"><block ref="3a1a022151085ffe24dae724b7ca88e3" category="inline-link-macro-rx"></block>_new_</block>
+  <block id="1a4479b2e3ec8fc20906c13b738e7820" category="list-text"><block ref="1a4479b2e3ec8fc20906c13b738e7820" category="inline-link-macro-rx"></block></block>
+  <block id="bd64065ecca4148bdf3bf66b4b2539a6" category="inline-link-macro">儲存裝置韌體套件 2.182.0 版本資訊</block>
+  <block id="857cfbfd9b291658574dd207ea7dab93" category="list-text"><block ref="3d25e722329aebc696a982dcb7743d0a" category="inline-link-macro-rx"></block>_new_</block>
+  <block id="9f2c8b7f9459e99daa861cf963d87ddb" category="list-text"><block ref="9f2c8b7f9459e99daa861cf963d87ddb" category="inline-link-macro-rx"></block></block>
+  <block id="58874f4e126ed1e7b741eb604dff89f6" category="paragraph">儲存韌體套件 2.182.0 版包含一般的修正程式。</block>
+  <block id="07c9b060fa8813b803f8fbaf46fd59c7" category="cell">* 3B14 *</block>
+  <block id="f5cc8b02f3ea1c98621a0a295570229e" category="cell">*4.01.07*</block>
+  <block id="2dc3efc642d50fd00d3f873b79e8b213" category="cell">* GDC5A02Q *</block>
+  <block id="c94f09ee99212129d406ef397dc89885" category="cell">* 11093A10 *</block>
+  <block id="0e6ea2d2094482378f9c9eb3acdf6a9d" category="cell">* 110B3A10 *</block>
 </blocks>
