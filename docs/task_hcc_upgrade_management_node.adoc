@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_management_node.html 
 summary: 在升級版的過程中、您需要升級管理節點。NetApp HCI 
-keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7 
+keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7, 12.8 
 ---
 = 升級管理節點
 :allow-uri-read: 
@@ -16,8 +16,30 @@ keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10,
 
 NOTE: 如果您需要有關升級管理節點12．2或更早版本的資訊、請參閱 https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_management_node.html["更新說明文件NetApp HCI"^]。
 
-.升級選項
-請選擇下列其中一個選項：
+
+
+== 步驟 1 ：在管理節點上升級 VM 硬體版本
+
+如果您正在執行現有管理節點的就地升級至元素 12.8 ，則在升級之前，必須確保管理節點上的 VM 硬體版本與 ESXi 6.7 （ VM 硬體版本 14 ）或更新版本相容，視您的環境而定。
+
+
+NOTE: 您也可以依照下列步驟，在見證節點上升級 VM 硬體版本。
+
+.步驟
+. 以vCenter管理員身分登入vSphere Web Client。
+. 從 vSphere Client 功能表中，選取 * VMS* 和 * 範本 * 。
+. 在虛擬機器上按一下滑鼠右鍵，然後選取 * 相容性 * > * 升級 VM 相容性 * 。
+. 選擇*是*。
+. 根據 vSphere 環境的版本，選取 ESXi 6.7 或更新版本。
+. 選擇*確定*。
+. 升級完成後，請選取 * vSphere 用戶端重新整理 * ，並確認 VM 相容性為所需版本。
+
+
+
+
+== 步驟 2 ：將管理節點升級至元件 12.5 或更新版本
+
+請選擇下列其中一個升級選項：
 
 * <<將管理節點從12.3.x版或更新版本升級至12.5版或更新版本>>
 * <<使用管理節點REST API重新設定驗證>>
@@ -31,14 +53,14 @@ NOTE: 如果您未依序更新管理服務、接著更新元素儲存設備、�
 
 
 
-== 將管理節點從12.3.x版或更新版本升級至12.5版或更新版本
+=== 將管理節點從12.3.x版或更新版本升級至12.5版或更新版本
 
 您可以在不需要佈建新管理節點虛擬機器的情況下、將管理節點從12.3.x或更新版本就地升級至12.5或更新版本。
 
 
 NOTE: Element 12.5或更新版本的管理節點為選用升級。現有部署不需要此功能。
 
-.您需要的產品
+.開始之前
 * 管理節點VM的RAM為24GB。
 * 您要升級的管理節點為12版、使用的是IPv6網路。管理節點版本12.5或更新版本不支援IPv6。
 +
@@ -124,7 +146,7 @@ IMPORTANT: 如果您先前已停用管理節點上的SSH功能、則需要 link:
 
 
 
-== 使用管理節點REST API重新設定驗證
+=== 使用管理節點REST API重新設定驗證
 
 如果您已依序升級（1）管理服務和（2）元素儲存設備、則可以保留現有的管理節點。如果您已依照不同的升級順序執行、請參閱就地管理節點升級程序。
 
@@ -157,7 +179,8 @@ https://<ManagementNodeIP>/mnode
 
 
 
-[discrete]
+
+
 == 如需詳細資訊、請參閱
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]

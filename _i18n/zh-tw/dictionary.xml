@@ -3220,12 +3220,7 @@
   <block id="2b041c08ffacbc430053ddd70cfed8ea" category="inline-link-macro">持續磁碟區</block>
   <block id="7f10e6e99f08f394e823f7104513126a" category="paragraph">在執行此程序之前、您應該先瞭解 <block ref="6f73bacaba2e470844b654fcbffb809f" category="inline-link-macro-rx"></block> 以及您是否要使用它們。持續磁碟區為選用功能、但建議在虛擬機器（VM）遺失時、進行管理節點組態資料恢復。</block>
   <block id="47a326e49e46acb78cf32cae1353fcac" category="list-text"><block ref="581882d49acbe8ab5e8325e4c151b8db" category="inline-xref-macro-rx"></block></block>
-  <block id="d65a2ab43bcac7efebde7effc9d142f8" category="list-text"><block ref="4e8e62755aa10b5d2420c05d87c0085a" category="inline-xref-macro-rx"></block></block>
   <block id="cd7b2f0814db99464baac1222444932f" category="list-text"><block ref="cbfedbfc47267d0d76c848bfa4f73e5d" category="inline-xref-macro-rx"></block></block>
-  <block id="c92609be7302c756d6d918553df475c1" category="list-text"><block ref="d9e86326331a25418b718094ae602c19" category="inline-xref-macro-rx"></block></block>
-  <block id="0267f7e06220d0fa6fb42578b5746da3" category="list-text"><block ref="b41cb2f7bd156a4035cdf9347b89cebe" category="inline-xref-macro-rx"></block></block>
-  <block id="067315cbc6353502fa36a4f8722badbd" category="inline-xref">（僅供參考）設定運算節點資產NetApp HCI</block>
-  <block id="cc41647231a76da233743c53a496e137" category="list-text"><block ref="fab01553c96541ce7ac54638294897d8" category="inline-xref-macro-rx"></block></block>
   <block id="5bf2236fb0d245894b988f96a0ff32f6" category="section-title">下載ISO或OVA並部署VM</block>
   <block id="2caa79e72de1ebc3a96da19b6a92c451" category="list-text">從下載OVA或ISO以供安裝<block ref="4844a5a06bc8e1ed86ef9bb2a86e549e" category="inline-link-rx"></block> NetApp支援網站上的頁面：</block>
   <block id="7b4b2bec7b806d58982537647a92deef" category="list-text">選擇*下載最新版本*並接受EULA。</block>
@@ -3245,7 +3240,6 @@
   <block id="1632315c8463eb1e9d1b980297d68c37" category="list-text">將ISO附加至VM、然後開機至.ISO安裝映像。</block>
   <block id="61106ad2e01de8b06da3caf17edacd33" category="admonition">使用映像安裝管理節點可能會導致啟動畫面出現30秒延遲。</block>
   <block id="faa024991ac61fa39b20d61ed2e88ada" category="list-text">安裝完成後、開啟管理節點的VM電源。</block>
-  <block id="f894cbc944582e1f10fec4bf2a0639f0" category="section-title">建立管理節點管理並設定網路</block>
   <block id="89a5998e39cd115fb9ad9a738c937a43" category="list-text">使用終端使用者介面（TUI）建立管理節點管理使用者。</block>
   <block id="0fa5092b4d1d6032dc65fd0a3c71a906" category="admonition">若要在功能表選項之間移動、請按上或下方向鍵。若要在按鈕之間移動、請按下「分頁」。若要從按鈕移至欄位、請按下Tab。若要在欄位之間瀏覽、請按下向上或向下箭頭鍵。</block>
   <block id="c19f63a05ffe39159954c2b2fd892582" category="list-text">如果網路上有動態主機組態傳輸協定（DHCP）伺服器、可指派最大傳輸單元（MTU）小於1500位元組的IP、您必須執行下列步驟：</block>
@@ -3276,7 +3270,6 @@
   <block id="29c3f66306d4b9c80ad86deebb2fabcf" category="admonition">如果您日後對VM進行變更、請勿啟用此選項。</block>
   <block id="2d80cb22364fea2daaca797ae1d938cb" category="inline-link-macro">設定命令</block>
   <block id="a482c646f7f8199c69090c0d13cac33b" category="admonition">請勿在完成時間同步組態之後編輯NTP、因為它會在您執行時影響NTP <block ref="418ec8b5cff4068b256dfd7e9fc5ded7" category="inline-link-macro-rx"></block> 在管理節點上。</block>
-  <block id="627bbdc5a7179606b85a5d6ccb6f65e1" category="section-title">設定管理節點</block>
   <block id="5a808c62f4f9557c4df556d6a230ba7c" category="list-text">設定並執行管理節點設定命令：</block>
   <block id="58df37229524fed632f3c53880c146c3" category="admonition">系統會提示您在安全提示中輸入密碼。如果叢集位於Proxy伺服器之後、您必須設定Proxy設定、才能連線至公用網路。</block>
   <block id="57aa15c5b6505e27c5150f48bdab73d6" category="list-text">針對下列每個必要參數、將[]方塊中的值（包括方括弧）取代：</block>
@@ -3303,7 +3296,6 @@
   <block id="aabee241823de4ff993b60d0a196a387" category="list-text">（選用）如果您需要有關每個參數的其他資訊、請使用參數說明：</block>
   <block id="f89c180fd45cb0275c5ee18e59d2b43d" category="list-text">*-說明（-h）*：傳回每個參數的相關資訊。參數是根據初始部署而定義為必要或選用。升級與重新部署參數的需求可能有所不同。</block>
   <block id="79032d0c879c3afbbb570dd870eb09e1" category="list-text">執行「Setup-mnode"命令。</block>
-  <block id="7ea2768c656768f853cd68b9066eba0f" category="section-title">設定控制器資產</block>
   <block id="4240350efa82cb4b2d0dcd00f64f496b" category="list-text">找出安裝ID：</block>
   <block id="81b4d8ce3b6d3d31bcc065c5589192ab" category="list-text">從瀏覽器登入管理節點REST API UI：</block>
   <block id="ed4faf2b135a0f2d74eef06f6fd8899e" category="list-text">前往儲存設備MVIP並登入。此動作會在下一個步驟中接受憑證。</block>
@@ -3316,7 +3308,6 @@
   <block id="8cfb9a9c7c3001a95af6d09549cdabaa" category="list-text">選取「* POST /Assites/{asset_id}/controller*」以新增控制器子資產。</block>
   <block id="ebb21f9a1a1c0ac53661851a6adcb7ab" category="inline-link-macro">在vCenter中建立NetApp HCC角色</block>
   <block id="e2e193a380a16845739e1445cfe23fde" category="list-text">輸入「vCenter」類型和vCenter認證所需的有效負載值。</block>
-  <block id="421226b233bd18f9c1f8d179419a2f39" category="list-text">（NetApp HCI 僅供參考）將運算節點資產新增至管理節點已知資產：</block>
   <block id="59cb038ca0d26b60e9eda25d59ec865b" category="list-text">選取「* POST /Assets /｛asset_id｝/ comp運算 節點*」、以新增內含運算節點資產認證的運算節點子資產。</block>
   <block id="ea32544c4914661e6b948f2891dd6a83" category="list-text">在有效負載中、輸入「模型」索引標籤中定義的必要有效負載值。輸入「ESXi主機」作為「類型」、然後輸入您在上一步中儲存的「hardware _tag」硬體標籤。</block>
   <block id="827caa54c6358e2c35901d53e8016bdd" category="inline-link-macro">持續磁碟區</block>
@@ -4425,7 +4416,6 @@
   <block id="f308e6ca453d47a2876df6eae740d8f8" category="cell">磁碟大小</block>
   <block id="a8eb35236338fefbad16baa7af1c75ba" category="cell">67GB</block>
   <block id="845f62e2611daf20a77cdbef343a155b" category="paragraph">在雙節點或三節點儲存叢集中、僅支援某些儲存節點機型。NetApp HCI如需更多資訊、請參閱NetApp HCI 《發行說明》以瞭解您的更新版本。</block>
-  <block id="edc66b1482b45fd0e89fdbe4ba094191" category="admonition">當安裝過程安裝見證節點時NetApp HCI 、VM範本會儲存在VMware vCenter中、您可以在見證節點意外移除、遺失或毀損時、使用該範本來重新部署見證節點。如果您需要更換裝載見證節點的故障運算節點、也可以使用範本來重新部署見證節點。如需相關指示、請參閱「*重新部署兩節點和三節點儲存叢集的見證節點*」一節 <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>。</block>
   <block id="728b9f30c45d9b5490bc14eac2e5a7ee" category="summary">您可以使用REST API UI編輯vCenter管理節點控制器。</block>
   <block id="b0f01550232ca27c04dbc0644b6f5690" category="paragraph">您可以使用REST API、在管理節點組態中檢視及編輯現有VMware vCenter控制器的相關資訊。控制器是VMware vCenter執行個體、已登錄至管理節點以供NetApp HCI 您進行安裝。</block>
   <block id="4449c06ccadafd4f881f5cd491f79ffe" category="list-text">請確定您的叢集版本執行NetApp Element 的是更新版本的軟件。</block>
@@ -5793,8 +5783,6 @@
   <block id="6a881248d046a90f573e41d5ebe1362e" category="list-text"><block ref="6a881248d046a90f573e41d5ebe1362e" category="inline-link-rx"></block></block>
   <block id="90e7c2277ee69a3d3ecf30fa1fe61ab1" category="inline-link">vCenter外掛程式4.10版本說明</block>
   <block id="779aeeb0a67ee84cae70c2361654111d" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block></block>
-  <block id="6f0ce5bfc09a3a4d8737b564d5879f31" category="inline-link">深入瞭解Element 12.7的新功能</block>
-  <block id="f10aa2cb8c994fef24ceca1ee43e4208" category="admonition">Element軟體12.7是最新版本、包含安全性與系統元件更新、作業改善及已解決的問題。<block ref="d071d61ca9198e87abb60c485f07eada" category="inline-link-rx"></block>。</block>
   <block id="e8c9d31781628048fc356dbb3477278c" category="summary">從管理服務2.21.61開始、Rancher不再支援現有和新的Rancher部署。您可以繼續使用舊版管理服務來管理Rancher。</block>
   <block id="46e87a91de6f38f3b1344d05a59270dd" category="inline-link">部分1.9文件NetApp HCI</block>
   <block id="fc55c296a158a74f2203216a080cac11" category="paragraph">對於現有的Rancher部署、從管理服務2.21.61開始、Rancher不再受支援。如果您升級至管理服務2.21.61、則無法使用NetApp混合雲控制來管理、監控或升級Rancher以進行現有部署、或是NetApp HCI 在更新的支援系統上執行新的部署。如果您已在NetApp HCI 您的支援系統上部署Rancher、並執行2.20.69或更早版本的管理服務、您可以繼續使用來管理、監控及升級Rancher<block ref="366a8df179e5c8339fa05bf5fe38a812" category="inline-link-rx"></block>。</block>
@@ -6233,4 +6221,36 @@
   <block id="f0fe2934aa8d8cec985fef2e0c464532" category="list-text"><block ref="f0fe2934aa8d8cec985fef2e0c464532" category="inline-link-macro-rx"></block></block>
   <block id="08c1b18f2bce38d2bceb61af5b8c4c6e" category="list-text"><block ref="08c1b18f2bce38d2bceb61af5b8c4c6e" category="inline-link-macro-rx"></block></block>
   <block id="c1f2aa244c34463b7aea4f2b566f9420" category="list-text"><block ref="c1f2aa244c34463b7aea4f2b566f9420" category="inline-link-macro-rx"></block></block>
+  <block id="9c9a41bc801502e6500c79ea7586ba95" category="inline-link-macro">為兩個和三個節點的儲存叢集重新部署見證節點</block>
+  <block id="d0f20378e2595fa7956c455387d1bc5a" category="paragraph">當安裝過程安裝見證節點時NetApp HCI 、VM範本會儲存在VMware vCenter中、您可以在見證節點意外移除、遺失或毀損時、使用該範本來重新部署見證節點。如果您需要更換裝載見證節點的故障運算節點、也可以使用範本來重新部署見證節點。有關說明，請參閱<block ref="6fa44f1a6cd8ce6de51cb02b7ae12cc5" category="inline-link-macro-rx"></block>。</block>
+  <block id="3c72afcfca67f187b816a55135a243dd" category="inline-link-macro">升級 VM 硬體版本</block>
+  <block id="4fff07540e1d83ac9775ec8030cce786" category="paragraph">如果您正在執行現有見證節點的就地升級至元素 12.8 ，則在升級之前，必須確保見證節點上的 VM 硬體版本與 ESXi 6.7 （ VM 硬體版本 14 ）或更新版本相容，視您的環境而定。請參閱。 <block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block></block>
+  <block id="6db7dd4182be7a1979ad403111fa8618" category="inline-link">NetApp Element 軟體 12.8 版本資訊</block>
+  <block id="7d776811219f8ebb17adecaa976bd578" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block>_new_</block>
+  <block id="a175ee087381806b642bbcfee91690d5" category="inline-link">深入瞭解Element 12.8的新功能</block>
+  <block id="669c1fb7e11e3bb5ca277eb16b4a55f4" category="admonition">Element Software 12.8 是最新版本，包括安全性與系統元件更新，作業改善及解決問題。<block ref="4f11681fa65d50fd10f6fc370da0cbe3" category="inline-link-rx"></block>。</block>
+  <block id="b036ebb7aa6b63db449d4df71f28c3cd" category="section-title">步驟 1 ：在管理節點上升級 VM 硬體版本</block>
+  <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">如果您正在執行現有管理節點的就地升級至元素 12.8 ，則在升級之前，必須確保管理節點上的 VM 硬體版本與 ESXi 6.7 （ VM 硬體版本 14 ）或更新版本相容，視您的環境而定。</block>
+  <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">您也可以依照下列步驟，在見證節點上升級 VM 硬體版本。</block>
+  <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">以vCenter管理員身分登入vSphere Web Client。</block>
+  <block id="1a331e443f5aee428076dfc1341e09b5" category="list-text">從 vSphere Client 功能表中，選取 * VMS* 和 * 範本 * 。</block>
+  <block id="f42849b7cb77e25b9a5601553a509100" category="list-text">在虛擬機器上按一下滑鼠右鍵，然後選取 * 相容性 * &gt; * 升級 VM 相容性 * 。</block>
+  <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">根據 vSphere 環境的版本，選取 ESXi 6.7 或更新版本。</block>
+  <block id="7473f663a4bbad1085e61ed9c976a50a" category="list-text">升級完成後，請選取 * vSphere 用戶端重新整理 * ，並確認 VM 相容性為所需版本。</block>
+  <block id="6b17900bf8b7a52b1be75bbe68b2d77e" category="section-title">步驟 2 ：將管理節點升級至元件 12.5 或更新版本</block>
+  <block id="d5bdcd035d3751961b201dd1c2261aa3" category="paragraph">請選擇下列其中一個升級選項：</block>
+  <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">步驟 1 ：下載 ISO 或 OVA 並部署 VM</block>
+  <block id="90c4d8ddd76d9f5f86c144316cec5657" category="paragraph">從 NetApp 支援網站下載適當的 ISO 或 OVA ，然後安裝 VM 。</block>
+  <block id="c6913d34fefabb7329dba971ad99632d" category="section-title">步驟 2 ：建立管理節點管理並設定網路</block>
+  <block id="8e1cc7b20e9f183452b777f8a4fb586d" category="paragraph">VM 安裝完成後，建立管理節點管理員使用者，並設定管理節點網路。</block>
+  <block id="5e0472334bca93d0d28d3eeaaf723518" category="section-title">步驟 3 ：設定時間同步</block>
+  <block id="6646ab3d83d88b5b34e61e3a58b244e8" category="paragraph">在設定管理節點之前，請先同步管理節點與儲存叢集之間的時間。</block>
+  <block id="ef246c91c687e7d720eb49c5e2a4cd47" category="section-title">步驟 4 ：設定管理節點</block>
+  <block id="9f150d20e38589485a1bb878b18c51e2" category="paragraph">使用命令設定管理節點<block ref="73028873f2b0a018096b6a3d871634b5" prefix=" " category="inline-code"></block>。</block>
+  <block id="2cec258fd66ace0725a9af6922c80f3e" category="section-title">步驟 5 ：設定控制器資產</block>
+  <block id="b5d27a207b01cd3ca9fef9594d50836f" category="paragraph">找出安裝 ID 並新增 vCenter 控制器資產。</block>
+  <block id="bd6447e80251856484a25ace239c3873" category="section-title">步驟 6 ：（僅限 NetApp HCI ）設定運算節點資產</block>
+  <block id="64391abac346294811422637c6d0a865" category="paragraph">將運算節點資產新增至管理節點已知資產</block>
+  <block id="975648a39ca92865d807bc35f02b5984" category="inline-link-macro">Element軟體注意事項12.8</block>
+  <block id="d70cd205dfc4339579c798a35dc44462" category="list-text"><block ref="d70cd205dfc4339579c798a35dc44462" category="inline-link-macro-rx"></block></block>
 </blocks>
