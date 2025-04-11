@@ -47,7 +47,7 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。
 
 * link:./media/NetApp_HCI_1.11_notice.pdf["關於此產品的注意事項NetApp HCI 1.11"^]
-* link:../media/Element_Software_12.8.pdf["Element軟體注意事項12.8"^]
+* link:./media/Element_Software_12.8.pdf["Element軟體注意事項12.8"^]
 * link:./media/Element_Software_12.7.pdf["Element軟體注意事項12.7"^]
 * link:./media/Ember_OS_12.7.pdf["Ember OS 12.7注意事項"^]
 * link:./media/mNode_12.7.pdf["管理節點12．7注意事項"^]
