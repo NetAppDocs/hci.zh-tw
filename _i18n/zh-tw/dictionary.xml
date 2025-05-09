@@ -60,8 +60,6 @@
   <block id="7cb9171d2e41fd487907a91fb38fae31" category="list-text"><block ref="9c1d2a43cd65a3c0eacb2a0469676bce" category="inline-link-macro-rx"></block> 或 <block ref="ea7bc6be827f510faa492af963f76183" category="inline-link-macro-rx"></block>。</block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">vCenter Server的VMware vCenter外掛程式NetApp Element</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
-  <block id="a83404b3b2ca8b3c39459b719d7844d7" category="inline-link">參考資源頁面NetApp HCI</block>
-  <block id="efb3497df51898324a04d1329dc9b9ae" category="list-text"><block ref="efb3497df51898324a04d1329dc9b9ae" category="inline-link-rx"></block></block>
   <block id="0c44c4e22a7e5a446ab9db51be083194" category="inline-link">升級NetApp SolidFire 的All Flash儲存系統</block>
   <block id="92f931e19caf8af4e3a31a82b06ccabd" category="summary">取得可下載並套用NetApp HCI 至各個節點之韌體套件版本資訊的連結。</block>
   <block id="7c4a6e26b432f1ad131564bc6dc6e32d" category="doc">儲存韌體產品組合2.27版本說明</block>
@@ -726,7 +724,6 @@
   <block id="f2feaea5d9b29c0df76acac116f3553b" category="list-text"><block ref="f2feaea5d9b29c0df76acac116f3553b" category="inline-link-macro-rx"></block></block>
   <block id="286bde25570257949dded73befaa0b26" category="inline-link-macro">同時擴充NetApp HCI 功能豐富的支援資源</block>
   <block id="9dc20ec1b0ef3bcd3e7912ee4ada350c" category="list-text"><block ref="9dc20ec1b0ef3bcd3e7912ee4ada350c" category="inline-link-macro-rx"></block></block>
-  <block id="acc25bb29912a0eb99591d6397d5e11d" category="list-text"><block ref="acc25bb29912a0eb99591d6397d5e11d" category="inline-link-rx"></block></block>
   <block id="0e68b38eaff7123dcc12ce395a147a48" category="summary">提供儲存與運算資源、結合這些資源、打造出以VMware軟體功能為後盾的VMware vSphere環境。NetApp HCI NetApp Element</block>
   <block id="2bfee064de23abb29a29ad16b90c3080" category="doc">組態與管理文件NetApp HCI</block>
   <block id="2d2319a467144bf3a0e5baabca9ea680" category="paragraph">您可以使用NetApp混合雲控制介面來升級、擴充及監控系統、NetApp HCI 並使用NetApp Element 適用於vCenter Server的VMware外掛程式來管理各種VMware資源。</block>
@@ -6233,10 +6230,7 @@
   <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">如果您正在執行現有管理節點的就地升級至元素 12.8 ，則在升級之前，必須確保管理節點上的 VM 硬體版本與 ESXi 6.7 （ VM 硬體版本 14 ）或更新版本相容，視您的環境而定。</block>
   <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">您也可以依照下列步驟，在見證節點上升級 VM 硬體版本。</block>
   <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">以vCenter管理員身分登入vSphere Web Client。</block>
-  <block id="1a331e443f5aee428076dfc1341e09b5" category="list-text">從 vSphere Client 功能表中，選取 * VMS* 和 * 範本 * 。</block>
-  <block id="f42849b7cb77e25b9a5601553a509100" category="list-text">在虛擬機器上按一下滑鼠右鍵，然後選取 * 相容性 * &gt; * 升級 VM 相容性 * 。</block>
   <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">根據 vSphere 環境的版本，選取 ESXi 6.7 或更新版本。</block>
-  <block id="7473f663a4bbad1085e61ed9c976a50a" category="list-text">升級完成後，請選取 * vSphere 用戶端重新整理 * ，並確認 VM 相容性為所需版本。</block>
   <block id="6b17900bf8b7a52b1be75bbe68b2d77e" category="section-title">步驟 2 ：將管理節點升級至元件 12.5 或更新版本</block>
   <block id="d5bdcd035d3751961b201dd1c2261aa3" category="paragraph">請選擇下列其中一個升級選項：</block>
   <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">步驟 1 ：下載 ISO 或 OVA 並部署 VM</block>
@@ -6253,4 +6247,10 @@
   <block id="64391abac346294811422637c6d0a865" category="paragraph">將運算節點資產新增至管理節點已知資產</block>
   <block id="975648a39ca92865d807bc35f02b5984" category="inline-link-macro">Element軟體注意事項12.8</block>
   <block id="2d0be4b4ba388979c4f454ae05179965" category="list-text"><block ref="2d0be4b4ba388979c4f454ae05179965" category="inline-link-macro-rx"></block></block>
+  <block id="6e93fbac14e98fd4eee5f4f560e1d580" category="list-text">從 vSphere Client 功能表中，選取 * VM and Templates] 。</block>
+  <block id="be19667c20f2f3c6b932b48a9c488774" category="list-text">在虛擬機器（ VM ）上按一下滑鼠右鍵，然後選取 * 電源 * &gt; * 關閉來賓作業系統 * 。</block>
+  <block id="6f5f678ae471ecc070cea185b3d40ed4" category="paragraph">等到虛擬機器關機。</block>
+  <block id="b58c4fe6ac8a2dffa0fb94c9d1de7556" category="list-text">在 VM 上按一下滑鼠右鍵，然後選取 * 相容性 * &gt; * 升級 VM 相容性 * 。</block>
+  <block id="eeb196c0a77fbb85f8908ae3cca16bfc" category="list-text">升級完成後，在虛擬機器上按一下滑鼠右鍵，然後選取 * Power* &gt; * Power On* 。</block>
+  <block id="917268d8045dd1bb18e5f8cc7caf9359" category="list-text">選取 * vSphere 用戶端重新整理 * ，並確認 VM 相容性為所需版本。</block>
 </blocks>

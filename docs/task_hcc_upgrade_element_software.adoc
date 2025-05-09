@@ -422,9 +422,8 @@ NetApp混合雲控制系統有預先設定的三小時等候時間、在此期�
 
 CAUTION: 在更新節點時中止叢集升級、可能會導致磁碟機無法正常移除節點。如果未正常移除磁碟機、在升級期間重新新增磁碟機將需要NetApp支援人員手動介入。節點執行韌體更新或更新後同步活動可能需要較長時間。如果升級進度似乎停滯、請聯絡NetApp支援部門以尋求協助。
 
-[discrete]
+
+
 == 如需詳細資訊、請參閱
 
-* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["參考資源頁面NetApp HCI"^]
-
+https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]
