@@ -35,7 +35,7 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 
 == 軟件NetApp Element
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886996["NetApp Element 軟體 12.8 版本資訊"^]_new_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2886996["NetApp Element 軟體 12.8 版本資訊"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2884468["《軟件》第12版發行說明NetApp Element"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2882193["《軟件發行說明》（英文）NetApp Element"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2881056["《軟件12.3.2發行說明》NetApp Element"^]
@@ -64,7 +64,8 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 
 == vCenter Server的VMware vCenter外掛程式NetApp Element
 
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP3330676["vCenter Plug-in 5.4 版本資訊"^]_new_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP3344864["vCenter 外掛程式 5.5 發行說明"^]_新的_
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP3330676["vCenter Plug-in 5.4 版本資訊"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP3316480["vCenter Plug-in 5.3 版本資訊"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2886272["vCenter Plug-in 5.2 版本資訊"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734["vCenter Plug-in 5.1版本說明"^]
@@ -83,7 +84,7 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 
 == 運算韌體
 
-* link:rn_compute_firmware_2.179.0.html["運算韌體套件 2.179.0 版本資訊"]_new_
+* link:rn_compute_firmware_2.179.0.html["運算韌體套件 2.179.0 版本資訊"]
 * link:rn_compute_firmware_2.174.0.html["運算韌體套件 2.174.0 版本資訊"]
 * link:rn_compute_firmware_2.154.4.html["運算韌體套裝組合2.154.4版本說明"]
 * link:rn_compute_firmware_2.146.html["運算韌體套裝組合2.146版本說明"]
@@ -97,7 +98,7 @@ NOTE: 系統會提示您使用NetApp支援網站認證登入。
 
 == 儲存韌體
 
-* link:rn_storage_firmware_2.182.0.html["儲存裝置韌體套件 2.182.0 版本資訊"]_new_
+* link:rn_storage_firmware_2.182.0.html["儲存裝置韌體套件 2.182.0 版本資訊"]
 * link:rn_storage_firmware_2.175.0.html["儲存裝置韌體套件 2.175.0 版本資訊"]
 * link:rn_storage_firmware_2.164.0.html["儲存韌體套裝組合2.164.0版本說明"]
 * link:rn_storage_firmware_2.150.html["儲存韌體產品組合2.150版本說明"]

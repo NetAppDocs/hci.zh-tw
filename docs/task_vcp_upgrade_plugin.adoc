@@ -18,16 +18,20 @@ keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 4
 
 您可以使用登錄公用程式、在vCenter Server Virtual Appliance（vCSA）或Windows上更新外掛程式登錄。您必須在需要使用外掛程式的每個vCenter Server上變更vCenter外掛程式的登錄。
 
+[NOTE]
+====
+管理服務 2.27 套裝組合包含適用於 vCenter Server 5.5 的 Element Plug-in，外掛程式僅與管理節點 12.8 相容。當您更新至管理服務 2.27 時，您必須變更升級順序並在升級至 Element 12.8 之後更新管理服務包，以使管理節點和管理服務之間相容。
 
-NOTE: 管理服務2.22.7包含vCenter Server 5.0的Element外掛程式、其中包含遠端外掛程式。如果您使用Element外掛程式、則應升級至管理服務2.22.7或更新版本、以符合VMware指令、該指令會移除對本機外掛程式的支援。 https://kb.vmware.com/s/article/87880["深入瞭解"^]。
+管理服務 2.22.7 套裝組合包含適用於 vCenter Server 5.0 的 Element 插件，其中包含遠端插件。如果您使用 Element 插件，則應升級至管理服務 2.22.7 或更高版本，以符合 VMware 取消本地插件支援的指令。 https://kb.vmware.com/s/article/87880["深入瞭解"^] 。
 
+====
 [role="tabbed-block"]
 ====
 .適用於vCenter 5.0及更新版本的Element外掛程式
 --
 此升級程序涵蓋下列升級案例：
 
-* 您正在升級至 Element Plug-in for vCenter Server 5.4 ， 5.3 ， 5.2 ， 5.1 或 5.0 。
+* 您正在升級至適用於 vCenter Server 5.5、5.4、5.3、5.2、5.1 或 5.0 的 Element 插件。
 * 您正在升級至8.0或7.0 HTML5 vSphere Web Client。
 +
 
@@ -187,13 +191,13 @@ image::vcp_shortcuts_page_accessing_plugin.png[說明成功升級或安裝 Eleme
 ====
 . 確認NetApp Element 外掛程式*的「組態*」擴充點*「關於*」索引標籤中的版本變更。
 +
-您應該會看到下列版本詳細資料或較新版本的詳細資料：
+您應該會看到以下版本詳細資訊：
 
 +
 [listing]
 ----
-NetApp Element Plug-in Version: 5.4
-NetApp Element Plug-in Build Number: 1
+NetApp Element Plug-in Version: 5.5
+NetApp Element Plug-in Build Number: 16
 ----
 
 

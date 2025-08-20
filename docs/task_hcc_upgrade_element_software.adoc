@@ -11,21 +11,24 @@ keywords: netapp, hci, cluster, element, H610S upgrade, hcc
 [role="lead"]
 若要升級NetApp Element 功能、您可以使用NetApp混合雲控制UI或REST API。某些作業會在元素軟體升級期間受到抑制、例如新增和移除節點、新增和移除磁碟機、以及與啟動器、Volume存取群組和虛擬網路相關的命令等。
 
+警告：
 
-NOTE: 從元素12.5開始、NetApp HealthTools不再支援元素軟體升級。如果您執行的是元件11.0或11.1、則必須先執行 link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["使用HealthTools升級至Element 123"^] 然後使用NetApp混合雲控制升級至Element 12.5或更新版本。
+[]
+====
+管理服務 2.27 套裝組合包含適用於 vCenter Server 5.5 的 Element Plug-in，外掛程式僅與管理節點 12.8 相容。當您更新至管理服務 2.27 時，您必須變更升級順序並在升級至 Element 12.8 後更新管理服務包，以確保管理節點和管理服務之間的相容性。
 
-.您需要的產品
+如果您要更新至管理服務 2.21.61 到 2.26.40，則必須在升級至 Element 12.8 之前更新管理服務套件。
+
+====
+.開始之前
 * *管理權限*：您有儲存叢集管理員權限可執行升級。
 * *有效的升級路徑*：您已檢查要升級的元素版本的升級路徑資訊、並確認升級路徑有效。請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software%3F["NetApp知識庫：執行NetApp Element 「更新軟體」之儲存叢集的升級對照表"^]
++
+從元素12.5開始、NetApp HealthTools不再支援元素軟體升級。如果您執行的是元件11.0或11.1、則必須先執行 link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["使用HealthTools升級至Element 123"^] 然後使用NetApp混合雲控制升級至Element 12.5或更新版本。
+
 * *系統時間同步*：您已確保所有節點上的系統時間均已同步、且儲存叢集和節點的NTP設定正確。每個節點都必須在每個節點的Web UI（「https://[IP位址」：442`）中設定DNS名稱伺服器、且不會發生與時間偏移相關的未解決叢集故障。
 * *系統連接埠*：如果您使用NetApp混合式雲端控制進行升級、您已確保所需的連接埠已開啟。請參閱 link:hci_prereqs_required_network_ports.html["網路連接埠"] 以取得更多資訊。
 * *管理節點*：對於NetApp混合雲控制UI和API、您環境中的管理節點執行版本11.3。
-* *管理服務*：您已將管理服務套裝組合更新為最新版本。
-
-
-
-IMPORTANT: 您必須先升級至最新的管理服務套裝組合、才能將Element軟體升級至版本12.5或更新版本。如果您要將Element軟體更新至版本12．5或更新版本、則需要使用管理服務2．21．61或更新版本才能繼續。
-
 * *叢集健全狀況*：您已確認叢集已準備好升級。請參閱 link:task_hcc_upgrade_element_prechecks.html["升級儲存設備之前、請先執行Element儲存設備健全狀況檢查"]。
 * * H610S節點*的更新基板管理控制器（BMC）：您已升級H610S節點的BMC版本。請參閱 link:rn_H610S_BMC_3.84.07.html["版本說明與升級指示"]。
 * *升級程序時間*：您已排定足夠的時間來執行升級。升級至Element軟體12.5或更新版本時、升級程序時間會因您目前的Element軟體版本和韌體更新而有所不同。

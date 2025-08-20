@@ -20,15 +20,20 @@ keywords: netapp, hci, on premise, cluster, management services
 
 .關於這項工作
 * 您必須先升級至最新的管理服務套裝組合、才能升級Element軟體。
++
 
+CAUTION: 管理服務 2.27 套裝組合包含適用於 vCenter Server 5.5 的 Element Plug-in，外掛程式僅與管理節點 12.8 相容。當您更新至管理服務 2.27 時，您必須變更升級順序並在升級至 Element 12.8 之後更新管理服務包，以使管理節點和管理服務之間相容。
 
++
 [NOTE]
 ====
-* 管理服務2.22.7包含vCenter Server 5.0的Element外掛程式、其中包含遠端外掛程式。如果您使用Element外掛程式、則應升級至管理服務2.22.7或更新版本、以符合VMware指令、該指令會移除對本機外掛程式的支援。 https://kb.vmware.com/s/article/87880["深入瞭解"^]。
-* 如需最新的管理服務版本注意事項、說明各服務套裝組合的主要服務、新功能、錯誤修正及因應措施、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["管理服務版本說明"^]
+** 管理服務2.22.7包含vCenter Server 5.0的Element外掛程式、其中包含遠端外掛程式。如果您使用Element外掛程式、則應升級至管理服務2.22.7或更新版本、以符合VMware指令、該指令會移除對本機外掛程式的支援。 https://kb.vmware.com/s/article/87880["深入瞭解"^]。
+** 如需最新的管理服務版本注意事項、說明各服務套裝組合的主要服務、新功能、錯誤修正及因應措施、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["管理服務版本說明"^]
 
 
 ====
+
+
 .您需要的產品
 從管理服務2.20.69開始、您必須先接受並儲存終端使用者授權合約（EULA）、才能使用NetApp混合雲控制UI或API來升級管理服務：
 

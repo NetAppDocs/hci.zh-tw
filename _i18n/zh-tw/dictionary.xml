@@ -2191,7 +2191,6 @@
   <block id="c203d8a151612acf12457e4d67635a95" category="cell">442-44</block>
   <block id="3576cff8b205debb58711ff360f51ffd" category="cell">使用者介面和API存取儲存節點和元件軟體升級</block>
   <block id="daa963e679ca3d6377b1b4adb2c7e2be" category="cell">儲存節點MVIP</block>
-  <block id="46f1292344946f4bae1e17997a0cc9a4" category="cell">《23.32.74.122》、《216.240.21.15》</block>
   <block id="48edd5f1aadf1c5688f6fb6b572c0d24" category="cell">Element軟體升級</block>
   <block id="d470eebacb4b8651c6e00a84dc742aae" category="cell">基礎板管理控制器（BMC）</block>
   <block id="89155978c096e96c0f21c74744f6a0d4" category="cell">硬體監控和庫存連線（Redfish和IPMI命令）</block>
@@ -2485,7 +2484,6 @@
   <block id="9b572df8237d34b7c32142ac15f1325f" category="list-text">在vSphere Web Client中、請在工作監控器中尋找下列已完成的工作、以確保安裝完成：「下載外掛程式」和「部署外掛程式」。</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server的Element外掛程式</block>
   <block id="b9e50e6a339819ad9d12906b29e978ca" category="list-text">確認NetApp Element 外掛程式*的「組態*」擴充點*「關於*」索引標籤中的版本變更。</block>
-  <block id="a2b39afbde860c9c0fc759f3772e2dd2" category="paragraph">您應該會看到下列版本詳細資料或較新版本的詳細資料：</block>
   <block id="4715e0cc20eb79c52c1f181ce0f6afb0" category="admonition">vCenter外掛程式包含線上說明內容。若要確保您的「說明」包含最新內容、請在升級外掛程式之後清除瀏覽器快取。</block>
   <block id="d1f3348004e8a355335cb19ad2503f19" category="summary">視部署NetApp HCI 了NetApp或NetApp SolidFire 的組織安全政策而定、變更認證或密碼通常是安全實務的一部分。在變更密碼之前、您應該瞭解部署中其他軟體元件的影響。</block>
   <block id="de55aaabf3e64f82482bfec3331b7b99" category="doc">變更NetApp HCI 身分證明資料、請至NetApp SolidFire 解決方案</block>
@@ -5772,7 +5770,6 @@
   <block id="de04396568b4d068ad633b9f6d71127c" category="admonition">從元素12.5開始、NetApp HealthTools不再支援元素軟體升級。如果您執行的是元件11.0或11.1、則必須先執行 <block ref="44a31a9a881af2f85b504df3b697bf3f" category="inline-link-macro-rx"></block> 然後使用NetApp混合雲控制升級至Element 12.5或更新版本。</block>
   <block id="4b1a9ce7f7fbe6c6a81ef1238b7e421a" category="list-text">您已為安排足夠的時間 <block ref="cff6d63ff47747e8e31df90baa037fdf" category="inline-link-macro-rx"></block> 和 <block ref="64ca0a1c0466cb0bbd500939e8f353f3" category="inline-link-macro-rx"></block> 升級：升級至Element軟體12.5或更新版本時、升級程序時間會因元件軟體版本和韌體更新而有所不同。</block>
   <block id="2394ff28a38b482ef2918be4c8e7540c" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級儲存韌體：</block>
-  <block id="7ef561ec74f917ecad309d4001bff056" category="admonition">您必須先升級至最新的管理服務套裝組合、才能將Element軟體升級至版本12.5或更新版本。如果您要將Element軟體更新至版本12．5或更新版本、則需要使用管理服務2．21．61或更新版本才能繼續。</block>
   <block id="62449609bcf95f48fbdbae6dddedcc19" category="list-text">*終端使用者授權合約（EULA）*：從管理服務2.20.69開始、您必須先接受並儲存EULA、才能使用NetApp混合雲控制UI或API來升級Element軟體：</block>
   <block id="35903549c7c7279b49512563cf9bfaca" category="admonition">如果您要將H610S系列節點升級至Element 12.5或更新版本、且節點執行的Element軟體版本早於11.8、則需要執行本節中的其他升級步驟<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block> 針對每個儲存節點。如果您執行的是元素11.8或更新版本、則不需要執行其他升級步驟。</block>
   <block id="2485371e710ec4ea8989c22e13c02067" category="list-text"><block ref="2485371e710ec4ea8989c22e13c02067" category="inline-link-rx"></block></block>
@@ -6168,10 +6165,8 @@
   <block id="f56d6fafda33f65b522412926039bc57" category="admonition">升級至版本 2.179.0 之前、您必須檢查目前的 ESXi 驅動程式版本。如果驅動程式已過期、請先升級驅動程式。然後將運算節點的運算韌體升級至 2.179.0 版。如需更新運算節點驅動程式（包括 ESXi 驅動程式）的說明、請參閱<block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block>。</block>
   <block id="18ecb030153f41ccccd7590bf2ab5f6a" category="section-title">下載 Compute Firmware Bundle 2.179.0</block>
   <block id="d4bf7951fa04826ad5c1dac6a9954644" category="list-text">瀏覽<block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block>並從下拉式清單中選取 * 元素軟體 * ：</block>
-  <block id="10928303c7ba6d231678d5fa7125e53c" category="list-text"><block ref="3a1a022151085ffe24dae724b7ca88e3" category="inline-link-macro-rx"></block>_new_</block>
   <block id="1a4479b2e3ec8fc20906c13b738e7820" category="list-text"><block ref="1a4479b2e3ec8fc20906c13b738e7820" category="inline-link-macro-rx"></block></block>
   <block id="bd64065ecca4148bdf3bf66b4b2539a6" category="inline-link-macro">儲存裝置韌體套件 2.182.0 版本資訊</block>
-  <block id="857cfbfd9b291658574dd207ea7dab93" category="list-text"><block ref="3d25e722329aebc696a982dcb7743d0a" category="inline-link-macro-rx"></block>_new_</block>
   <block id="9f2c8b7f9459e99daa861cf963d87ddb" category="list-text"><block ref="9f2c8b7f9459e99daa861cf963d87ddb" category="inline-link-macro-rx"></block></block>
   <block id="58874f4e126ed1e7b741eb604dff89f6" category="paragraph">儲存韌體套件 2.182.0 版包含一般的修正程式。</block>
   <block id="07c9b060fa8813b803f8fbaf46fd59c7" category="cell">* 3B14 *</block>
@@ -6181,9 +6176,7 @@
   <block id="0e6ea2d2094482378f9c9eb3acdf6a9d" category="cell">* 110B3A10 *</block>
   <block id="6f00c58e2f26b2ef4542eb663cdb651d" category="inline-link-macro">管理服務 2.26.30 注意事項（適用於 VMware vCenter Server 5.4.1 的 NetApp Element 外掛程式）</block>
   <block id="c4891769f65182d5fc5a37494844c496" category="inline-link">vCenter Plug-in 5.4 版本資訊</block>
-  <block id="230e88f97688d3fb971fe1a76f5b2a13" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block>_new_</block>
   <block id="ce90fd614158a5c7e0a42a5908fa1cd7" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block></block>
-  <block id="fdbd44871ecf32ab0e37e9d3c077e28a" category="list-text">您正在升級至 Element Plug-in for vCenter Server 5.4 ， 5.3 ， 5.2 ， 5.1 或 5.0 。</block>
   <block id="50923856d0e5dfbe847d5f56c774264b" category="list-text"><block ref="50923856d0e5dfbe847d5f56c774264b" category="inline-link-macro-rx"></block></block>
   <block id="ab73a3f8818312d49869de237a845464" category="list-text"><block ref="ab73a3f8818312d49869de237a845464" category="inline-link-macro-rx"></block></block>
   <block id="56e5995b672eb3b444091a7a02e9f649" category="list-text"><block ref="56e5995b672eb3b444091a7a02e9f649" category="inline-link-macro-rx"></block></block>
@@ -6223,7 +6216,6 @@
   <block id="3c72afcfca67f187b816a55135a243dd" category="inline-link-macro">升級 VM 硬體版本</block>
   <block id="4fff07540e1d83ac9775ec8030cce786" category="paragraph">如果您正在執行現有見證節點的就地升級至元素 12.8 ，則在升級之前，必須確保見證節點上的 VM 硬體版本與 ESXi 6.7 （ VM 硬體版本 14 ）或更新版本相容，視您的環境而定。請參閱。 <block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block></block>
   <block id="6db7dd4182be7a1979ad403111fa8618" category="inline-link">NetApp Element 軟體 12.8 版本資訊</block>
-  <block id="7d776811219f8ebb17adecaa976bd578" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block>_new_</block>
   <block id="a175ee087381806b642bbcfee91690d5" category="inline-link">深入瞭解Element 12.8的新功能</block>
   <block id="669c1fb7e11e3bb5ca277eb16b4a55f4" category="admonition">Element Software 12.8 是最新版本，包括安全性與系統元件更新，作業改善及解決問題。<block ref="4f11681fa65d50fd10f6fc370da0cbe3" category="inline-link-rx"></block>。</block>
   <block id="b036ebb7aa6b63db449d4df71f28c3cd" category="section-title">步驟 1 ：在管理節點上升級 VM 硬體版本</block>
@@ -6253,4 +6245,19 @@
   <block id="b58c4fe6ac8a2dffa0fb94c9d1de7556" category="list-text">在 VM 上按一下滑鼠右鍵，然後選取 * 相容性 * &gt; * 升級 VM 相容性 * 。</block>
   <block id="eeb196c0a77fbb85f8908ae3cca16bfc" category="list-text">升級完成後，在虛擬機器上按一下滑鼠右鍵，然後選取 * Power* &gt; * Power On* 。</block>
   <block id="917268d8045dd1bb18e5f8cc7caf9359" category="list-text">選取 * vSphere 用戶端重新整理 * ，並確認 VM 相容性為所需版本。</block>
+  <block id="53e04163346326834efd61306c0800b5" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block></block>
+  <block id="7373675a8dd923fb7362a663e0cb6e1f" category="inline-link">vCenter 外掛程式 5.5 發行說明</block>
+  <block id="1bb29b9b64a805e59f4873c404e002c4" category="list-text"><block ref="19934d197d6821fc66160fdecbaaf499" category="inline-link-rx"></block>_新的_</block>
+  <block id="912995e99772bb097b2c7b32940725bb" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block></block>
+  <block id="3a1a022151085ffe24dae724b7ca88e3" category="list-text"><block ref="3a1a022151085ffe24dae724b7ca88e3" category="inline-link-macro-rx"></block></block>
+  <block id="3d25e722329aebc696a982dcb7743d0a" category="list-text"><block ref="3d25e722329aebc696a982dcb7743d0a" category="inline-link-macro-rx"></block></block>
+  <block id="c759706a0ac25a6b9701339b7c7959d4" category="admonition">管理服務 2.27 套裝組合包含適用於 vCenter Server 5.5 的 Element Plug-in，外掛程式僅與管理節點 12.8 相容。當您更新至管理服務 2.27 時，您必須變更升級順序並在升級至 Element 12.8 之後更新管理服務包，以使管理節點和管理服務之間相容。</block>
+  <block id="8b33a6fabc9dc64d006c6243d17ccb18" category="paragraph">警告：</block>
+  <block id="358803b17c687e99fb47b66b74381a05" category="paragraph">管理服務 2.27 套裝組合包含適用於 vCenter Server 5.5 的 Element Plug-in，外掛程式僅與管理節點 12.8 相容。當您更新至管理服務 2.27 時，您必須變更升級順序並在升級至 Element 12.8 後更新管理服務包，以確保管理節點和管理服務之間的相容性。</block>
+  <block id="7aa4a364d3e088bdcc22c8991e4615e1" category="paragraph">如果您要更新至管理服務 2.21.61 到 2.26.40，則必須在升級至 Element 12.8 之前更新管理服務套件。</block>
+  <block id="e4ccb22f69b8be133f5125883186655e" category="paragraph">管理服務 2.22.7 套裝組合包含適用於 vCenter Server 5.0 的 Element 插件，其中包含遠端插件。如果您使用 Element 插件，則應升級至管理服務 2.22.7 或更高版本，以符合 VMware 取消本地插件支援的指令。<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block> 。</block>
+  <block id="f09175d59684197ed7788662b7cd5fe4" category="list-text">您正在升級至適用於 vCenter Server 5.5、5.4、5.3、5.2、5.1 或 5.0 的 Element 插件。</block>
+  <block id="6eb41496b0f7ef5be359156d440fc5ea" category="paragraph">您應該會看到以下版本詳細資訊：</block>
+  <block id="9addfb2ff8ac3a9826d26736c6697320" category="inline-link-macro">管理服務 2.27.40 版通知（適用於 VMware vCenter Server 5.5.16 的NetApp Element插件）</block>
+  <block id="5f97199338e05d8d021611cc709fe28f" category="list-text"><block ref="5f97199338e05d8d021611cc709fe28f" category="inline-link-macro-rx"></block></block>
 </blocks>
