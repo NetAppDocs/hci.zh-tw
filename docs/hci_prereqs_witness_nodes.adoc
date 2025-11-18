@@ -38,7 +38,7 @@ keywords: netapp, hci, element, Witness Node
 
 當安裝過程安裝見證節點時NetApp HCI 、VM範本會儲存在VMware vCenter中、您可以在見證節點意外移除、遺失或毀損時、使用該範本來重新部署見證節點。如果您需要更換裝載見證節點的故障運算節點、也可以使用範本來重新部署見證節點。有關說明，請參閱link:task_hci_h410crepl.html["為兩個和三個節點的儲存叢集重新部署見證節點"]。
 
-如果您正在執行現有見證節點的就地升級至元素 12.8 ，則在升級之前，必須確保見證節點上的 VM 硬體版本與 ESXi 6.7 （ VM 硬體版本 14 ）或更新版本相容，視您的環境而定。請參閱。 link:task_hcc_upgrade_management_node.html#upgrade-vm-hardware["升級 VM 硬體版本"]
+如果您要將現有的 Witness 節點就地升級到 Element 12.8 或更高版本，則在升級之前，必須確保 Witness 節點上的 VM 硬體版本與您的環境相容 ESXi 6.7（VM 硬體版本 14）或更高版本。看link:task_hcc_upgrade_management_node.html#upgrade-vm-hardware["升級 VM 硬體版本"]。
 
 ====
 

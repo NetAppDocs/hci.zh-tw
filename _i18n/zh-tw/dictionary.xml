@@ -6214,12 +6214,8 @@
   <block id="9c9a41bc801502e6500c79ea7586ba95" category="inline-link-macro">為兩個和三個節點的儲存叢集重新部署見證節點</block>
   <block id="d0f20378e2595fa7956c455387d1bc5a" category="paragraph">當安裝過程安裝見證節點時NetApp HCI 、VM範本會儲存在VMware vCenter中、您可以在見證節點意外移除、遺失或毀損時、使用該範本來重新部署見證節點。如果您需要更換裝載見證節點的故障運算節點、也可以使用範本來重新部署見證節點。有關說明，請參閱<block ref="6fa44f1a6cd8ce6de51cb02b7ae12cc5" category="inline-link-macro-rx"></block>。</block>
   <block id="3c72afcfca67f187b816a55135a243dd" category="inline-link-macro">升級 VM 硬體版本</block>
-  <block id="4fff07540e1d83ac9775ec8030cce786" category="paragraph">如果您正在執行現有見證節點的就地升級至元素 12.8 ，則在升級之前，必須確保見證節點上的 VM 硬體版本與 ESXi 6.7 （ VM 硬體版本 14 ）或更新版本相容，視您的環境而定。請參閱。 <block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block></block>
   <block id="6db7dd4182be7a1979ad403111fa8618" category="inline-link">NetApp Element 軟體 12.8 版本資訊</block>
-  <block id="a175ee087381806b642bbcfee91690d5" category="inline-link">深入瞭解Element 12.8的新功能</block>
-  <block id="669c1fb7e11e3bb5ca277eb16b4a55f4" category="admonition">Element Software 12.8 是最新版本，包括安全性與系統元件更新，作業改善及解決問題。<block ref="4f11681fa65d50fd10f6fc370da0cbe3" category="inline-link-rx"></block>。</block>
   <block id="b036ebb7aa6b63db449d4df71f28c3cd" category="section-title">步驟 1 ：在管理節點上升級 VM 硬體版本</block>
-  <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">如果您正在執行現有管理節點的就地升級至元素 12.8 ，則在升級之前，必須確保管理節點上的 VM 硬體版本與 ESXi 6.7 （ VM 硬體版本 14 ）或更新版本相容，視您的環境而定。</block>
   <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">您也可以依照下列步驟，在見證節點上升級 VM 硬體版本。</block>
   <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">以vCenter管理員身分登入vSphere Web Client。</block>
   <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">根據 vSphere 環境的版本，選取 ESXi 6.7 或更新版本。</block>
@@ -6247,7 +6243,6 @@
   <block id="917268d8045dd1bb18e5f8cc7caf9359" category="list-text">選取 * vSphere 用戶端重新整理 * ，並確認 VM 相容性為所需版本。</block>
   <block id="53e04163346326834efd61306c0800b5" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block></block>
   <block id="7373675a8dd923fb7362a663e0cb6e1f" category="inline-link">vCenter 外掛程式 5.5 發行說明</block>
-  <block id="1bb29b9b64a805e59f4873c404e002c4" category="list-text"><block ref="19934d197d6821fc66160fdecbaaf499" category="inline-link-rx"></block>_新的_</block>
   <block id="912995e99772bb097b2c7b32940725bb" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block></block>
   <block id="3a1a022151085ffe24dae724b7ca88e3" category="list-text"><block ref="3a1a022151085ffe24dae724b7ca88e3" category="inline-link-macro-rx"></block></block>
   <block id="3d25e722329aebc696a982dcb7743d0a" category="list-text"><block ref="3d25e722329aebc696a982dcb7743d0a" category="inline-link-macro-rx"></block></block>
@@ -6260,4 +6255,13 @@
   <block id="6eb41496b0f7ef5be359156d440fc5ea" category="paragraph">您應該會看到以下版本詳細資訊：</block>
   <block id="9addfb2ff8ac3a9826d26736c6697320" category="inline-link-macro">管理服務 2.27.40 版通知（適用於 VMware vCenter Server 5.5.16 的NetApp Element插件）</block>
   <block id="5f97199338e05d8d021611cc709fe28f" category="list-text"><block ref="5f97199338e05d8d021611cc709fe28f" category="inline-link-macro-rx"></block></block>
+  <block id="7de7586f0e33815db80af5cc26ab5a42" category="paragraph">如果您要將現有的 Witness 節點就地升級到 Element 12.8 或更高版本，則在升級之前，必須確保 Witness 節點上的 VM 硬體版本與您的環境相容 ESXi 6.7（VM 硬體版本 14）或更高版本。看<block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block>。</block>
+  <block id="f3910c16a2d3ccfefad3cf6a2990562f" category="inline-link">NetApp Element軟體 12.9 發行說明</block>
+  <block id="0a78d79842d809e9ae78fabb8260b585" category="list-text"><block ref="65f476025a11aaf16dc58328cfd02319" category="inline-link-rx"></block>_新的_</block>
+  <block id="19934d197d6821fc66160fdecbaaf499" category="list-text"><block ref="19934d197d6821fc66160fdecbaaf499" category="inline-link-rx"></block></block>
+  <block id="3bd4daba204c3f29ed7fddf0efed2bc2" category="inline-link">了解 Element 12.9 的新增功能。</block>
+  <block id="d7f3db2dc1a21014b46d367c5cc3e266" category="admonition">Element 軟體 12.9 是最新版本，包含安全性和系統元件更新、操作改進以及已解決的問題。<block ref="15b1f8dce4dd523137ccbf3f7f3f2745" category="inline-link-rx"></block> 。</block>
+  <block id="ae8bd58eb0b6e5ff8cd67738f2ab773b" category="paragraph">如果您要將現有管理節點就地升級到 Element 12.8 或更高版本，則在升級之前，必須確保管理節點上的 VM 硬體版本與您的環境相容於 ESXi 6.7（VM 硬體版本 14）或更高版本。</block>
+  <block id="576a64066f01cba7e1d9e6cc332e1c1e" category="inline-link-macro">Element 軟體 12.9 版通知</block>
+  <block id="0052f32dde4447765e38fcb8d2c7c0fb" category="list-text"><block ref="0052f32dde4447765e38fcb8d2c7c0fb" category="inline-link-macro-rx"></block></block>
 </blocks>
