@@ -6264,4 +6264,7 @@
   <block id="ae8bd58eb0b6e5ff8cd67738f2ab773b" category="paragraph">如果您要將現有管理節點就地升級到 Element 12.8 或更高版本，則在升級之前，必須確保管理節點上的 VM 硬體版本與您的環境相容於 ESXi 6.7（VM 硬體版本 14）或更高版本。</block>
   <block id="576a64066f01cba7e1d9e6cc332e1c1e" category="inline-link-macro">Element 軟體 12.9 版通知</block>
   <block id="0052f32dde4447765e38fcb8d2c7c0fb" category="list-text"><block ref="0052f32dde4447765e38fcb8d2c7c0fb" category="inline-link-macro-rx"></block></block>
+  <block id="c1e517fe7181e2c5115775d9ea6bc98a" category="inline-link-macro">計算節點韌體升級交換了 vmnic1 和 vmnic4</block>
+  <block id="82164a18d6c12ce08bfeea322b95b153" category="list-text"><block ref="82164a18d6c12ce08bfeea322b95b153" category="inline-link-macro-rx"></block></block>
+  <block id="4f78f9b3af0747f30a363de59d0bb0ad" category="list-text"><block ref="4f78f9b3af0747f30a363de59d0bb0ad" category="inline-link-macro-rx"></block></block>
 </blocks>

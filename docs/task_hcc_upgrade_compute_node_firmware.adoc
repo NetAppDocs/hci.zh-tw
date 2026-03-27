@@ -565,4 +565,6 @@ CAUTION: 在開機過程中、KVM主控台會顯示*無訊號*約五分鐘。
 
 == 如需詳細資訊、請參閱
 
-https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]
+* link:https://kb.netapp.com/on-prem/solidfire/Element_OS_Kbs/vmnic1_and_vmnic4_is_swapped_by_compute_node_firmware_upgrade["計算節點韌體升級交換了 vmnic1 和 vmnic4"^]
+* link:https://docs.netapp.com/us-en/vcp/index.html["vCenter Server的VMware vCenter外掛程式NetApp Element"^]
+
